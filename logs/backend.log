@@ -1,0 +1,3832 @@
+2026-09-24 14:42:32
+                [background-preinit]
+                [trace_id=,span_id=]
+                INFO 
+                o.h.validator.internal.util.Version
+                | HV000001: Hibernate Validator 8.0.3.Final
+2026-09-24 14:42:32
+                [main]
+                [trace_id=,span_id=]
+                INFO 
+                com.vtc.logging.LoggingApplication
+                | Starting LoggingApplication using Java 17.0.12 with PID 2508 (C:\Users\Tranaf\Downloads\logging-site\logging-site\logging-be\target\classes started by Tranaf in C:\Users\Tranaf\Downloads\logging-site\logging-site\logging-be)
+2026-09-24 14:42:32
+                [main]
+                [trace_id=,span_id=]
+                INFO 
+                com.vtc.logging.LoggingApplication
+                | No active profile set, falling back to 1 default profile: "default"
+2026-09-24 14:42:34
+                [main]
+                [trace_id=,span_id=]
+                INFO 
+                o.s.d.r.c.RepositoryConfigurationDelegate
+                | Multiple Spring Data modules found, entering strict repository configuration mode
+2026-09-24 14:42:34
+                [main]
+                [trace_id=,span_id=]
+                INFO 
+                o.s.d.r.c.RepositoryConfigurationDelegate
+                | Bootstrapping Spring Data JDBC repositories in DEFAULT mode.
+2026-09-24 14:42:34
+                [main]
+                [trace_id=,span_id=]
+                INFO 
+                o.s.d.r.c.RepositoryConfigurationExtensionSupport
+                | Spring Data JDBC - Could not safely identify store assignment for repository candidate interface com.vtc.logging.repository.GameRepository; If you want this repository to be a JDBC repository, consider annotating your entities with one of these annotations: org.springframework.data.relational.core.mapping.Table.
+2026-09-24 14:42:34
+                [main]
+                [trace_id=,span_id=]
+                INFO 
+                o.s.d.r.c.RepositoryConfigurationExtensionSupport
+                | Spring Data JDBC - Could not safely identify store assignment for repository candidate interface com.vtc.logging.repository.UserRepository; If you want this repository to be a JDBC repository, consider annotating your entities with one of these annotations: org.springframework.data.relational.core.mapping.Table.
+2026-09-24 14:42:34
+                [main]
+                [trace_id=,span_id=]
+                INFO 
+                o.s.d.r.c.RepositoryConfigurationDelegate
+                | Finished Spring Data repository scanning in 32 ms. Found 0 JDBC repository interfaces.
+2026-09-24 14:42:34
+                [main]
+                [trace_id=,span_id=]
+                INFO 
+                o.s.d.r.c.RepositoryConfigurationDelegate
+                | Multiple Spring Data modules found, entering strict repository configuration mode
+2026-09-24 14:42:34
+                [main]
+                [trace_id=,span_id=]
+                INFO 
+                o.s.d.r.c.RepositoryConfigurationDelegate
+                | Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2026-09-24 14:42:34
+                [main]
+                [trace_id=,span_id=]
+                INFO 
+                o.s.d.r.c.RepositoryConfigurationDelegate
+                | Finished Spring Data repository scanning in 32 ms. Found 2 JPA repository interfaces.
+2026-09-24 14:42:34
+                [main]
+                [trace_id=,span_id=]
+                INFO 
+                o.s.b.w.e.tomcat.TomcatWebServer
+                | Tomcat initialized with port 8081 (http)
+2026-09-24 14:42:35
+                [main]
+                [trace_id=,span_id=]
+                INFO 
+                o.a.coyote.http11.Http11NioProtocol
+                | Initializing ProtocolHandler ["http-nio-8081"]
+2026-09-24 14:42:35
+                [main]
+                [trace_id=,span_id=]
+                INFO 
+                o.a.catalina.core.StandardService
+                | Starting service [Tomcat]
+2026-09-24 14:42:35
+                [main]
+                [trace_id=,span_id=]
+                INFO 
+                o.a.catalina.core.StandardEngine
+                | Starting Servlet engine: [Apache Tomcat/10.1.52]
+2026-09-24 14:42:35
+                [main]
+                [trace_id=,span_id=]
+                INFO 
+                o.a.c.c.C.[Tomcat].[localhost].[/]
+                | Initializing Spring embedded WebApplicationContext
+2026-09-24 14:42:35
+                [main]
+                [trace_id=,span_id=]
+                INFO 
+                o.s.b.w.s.c.ServletWebServerApplicationContext
+                | Root WebApplicationContext: initialization completed in 2042 ms
+2026-09-24 14:42:35
+                [main]
+                [trace_id=,span_id=]
+                ERROR
+                o.s.b.w.e.tomcat.TomcatStarter
+                | Error starting Tomcat context. Exception: org.springframework.beans.factory.UnsatisfiedDependencyException. Message: Error creating bean with name 'jwtAuthFilter' defined in file [C:\Users\Tranaf\Downloads\logging-site\logging-site\logging-be\target\classes\com\vtc\logging\config\JwtAuthFilter.class]: Unsatisfied dependency expressed through constructor parameter 0: Error creating bean with name 'jwtService' defined in file [C:\Users\Tranaf\Downloads\logging-site\logging-site\logging-be\target\classes\com\vtc\logging\service\JwtService.class]: Unexpected exception during bean creation
+2026-09-24 14:42:35
+                [main]
+                [trace_id=,span_id=]
+                INFO 
+                o.a.catalina.core.StandardService
+                | Stopping service [Tomcat]
+2026-09-24 14:42:35
+                [main]
+                [trace_id=,span_id=]
+                WARN 
+                o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext
+                | Exception encountered during context initialization - cancelling refresh attempt: org.springframework.context.ApplicationContextException: Unable to start web server
+2026-09-24 14:42:35
+                [main]
+                [trace_id=,span_id=]
+                INFO 
+                o.s.b.a.l.ConditionEvaluationReportLogger
+                | 
+
+Error starting ApplicationContext. To display the condition evaluation report re-run your application with 'debug' enabled.
+2026-09-24 14:42:35
+                [main]
+                [trace_id=,span_id=]
+                ERROR
+                o.s.boot.SpringApplication
+                | Application run failed
+org.springframework.context.ApplicationContextException: Unable to start web server
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.onRefresh(ServletWebServerApplicationContext.java:170)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:622)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:146)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:752)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:439)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:318)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1361)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1350)
+	at com.vtc.logging.LoggingApplication.main(LoggingApplication.java:25)
+Caused by: org.springframework.boot.web.server.WebServerException: Unable to start embedded Tomcat
+	at org.springframework.boot.web.embedded.tomcat.TomcatWebServer.initialize(TomcatWebServer.java:147)
+	at org.springframework.boot.web.embedded.tomcat.TomcatWebServer.<init>(TomcatWebServer.java:107)
+	at org.springframework.boot.web.embedded.tomcat.TomcatServletWebServerFactory.getTomcatWebServer(TomcatServletWebServerFactory.java:517)
+	at org.springframework.boot.web.embedded.tomcat.TomcatServletWebServerFactory.getWebServer(TomcatServletWebServerFactory.java:219)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.createWebServer(ServletWebServerApplicationContext.java:193)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.onRefresh(ServletWebServerApplicationContext.java:167)
+	... 8 common frames omitted
+Caused by: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'jwtAuthFilter' defined in file [C:\Users\Tranaf\Downloads\logging-site\logging-site\logging-be\target\classes\com\vtc\logging\config\JwtAuthFilter.class]: Unsatisfied dependency expressed through constructor parameter 0: Error creating bean with name 'jwtService' defined in file [C:\Users\Tranaf\Downloads\logging-site\logging-site\logging-be\target\classes\com\vtc\logging\service\JwtService.class]: Unexpected exception during bean creation
+	at org.springframework.beans.factory.support.ConstructorResolver.createArgumentArray(ConstructorResolver.java:804)
+	at org.springframework.beans.factory.support.ConstructorResolver.autowireConstructor(ConstructorResolver.java:240)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.autowireConstructor(AbstractAutowireCapableBeanFactory.java:1395)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1232)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:569)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:529)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:339)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:373)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:337)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:207)
+	at org.springframework.boot.web.servlet.ServletContextInitializerBeans.getOrderedBeansOfType(ServletContextInitializerBeans.java:230)
+	at org.springframework.boot.web.servlet.ServletContextInitializerBeans.addAsRegistrationBean(ServletContextInitializerBeans.java:184)
+	at org.springframework.boot.web.servlet.ServletContextInitializerBeans.addAsRegistrationBean(ServletContextInitializerBeans.java:179)
+	at org.springframework.boot.web.servlet.ServletContextInitializerBeans.addAdaptableBeans(ServletContextInitializerBeans.java:164)
+	at org.springframework.boot.web.servlet.ServletContextInitializerBeans.<init>(ServletContextInitializerBeans.java:96)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.getServletContextInitializerBeans(ServletWebServerApplicationContext.java:271)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.selfInitialize(ServletWebServerApplicationContext.java:245)
+	at org.springframework.boot.web.embedded.tomcat.TomcatStarter.onStartup(TomcatStarter.java:52)
+	at org.apache.catalina.core.StandardContext.startInternal(StandardContext.java:4452)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:164)
+	at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1201)
+	at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1191)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at org.apache.tomcat.util.threads.InlineExecutorService.execute(InlineExecutorService.java:81)
+	at java.base/java.util.concurrent.AbstractExecutorService.submit(AbstractExecutorService.java:145)
+	at org.apache.catalina.core.ContainerBase.startInternal(ContainerBase.java:747)
+	at org.apache.catalina.core.StandardHost.startInternal(StandardHost.java:783)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:164)
+	at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1201)
+	at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1191)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at org.apache.tomcat.util.threads.InlineExecutorService.execute(InlineExecutorService.java:81)
+	at java.base/java.util.concurrent.AbstractExecutorService.submit(AbstractExecutorService.java:145)
+	at org.apache.catalina.core.ContainerBase.startInternal(ContainerBase.java:747)
+	at org.apache.catalina.core.StandardEngine.startInternal(StandardEngine.java:201)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:164)
+	at org.apache.catalina.core.StandardService.startInternal(StandardService.java:410)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:164)
+	at org.apache.catalina.core.StandardServer.startInternal(StandardServer.java:868)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:164)
+	at org.apache.catalina.startup.Tomcat.start(Tomcat.java:436)
+	at org.springframework.boot.web.embedded.tomcat.TomcatWebServer.initialize(TomcatWebServer.java:128)
+	... 13 common frames omitted
+Caused by: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'jwtService' defined in file [C:\Users\Tranaf\Downloads\logging-site\logging-site\logging-be\target\classes\com\vtc\logging\service\JwtService.class]: Unexpected exception during bean creation
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:542)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:339)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:373)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:337)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:202)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1708)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:1653)
+	at org.springframework.beans.factory.support.ConstructorResolver.resolveAutowiredArgument(ConstructorResolver.java:913)
+	at org.springframework.beans.factory.support.ConstructorResolver.createArgumentArray(ConstructorResolver.java:791)
+	... 54 common frames omitted
+Caused by: org.springframework.util.PlaceholderResolutionException: Could not resolve placeholder 'security.jwt.secret' in value "${security.jwt.secret}"
+	at org.springframework.util.PlaceholderResolutionException.withValue(PlaceholderResolutionException.java:81)
+	at org.springframework.util.PlaceholderParser$ParsedValue.resolve(PlaceholderParser.java:298)
+	at org.springframework.util.PlaceholderParser.replacePlaceholders(PlaceholderParser.java:131)
+	at org.springframework.util.PropertyPlaceholderHelper.replacePlaceholders(PropertyPlaceholderHelper.java:114)
+	at org.springframework.core.env.AbstractPropertyResolver.doResolvePlaceholders(AbstractPropertyResolver.java:293)
+	at org.springframework.core.env.AbstractPropertyResolver.resolveRequiredPlaceholders(AbstractPropertyResolver.java:264)
+	at org.springframework.context.support.PropertySourcesPlaceholderConfigurer.lambda$processProperties$0(PropertySourcesPlaceholderConfigurer.java:186)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.resolveEmbeddedValue(AbstractBeanFactory.java:970)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1675)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:1653)
+	at org.springframework.beans.factory.support.ConstructorResolver.resolveAutowiredArgument(ConstructorResolver.java:913)
+	at org.springframework.beans.factory.support.ConstructorResolver.createArgumentArray(ConstructorResolver.java:791)
+	at org.springframework.beans.factory.support.ConstructorResolver.autowireConstructor(ConstructorResolver.java:240)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.autowireConstructor(AbstractAutowireCapableBeanFactory.java:1395)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1232)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:569)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:529)
+	... 62 common frames omitted
+2026-09-24 14:46:02
+                [background-preinit]
+                [trace_id=,span_id=]
+                INFO 
+                o.h.validator.internal.util.Version
+                | HV000001: Hibernate Validator 8.0.3.Final
+2026-09-24 14:46:02
+                [main]
+                [trace_id=,span_id=]
+                INFO 
+                com.vtc.logging.LoggingApplication
+                | Starting LoggingApplication using Java 17.0.12 with PID 14028 (C:\Users\Tranaf\Downloads\logging-site\logging-site\logging-be\target\classes started by Tranaf in C:\Users\Tranaf\Downloads\logging-site\logging-site\logging-be)
+2026-09-24 14:46:02
+                [main]
+                [trace_id=,span_id=]
+                INFO 
+                com.vtc.logging.LoggingApplication
+                | No active profile set, falling back to 1 default profile: "default"
+2026-09-24 14:46:03
+                [main]
+                [trace_id=,span_id=]
+                INFO 
+                o.s.d.r.c.RepositoryConfigurationDelegate
+                | Multiple Spring Data modules found, entering strict repository configuration mode
+2026-09-24 14:46:03
+                [main]
+                [trace_id=,span_id=]
+                INFO 
+                o.s.d.r.c.RepositoryConfigurationDelegate
+                | Bootstrapping Spring Data JDBC repositories in DEFAULT mode.
+2026-09-24 14:46:03
+                [main]
+                [trace_id=,span_id=]
+                INFO 
+                o.s.d.r.c.RepositoryConfigurationExtensionSupport
+                | Spring Data JDBC - Could not safely identify store assignment for repository candidate interface com.vtc.logging.repository.GameRepository; If you want this repository to be a JDBC repository, consider annotating your entities with one of these annotations: org.springframework.data.relational.core.mapping.Table.
+2026-09-24 14:46:03
+                [main]
+                [trace_id=,span_id=]
+                INFO 
+                o.s.d.r.c.RepositoryConfigurationExtensionSupport
+                | Spring Data JDBC - Could not safely identify store assignment for repository candidate interface com.vtc.logging.repository.UserRepository; If you want this repository to be a JDBC repository, consider annotating your entities with one of these annotations: org.springframework.data.relational.core.mapping.Table.
+2026-09-24 14:46:03
+                [main]
+                [trace_id=,span_id=]
+                INFO 
+                o.s.d.r.c.RepositoryConfigurationDelegate
+                | Finished Spring Data repository scanning in 31 ms. Found 0 JDBC repository interfaces.
+2026-09-24 14:46:03
+                [main]
+                [trace_id=,span_id=]
+                INFO 
+                o.s.d.r.c.RepositoryConfigurationDelegate
+                | Multiple Spring Data modules found, entering strict repository configuration mode
+2026-09-24 14:46:03
+                [main]
+                [trace_id=,span_id=]
+                INFO 
+                o.s.d.r.c.RepositoryConfigurationDelegate
+                | Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2026-09-24 14:46:03
+                [main]
+                [trace_id=,span_id=]
+                INFO 
+                o.s.d.r.c.RepositoryConfigurationDelegate
+                | Finished Spring Data repository scanning in 26 ms. Found 2 JPA repository interfaces.
+2026-09-24 14:46:04
+                [main]
+                [trace_id=,span_id=]
+                INFO 
+                o.s.b.w.e.tomcat.TomcatWebServer
+                | Tomcat initialized with port 8081 (http)
+2026-09-24 14:46:04
+                [main]
+                [trace_id=,span_id=]
+                INFO 
+                o.a.coyote.http11.Http11NioProtocol
+                | Initializing ProtocolHandler ["http-nio-8081"]
+2026-09-24 14:46:04
+                [main]
+                [trace_id=,span_id=]
+                INFO 
+                o.a.catalina.core.StandardService
+                | Starting service [Tomcat]
+2026-09-24 14:46:04
+                [main]
+                [trace_id=,span_id=]
+                INFO 
+                o.a.catalina.core.StandardEngine
+                | Starting Servlet engine: [Apache Tomcat/10.1.52]
+2026-09-24 14:46:04
+                [main]
+                [trace_id=,span_id=]
+                INFO 
+                o.a.c.c.C.[Tomcat].[localhost].[/]
+                | Initializing Spring embedded WebApplicationContext
+2026-09-24 14:46:04
+                [main]
+                [trace_id=,span_id=]
+                INFO 
+                o.s.b.w.s.c.ServletWebServerApplicationContext
+                | Root WebApplicationContext: initialization completed in 1627 ms
+2026-09-24 14:46:04
+                [main]
+                [trace_id=,span_id=]
+                ERROR
+                o.s.b.w.e.tomcat.TomcatStarter
+                | Error starting Tomcat context. Exception: org.springframework.beans.factory.UnsatisfiedDependencyException. Message: Error creating bean with name 'jwtAuthFilter' defined in file [C:\Users\Tranaf\Downloads\logging-site\logging-site\logging-be\target\classes\com\vtc\logging\config\JwtAuthFilter.class]: Unsatisfied dependency expressed through constructor parameter 0: Error creating bean with name 'jwtService' defined in file [C:\Users\Tranaf\Downloads\logging-site\logging-site\logging-be\target\classes\com\vtc\logging\service\JwtService.class]: Unexpected exception during bean creation
+2026-09-24 14:46:04
+                [main]
+                [trace_id=,span_id=]
+                INFO 
+                o.a.catalina.core.StandardService
+                | Stopping service [Tomcat]
+2026-09-24 14:46:04
+                [main]
+                [trace_id=,span_id=]
+                WARN 
+                o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext
+                | Exception encountered during context initialization - cancelling refresh attempt: org.springframework.context.ApplicationContextException: Unable to start web server
+2026-09-24 14:46:04
+                [main]
+                [trace_id=,span_id=]
+                INFO 
+                o.s.b.a.l.ConditionEvaluationReportLogger
+                | 
+
+Error starting ApplicationContext. To display the condition evaluation report re-run your application with 'debug' enabled.
+2026-09-24 14:46:04
+                [main]
+                [trace_id=,span_id=]
+                ERROR
+                o.s.boot.SpringApplication
+                | Application run failed
+org.springframework.context.ApplicationContextException: Unable to start web server
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.onRefresh(ServletWebServerApplicationContext.java:170)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:622)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:146)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:752)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:439)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:318)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1361)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1350)
+	at com.vtc.logging.LoggingApplication.main(LoggingApplication.java:25)
+Caused by: org.springframework.boot.web.server.WebServerException: Unable to start embedded Tomcat
+	at org.springframework.boot.web.embedded.tomcat.TomcatWebServer.initialize(TomcatWebServer.java:147)
+	at org.springframework.boot.web.embedded.tomcat.TomcatWebServer.<init>(TomcatWebServer.java:107)
+	at org.springframework.boot.web.embedded.tomcat.TomcatServletWebServerFactory.getTomcatWebServer(TomcatServletWebServerFactory.java:517)
+	at org.springframework.boot.web.embedded.tomcat.TomcatServletWebServerFactory.getWebServer(TomcatServletWebServerFactory.java:219)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.createWebServer(ServletWebServerApplicationContext.java:193)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.onRefresh(ServletWebServerApplicationContext.java:167)
+	... 8 common frames omitted
+Caused by: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'jwtAuthFilter' defined in file [C:\Users\Tranaf\Downloads\logging-site\logging-site\logging-be\target\classes\com\vtc\logging\config\JwtAuthFilter.class]: Unsatisfied dependency expressed through constructor parameter 0: Error creating bean with name 'jwtService' defined in file [C:\Users\Tranaf\Downloads\logging-site\logging-site\logging-be\target\classes\com\vtc\logging\service\JwtService.class]: Unexpected exception during bean creation
+	at org.springframework.beans.factory.support.ConstructorResolver.createArgumentArray(ConstructorResolver.java:804)
+	at org.springframework.beans.factory.support.ConstructorResolver.autowireConstructor(ConstructorResolver.java:240)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.autowireConstructor(AbstractAutowireCapableBeanFactory.java:1395)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1232)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:569)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:529)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:339)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:373)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:337)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:207)
+	at org.springframework.boot.web.servlet.ServletContextInitializerBeans.getOrderedBeansOfType(ServletContextInitializerBeans.java:230)
+	at org.springframework.boot.web.servlet.ServletContextInitializerBeans.addAsRegistrationBean(ServletContextInitializerBeans.java:184)
+	at org.springframework.boot.web.servlet.ServletContextInitializerBeans.addAsRegistrationBean(ServletContextInitializerBeans.java:179)
+	at org.springframework.boot.web.servlet.ServletContextInitializerBeans.addAdaptableBeans(ServletContextInitializerBeans.java:164)
+	at org.springframework.boot.web.servlet.ServletContextInitializerBeans.<init>(ServletContextInitializerBeans.java:96)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.getServletContextInitializerBeans(ServletWebServerApplicationContext.java:271)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.selfInitialize(ServletWebServerApplicationContext.java:245)
+	at org.springframework.boot.web.embedded.tomcat.TomcatStarter.onStartup(TomcatStarter.java:52)
+	at org.apache.catalina.core.StandardContext.startInternal(StandardContext.java:4452)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:164)
+	at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1201)
+	at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1191)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at org.apache.tomcat.util.threads.InlineExecutorService.execute(InlineExecutorService.java:81)
+	at java.base/java.util.concurrent.AbstractExecutorService.submit(AbstractExecutorService.java:145)
+	at org.apache.catalina.core.ContainerBase.startInternal(ContainerBase.java:747)
+	at org.apache.catalina.core.StandardHost.startInternal(StandardHost.java:783)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:164)
+	at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1201)
+	at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1191)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at org.apache.tomcat.util.threads.InlineExecutorService.execute(InlineExecutorService.java:81)
+	at java.base/java.util.concurrent.AbstractExecutorService.submit(AbstractExecutorService.java:145)
+	at org.apache.catalina.core.ContainerBase.startInternal(ContainerBase.java:747)
+	at org.apache.catalina.core.StandardEngine.startInternal(StandardEngine.java:201)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:164)
+	at org.apache.catalina.core.StandardService.startInternal(StandardService.java:410)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:164)
+	at org.apache.catalina.core.StandardServer.startInternal(StandardServer.java:868)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:164)
+	at org.apache.catalina.startup.Tomcat.start(Tomcat.java:436)
+	at org.springframework.boot.web.embedded.tomcat.TomcatWebServer.initialize(TomcatWebServer.java:128)
+	... 13 common frames omitted
+Caused by: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'jwtService' defined in file [C:\Users\Tranaf\Downloads\logging-site\logging-site\logging-be\target\classes\com\vtc\logging\service\JwtService.class]: Unexpected exception during bean creation
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:542)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:339)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:373)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:337)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:202)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1708)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:1653)
+	at org.springframework.beans.factory.support.ConstructorResolver.resolveAutowiredArgument(ConstructorResolver.java:913)
+	at org.springframework.beans.factory.support.ConstructorResolver.createArgumentArray(ConstructorResolver.java:791)
+	... 54 common frames omitted
+Caused by: org.springframework.util.PlaceholderResolutionException: Could not resolve placeholder 'JWT_SECRET' in value "${JWT_SECRET}" <-- "${security.jwt.secret-key}"
+	at org.springframework.util.PlaceholderResolutionException.withValue(PlaceholderResolutionException.java:81)
+	at org.springframework.util.PlaceholderParser$ParsedValue.resolve(PlaceholderParser.java:298)
+	at org.springframework.util.PlaceholderParser.replacePlaceholders(PlaceholderParser.java:131)
+	at org.springframework.util.PropertyPlaceholderHelper.replacePlaceholders(PropertyPlaceholderHelper.java:114)
+	at org.springframework.core.env.AbstractPropertyResolver.doResolvePlaceholders(AbstractPropertyResolver.java:293)
+	at org.springframework.core.env.AbstractPropertyResolver.resolveRequiredPlaceholders(AbstractPropertyResolver.java:264)
+	at org.springframework.context.support.PropertySourcesPlaceholderConfigurer.lambda$processProperties$0(PropertySourcesPlaceholderConfigurer.java:186)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.resolveEmbeddedValue(AbstractBeanFactory.java:970)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1675)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:1653)
+	at org.springframework.beans.factory.support.ConstructorResolver.resolveAutowiredArgument(ConstructorResolver.java:913)
+	at org.springframework.beans.factory.support.ConstructorResolver.createArgumentArray(ConstructorResolver.java:791)
+	at org.springframework.beans.factory.support.ConstructorResolver.autowireConstructor(ConstructorResolver.java:240)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.autowireConstructor(AbstractAutowireCapableBeanFactory.java:1395)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1232)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:569)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:529)
+	... 62 common frames omitted
+2026-09-24 14:47:45
+                [background-preinit]
+                [trace_id=,span_id=]
+                INFO 
+                o.h.validator.internal.util.Version
+                | HV000001: Hibernate Validator 8.0.3.Final
+2026-09-24 14:47:45
+                [main]
+                [trace_id=,span_id=]
+                INFO 
+                com.vtc.logging.LoggingApplication
+                | Starting LoggingApplication using Java 17.0.12 with PID 16280 (C:\Users\Tranaf\Downloads\logging-site\logging-site\logging-be\target\classes started by Tranaf in C:\Users\Tranaf\Downloads\logging-site\logging-site\logging-be)
+2026-09-24 14:47:45
+                [main]
+                [trace_id=,span_id=]
+                INFO 
+                com.vtc.logging.LoggingApplication
+                | No active profile set, falling back to 1 default profile: "default"
+2026-09-24 14:47:46
+                [main]
+                [trace_id=,span_id=]
+                INFO 
+                o.s.d.r.c.RepositoryConfigurationDelegate
+                | Multiple Spring Data modules found, entering strict repository configuration mode
+2026-09-24 14:47:46
+                [main]
+                [trace_id=,span_id=]
+                INFO 
+                o.s.d.r.c.RepositoryConfigurationDelegate
+                | Bootstrapping Spring Data JDBC repositories in DEFAULT mode.
+2026-09-24 14:47:46
+                [main]
+                [trace_id=,span_id=]
+                INFO 
+                o.s.d.r.c.RepositoryConfigurationExtensionSupport
+                | Spring Data JDBC - Could not safely identify store assignment for repository candidate interface com.vtc.logging.repository.GameRepository; If you want this repository to be a JDBC repository, consider annotating your entities with one of these annotations: org.springframework.data.relational.core.mapping.Table.
+2026-09-24 14:47:46
+                [main]
+                [trace_id=,span_id=]
+                INFO 
+                o.s.d.r.c.RepositoryConfigurationExtensionSupport
+                | Spring Data JDBC - Could not safely identify store assignment for repository candidate interface com.vtc.logging.repository.UserRepository; If you want this repository to be a JDBC repository, consider annotating your entities with one of these annotations: org.springframework.data.relational.core.mapping.Table.
+2026-09-24 14:47:46
+                [main]
+                [trace_id=,span_id=]
+                INFO 
+                o.s.d.r.c.RepositoryConfigurationDelegate
+                | Finished Spring Data repository scanning in 28 ms. Found 0 JDBC repository interfaces.
+2026-09-24 14:47:46
+                [main]
+                [trace_id=,span_id=]
+                INFO 
+                o.s.d.r.c.RepositoryConfigurationDelegate
+                | Multiple Spring Data modules found, entering strict repository configuration mode
+2026-09-24 14:47:46
+                [main]
+                [trace_id=,span_id=]
+                INFO 
+                o.s.d.r.c.RepositoryConfigurationDelegate
+                | Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2026-09-24 14:47:46
+                [main]
+                [trace_id=,span_id=]
+                INFO 
+                o.s.d.r.c.RepositoryConfigurationDelegate
+                | Finished Spring Data repository scanning in 28 ms. Found 2 JPA repository interfaces.
+2026-09-24 14:47:47
+                [main]
+                [trace_id=,span_id=]
+                INFO 
+                o.s.b.w.e.tomcat.TomcatWebServer
+                | Tomcat initialized with port 8081 (http)
+2026-09-24 14:47:47
+                [main]
+                [trace_id=,span_id=]
+                INFO 
+                o.a.coyote.http11.Http11NioProtocol
+                | Initializing ProtocolHandler ["http-nio-8081"]
+2026-09-24 14:47:47
+                [main]
+                [trace_id=,span_id=]
+                INFO 
+                o.a.catalina.core.StandardService
+                | Starting service [Tomcat]
+2026-09-24 14:47:47
+                [main]
+                [trace_id=,span_id=]
+                INFO 
+                o.a.catalina.core.StandardEngine
+                | Starting Servlet engine: [Apache Tomcat/10.1.52]
+2026-09-24 14:47:47
+                [main]
+                [trace_id=,span_id=]
+                INFO 
+                o.a.c.c.C.[Tomcat].[localhost].[/]
+                | Initializing Spring embedded WebApplicationContext
+2026-09-24 14:47:47
+                [main]
+                [trace_id=,span_id=]
+                INFO 
+                o.s.b.w.s.c.ServletWebServerApplicationContext
+                | Root WebApplicationContext: initialization completed in 1623 ms
+2026-09-24 14:47:47
+                [main]
+                [trace_id=,span_id=]
+                INFO 
+                o.h.jpa.internal.util.LogHelper
+                | HHH000204: Processing PersistenceUnitInfo [name: default]
+2026-09-24 14:47:47
+                [main]
+                [trace_id=,span_id=]
+                INFO 
+                org.hibernate.Version
+                | HHH000412: Hibernate ORM core version 6.6.42.Final
+2026-09-24 14:47:47
+                [main]
+                [trace_id=,span_id=]
+                INFO 
+                o.h.c.i.RegionFactoryInitiator
+                | HHH000026: Second-level cache disabled
+2026-09-24 14:47:47
+                [main]
+                [trace_id=,span_id=]
+                INFO 
+                o.s.o.j.p.SpringPersistenceUnitInfo
+                | No LoadTimeWeaver setup: ignoring JPA class transformer
+2026-09-24 14:47:48
+                [main]
+                [trace_id=,span_id=]
+                INFO 
+                com.zaxxer.hikari.HikariDataSource
+                | HikariPool-1 - Starting...
+2026-09-24 14:47:48
+                [main]
+                [trace_id=,span_id=]
+                INFO 
+                com.zaxxer.hikari.pool.HikariPool
+                | HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@3a0baec0
+2026-09-24 14:47:48
+                [main]
+                [trace_id=,span_id=]
+                INFO 
+                com.zaxxer.hikari.HikariDataSource
+                | HikariPool-1 - Start completed.
+2026-09-24 14:47:48
+                [main]
+                [trace_id=,span_id=]
+                INFO 
+                o.hibernate.orm.connections.pooling
+                | HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-1)']
+	Database driver: undefined/unknown
+	Database version: 8.0.32
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2026-09-24 14:47:49
+                [main]
+                [trace_id=,span_id=]
+                INFO 
+                o.h.e.t.j.p.i.JtaPlatformInitiator
+                | HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2026-09-24 14:47:49
+                [main]
+                [trace_id=,span_id=]
+                INFO 
+                o.s.o.j.LocalContainerEntityManagerFactoryBean
+                | Initialized JPA EntityManagerFactory for persistence unit 'default'
+2026-09-24 14:47:50
+                [main]
+                [trace_id=,span_id=]
+                INFO 
+                o.s.s.c.a.a.c.InitializeUserDetailsBeanManagerConfigurer$InitializeUserDetailsManagerConfigurer
+                | Global AuthenticationManager configured with UserDetailsService bean with name userService
+2026-09-24 14:47:50
+                [main]
+                [trace_id=,span_id=]
+                INFO 
+                o.s.b.a.e.web.EndpointLinksResolver
+                | Exposing 2 endpoints beneath base path '/actuator'
+2026-09-24 14:47:51
+                [main]
+                [trace_id=,span_id=]
+                INFO 
+                o.a.coyote.http11.Http11NioProtocol
+                | Starting ProtocolHandler ["http-nio-8081"]
+2026-09-24 14:47:51
+                [main]
+                [trace_id=,span_id=]
+                INFO 
+                o.s.b.w.e.tomcat.TomcatWebServer
+                | Tomcat started on port 8081 (http) with context path '/'
+2026-09-24 14:47:51
+                [main]
+                [trace_id=,span_id=]
+                INFO 
+                com.vtc.logging.LoggingApplication
+                | Started LoggingApplication in 6.331 seconds (process running for 7.088)
+2026-09-24 14:53:44
+                [http-nio-8081-exec-2]
+                [trace_id=,span_id=]
+                INFO 
+                o.a.c.c.C.[Tomcat].[localhost].[/]
+                | Initializing Spring DispatcherServlet 'dispatcherServlet'
+2026-09-24 14:53:44
+                [http-nio-8081-exec-2]
+                [trace_id=,span_id=]
+                INFO 
+                o.s.web.servlet.DispatcherServlet
+                | Initializing Servlet 'dispatcherServlet'
+2026-09-24 14:53:44
+                [http-nio-8081-exec-2]
+                [trace_id=,span_id=]
+                INFO 
+                o.s.web.servlet.DispatcherServlet
+                | Completed initialization in 1 ms
+2026-09-24 14:53:44
+                [http-nio-8081-exec-2]
+                [trace_id=,span_id=]
+                INFO 
+                c.v.l.c.RequestLoggingInterceptor
+                | Incoming request: POST /auth/login
+2026-09-24 14:53:44
+                [http-nio-8081-exec-2]
+                [trace_id=,span_id=]
+                INFO 
+                c.v.l.c.RequestLoggingInterceptor
+                | Completed request: POST /auth/login -> 200 (331 ms)
+2026-09-24 14:55:04
+                [http-nio-8081-exec-4]
+                [trace_id=,span_id=]
+                INFO 
+                c.v.l.c.RequestLoggingInterceptor
+                | Incoming request: GET /games
+2026-09-24 14:55:04
+                [http-nio-8081-exec-4]
+                [trace_id=,span_id=]
+                INFO 
+                com.vtc.logging.service.GameService
+                | Filtering games with platform=null status=null
+2026-09-24 14:55:04
+                [http-nio-8081-exec-4]
+                [trace_id=,span_id=]
+                INFO 
+                com.vtc.logging.service.GameService
+                | Found 8 games
+2026-09-24 14:55:04
+                [http-nio-8081-exec-4]
+                [trace_id=,span_id=]
+                INFO 
+                c.v.l.c.RequestLoggingInterceptor
+                | Completed request: GET /games -> 200 (24 ms)
+2026-09-24 14:57:46
+                [http-nio-8081-exec-8]
+                [trace_id=,span_id=]
+                INFO 
+                c.v.l.c.RequestLoggingInterceptor
+                | Incoming request: DELETE /games/9
+2026-09-24 14:57:46
+                [http-nio-8081-exec-8]
+                [trace_id=,span_id=]
+                WARN 
+                com.vtc.logging.service.GameService
+                | Deleting game with id=9
+2026-09-24 14:57:46
+                [http-nio-8081-exec-8]
+                [trace_id=,span_id=]
+                INFO 
+                com.vtc.logging.service.GameService
+                | Game deleted successfully id=9
+2026-09-24 14:57:46
+                [http-nio-8081-exec-8]
+                [trace_id=,span_id=]
+                INFO 
+                c.v.l.c.RequestLoggingInterceptor
+                | Completed request: DELETE /games/9 -> 200 (21 ms)
+2026-09-24 14:59:12
+                [http-nio-8081-exec-1]
+                [trace_id=,span_id=]
+                INFO 
+                c.v.l.c.RequestLoggingInterceptor
+                | Incoming request: POST /auth/login
+2026-09-24 14:59:12
+                [http-nio-8081-exec-1]
+                [trace_id=,span_id=]
+                INFO 
+                c.v.l.c.RequestLoggingInterceptor
+                | Completed request: POST /auth/login -> 200 (96 ms)
+2026-09-24 15:00:07
+                [http-nio-8081-exec-3]
+                [trace_id=,span_id=]
+                INFO 
+                c.v.l.c.RequestLoggingInterceptor
+                | Incoming request: DELETE /games/8
+2026-09-24 15:00:07
+                [http-nio-8081-exec-3]
+                [trace_id=,span_id=]
+                WARN 
+                com.vtc.logging.service.GameService
+                | Deleting game with id=8
+2026-09-24 15:00:07
+                [http-nio-8081-exec-3]
+                [trace_id=,span_id=]
+                INFO 
+                com.vtc.logging.service.GameService
+                | Game deleted successfully id=8
+2026-09-24 15:00:07
+                [http-nio-8081-exec-3]
+                [trace_id=,span_id=]
+                INFO 
+                c.v.l.c.RequestLoggingInterceptor
+                | Completed request: DELETE /games/8 -> 200 (6 ms)
+2026-09-24 15:00:25
+                [http-nio-8081-exec-6]
+                [trace_id=,span_id=]
+                INFO 
+                c.v.l.c.RequestLoggingInterceptor
+                | Incoming request: DELETE /games/8
+2026-09-24 15:00:25
+                [http-nio-8081-exec-6]
+                [trace_id=,span_id=]
+                WARN 
+                com.vtc.logging.service.GameService
+                | Deleting game with id=8
+2026-09-24 15:00:25
+                [http-nio-8081-exec-6]
+                [trace_id=,span_id=]
+                INFO 
+                com.vtc.logging.service.GameService
+                | Game deleted successfully id=8
+2026-09-24 15:00:25
+                [http-nio-8081-exec-6]
+                [trace_id=,span_id=]
+                INFO 
+                c.v.l.c.RequestLoggingInterceptor
+                | Completed request: DELETE /games/8 -> 200 (4 ms)
+2026-09-24 15:00:26
+                [http-nio-8081-exec-7]
+                [trace_id=,span_id=]
+                INFO 
+                c.v.l.c.RequestLoggingInterceptor
+                | Incoming request: DELETE /games/8
+2026-09-24 15:00:26
+                [http-nio-8081-exec-7]
+                [trace_id=,span_id=]
+                WARN 
+                com.vtc.logging.service.GameService
+                | Deleting game with id=8
+2026-09-24 15:00:26
+                [http-nio-8081-exec-7]
+                [trace_id=,span_id=]
+                INFO 
+                com.vtc.logging.service.GameService
+                | Game deleted successfully id=8
+2026-09-24 15:00:26
+                [http-nio-8081-exec-7]
+                [trace_id=,span_id=]
+                INFO 
+                c.v.l.c.RequestLoggingInterceptor
+                | Completed request: DELETE /games/8 -> 200 (5 ms)
+2026-09-24 15:00:27
+                [http-nio-8081-exec-8]
+                [trace_id=,span_id=]
+                INFO 
+                c.v.l.c.RequestLoggingInterceptor
+                | Incoming request: DELETE /games/8
+2026-09-24 15:00:27
+                [http-nio-8081-exec-8]
+                [trace_id=,span_id=]
+                WARN 
+                com.vtc.logging.service.GameService
+                | Deleting game with id=8
+2026-09-24 15:00:27
+                [http-nio-8081-exec-8]
+                [trace_id=,span_id=]
+                INFO 
+                com.vtc.logging.service.GameService
+                | Game deleted successfully id=8
+2026-09-24 15:00:27
+                [http-nio-8081-exec-8]
+                [trace_id=,span_id=]
+                INFO 
+                c.v.l.c.RequestLoggingInterceptor
+                | Completed request: DELETE /games/8 -> 200 (6 ms)
+2026-09-24 15:00:28
+                [http-nio-8081-exec-9]
+                [trace_id=,span_id=]
+                INFO 
+                c.v.l.c.RequestLoggingInterceptor
+                | Incoming request: DELETE /games/8
+2026-09-24 15:00:28
+                [http-nio-8081-exec-9]
+                [trace_id=,span_id=]
+                WARN 
+                com.vtc.logging.service.GameService
+                | Deleting game with id=8
+2026-09-24 15:00:28
+                [http-nio-8081-exec-9]
+                [trace_id=,span_id=]
+                INFO 
+                com.vtc.logging.service.GameService
+                | Game deleted successfully id=8
+2026-09-24 15:00:28
+                [http-nio-8081-exec-9]
+                [trace_id=,span_id=]
+                INFO 
+                c.v.l.c.RequestLoggingInterceptor
+                | Completed request: DELETE /games/8 -> 200 (4 ms)
+2026-09-24 15:00:29
+                [http-nio-8081-exec-10]
+                [trace_id=,span_id=]
+                INFO 
+                c.v.l.c.RequestLoggingInterceptor
+                | Incoming request: DELETE /games/8
+2026-09-24 15:00:29
+                [http-nio-8081-exec-10]
+                [trace_id=,span_id=]
+                WARN 
+                com.vtc.logging.service.GameService
+                | Deleting game with id=8
+2026-09-24 15:00:29
+                [http-nio-8081-exec-10]
+                [trace_id=,span_id=]
+                INFO 
+                com.vtc.logging.service.GameService
+                | Game deleted successfully id=8
+2026-09-24 15:00:30
+                [http-nio-8081-exec-10]
+                [trace_id=,span_id=]
+                INFO 
+                c.v.l.c.RequestLoggingInterceptor
+                | Completed request: DELETE /games/8 -> 200 (5 ms)
+2026-09-24 15:15:48
+                [SpringApplicationShutdownHook]
+                [trace_id=,span_id=]
+                INFO 
+                o.s.b.w.e.tomcat.GracefulShutdown
+                | Commencing graceful shutdown. Waiting for active requests to complete
+2026-09-24 15:15:48
+                [tomcat-shutdown]
+                [trace_id=,span_id=]
+                INFO 
+                o.s.b.w.e.tomcat.GracefulShutdown
+                | Graceful shutdown complete
+2026-09-24 15:15:48
+                [SpringApplicationShutdownHook]
+                [trace_id=,span_id=]
+                INFO 
+                o.s.o.j.LocalContainerEntityManagerFactoryBean
+                | Closing JPA EntityManagerFactory for persistence unit 'default'
+2026-09-24 15:15:48
+                [SpringApplicationShutdownHook]
+                [trace_id=,span_id=]
+                INFO 
+                com.zaxxer.hikari.HikariDataSource
+                | HikariPool-1 - Shutdown initiated...
+2026-09-24 15:15:48
+                [SpringApplicationShutdownHook]
+                [trace_id=,span_id=]
+                INFO 
+                com.zaxxer.hikari.HikariDataSource
+                | HikariPool-1 - Shutdown completed.
+2026-09-24 15:34:20
+                [background-preinit]
+                [trace_id=,span_id=]
+                INFO 
+                o.h.validator.internal.util.Version
+                | HV000001: Hibernate Validator 8.0.3.Final
+2026-09-24 15:34:20
+                [main]
+                [trace_id=,span_id=]
+                INFO 
+                com.vtc.logging.LoggingApplication
+                | Starting LoggingApplication using Java 17.0.12 with PID 11736 (C:\Users\Tranaf\Downloads\logging-site\logging-site\logging-be\target\classes started by Tranaf in C:\Users\Tranaf\Downloads\logging-site\logging-site\logging-be)
+2026-09-24 15:34:20
+                [main]
+                [trace_id=,span_id=]
+                INFO 
+                com.vtc.logging.LoggingApplication
+                | No active profile set, falling back to 1 default profile: "default"
+2026-09-24 15:34:21
+                [main]
+                [trace_id=,span_id=]
+                INFO 
+                o.s.d.r.c.RepositoryConfigurationDelegate
+                | Multiple Spring Data modules found, entering strict repository configuration mode
+2026-09-24 15:34:21
+                [main]
+                [trace_id=,span_id=]
+                INFO 
+                o.s.d.r.c.RepositoryConfigurationDelegate
+                | Bootstrapping Spring Data JDBC repositories in DEFAULT mode.
+2026-09-24 15:34:21
+                [main]
+                [trace_id=,span_id=]
+                INFO 
+                o.s.d.r.c.RepositoryConfigurationExtensionSupport
+                | Spring Data JDBC - Could not safely identify store assignment for repository candidate interface com.vtc.logging.repository.GameRepository; If you want this repository to be a JDBC repository, consider annotating your entities with one of these annotations: org.springframework.data.relational.core.mapping.Table.
+2026-09-24 15:34:21
+                [main]
+                [trace_id=,span_id=]
+                INFO 
+                o.s.d.r.c.RepositoryConfigurationExtensionSupport
+                | Spring Data JDBC - Could not safely identify store assignment for repository candidate interface com.vtc.logging.repository.UserRepository; If you want this repository to be a JDBC repository, consider annotating your entities with one of these annotations: org.springframework.data.relational.core.mapping.Table.
+2026-09-24 15:34:21
+                [main]
+                [trace_id=,span_id=]
+                INFO 
+                o.s.d.r.c.RepositoryConfigurationDelegate
+                | Finished Spring Data repository scanning in 29 ms. Found 0 JDBC repository interfaces.
+2026-09-24 15:34:21
+                [main]
+                [trace_id=,span_id=]
+                INFO 
+                o.s.d.r.c.RepositoryConfigurationDelegate
+                | Multiple Spring Data modules found, entering strict repository configuration mode
+2026-09-24 15:34:21
+                [main]
+                [trace_id=,span_id=]
+                INFO 
+                o.s.d.r.c.RepositoryConfigurationDelegate
+                | Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2026-09-24 15:34:21
+                [main]
+                [trace_id=,span_id=]
+                INFO 
+                o.s.d.r.c.RepositoryConfigurationDelegate
+                | Finished Spring Data repository scanning in 29 ms. Found 2 JPA repository interfaces.
+2026-09-24 15:34:22
+                [main]
+                [trace_id=,span_id=]
+                INFO 
+                o.s.b.w.e.tomcat.TomcatWebServer
+                | Tomcat initialized with port 8081 (http)
+2026-09-24 15:34:22
+                [main]
+                [trace_id=,span_id=]
+                INFO 
+                o.a.coyote.http11.Http11NioProtocol
+                | Initializing ProtocolHandler ["http-nio-8081"]
+2026-09-24 15:34:22
+                [main]
+                [trace_id=,span_id=]
+                INFO 
+                o.a.catalina.core.StandardService
+                | Starting service [Tomcat]
+2026-09-24 15:34:22
+                [main]
+                [trace_id=,span_id=]
+                INFO 
+                o.a.catalina.core.StandardEngine
+                | Starting Servlet engine: [Apache Tomcat/10.1.52]
+2026-09-24 15:34:22
+                [main]
+                [trace_id=,span_id=]
+                INFO 
+                o.a.c.c.C.[Tomcat].[localhost].[/]
+                | Initializing Spring embedded WebApplicationContext
+2026-09-24 15:34:22
+                [main]
+                [trace_id=,span_id=]
+                INFO 
+                o.s.b.w.s.c.ServletWebServerApplicationContext
+                | Root WebApplicationContext: initialization completed in 1635 ms
+2026-09-24 15:34:22
+                [main]
+                [trace_id=,span_id=]
+                INFO 
+                o.h.jpa.internal.util.LogHelper
+                | HHH000204: Processing PersistenceUnitInfo [name: default]
+2026-09-24 15:34:22
+                [main]
+                [trace_id=,span_id=]
+                INFO 
+                org.hibernate.Version
+                | HHH000412: Hibernate ORM core version 6.6.42.Final
+2026-09-24 15:34:22
+                [main]
+                [trace_id=,span_id=]
+                INFO 
+                o.h.c.i.RegionFactoryInitiator
+                | HHH000026: Second-level cache disabled
+2026-09-24 15:34:22
+                [main]
+                [trace_id=,span_id=]
+                INFO 
+                o.s.o.j.p.SpringPersistenceUnitInfo
+                | No LoadTimeWeaver setup: ignoring JPA class transformer
+2026-09-24 15:34:22
+                [main]
+                [trace_id=,span_id=]
+                INFO 
+                com.zaxxer.hikari.HikariDataSource
+                | HikariPool-1 - Starting...
+2026-09-24 15:34:23
+                [main]
+                [trace_id=,span_id=]
+                INFO 
+                com.zaxxer.hikari.pool.HikariPool
+                | HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@2ba9f743
+2026-09-24 15:34:23
+                [main]
+                [trace_id=,span_id=]
+                INFO 
+                com.zaxxer.hikari.HikariDataSource
+                | HikariPool-1 - Start completed.
+2026-09-24 15:34:23
+                [main]
+                [trace_id=,span_id=]
+                INFO 
+                o.hibernate.orm.connections.pooling
+                | HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-1)']
+	Database driver: undefined/unknown
+	Database version: 8.0.32
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2026-09-24 15:34:24
+                [main]
+                [trace_id=,span_id=]
+                INFO 
+                o.h.e.t.j.p.i.JtaPlatformInitiator
+                | HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2026-09-24 15:34:24
+                [main]
+                [trace_id=,span_id=]
+                INFO 
+                o.s.o.j.LocalContainerEntityManagerFactoryBean
+                | Initialized JPA EntityManagerFactory for persistence unit 'default'
+2026-09-24 15:34:24
+                [main]
+                [trace_id=,span_id=]
+                ERROR
+                o.s.b.w.e.tomcat.TomcatStarter
+                | Error starting Tomcat context. Exception: org.springframework.beans.factory.UnsatisfiedDependencyException. Message: Error creating bean with name 'jwtAuthFilter' defined in file [C:\Users\Tranaf\Downloads\logging-site\logging-site\logging-be\target\classes\com\vtc\logging\config\JwtAuthFilter.class]: Unsatisfied dependency expressed through constructor parameter 1: No qualifying bean of type 'org.springframework.security.core.userdetails.UserDetailsService' available: expected at least 1 bean which qualifies as autowire candidate. Dependency annotations: {}
+2026-09-24 15:34:24
+                [main]
+                [trace_id=,span_id=]
+                INFO 
+                o.a.catalina.core.StandardService
+                | Stopping service [Tomcat]
+2026-09-24 15:34:24
+                [main]
+                [trace_id=,span_id=]
+                WARN 
+                o.a.c.loader.WebappClassLoaderBase
+                | The web application [ROOT] appears to have started a thread named [HikariPool-1:housekeeper] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.base@17.0.12/jdk.internal.misc.Unsafe.park(Native Method)
+ java.base@17.0.12/java.util.concurrent.locks.LockSupport.parkNanos(LockSupport.java:252)
+ java.base@17.0.12/java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.awaitNanos(AbstractQueuedSynchronizer.java:1672)
+ java.base@17.0.12/java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(ScheduledThreadPoolExecutor.java:1182)
+ java.base@17.0.12/java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(ScheduledThreadPoolExecutor.java:899)
+ java.base@17.0.12/java.util.concurrent.ThreadPoolExecutor.getTask(ThreadPoolExecutor.java:1062)
+ java.base@17.0.12/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1122)
+ java.base@17.0.12/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+ java.base@17.0.12/java.lang.Thread.run(Thread.java:842)
+2026-09-24 15:34:24
+                [main]
+                [trace_id=,span_id=]
+                WARN 
+                o.a.c.loader.WebappClassLoaderBase
+                | The web application [ROOT] appears to have started a thread named [HikariPool-1:connection-adder] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.base@17.0.12/jdk.internal.misc.Unsafe.park(Native Method)
+ java.base@17.0.12/java.util.concurrent.locks.LockSupport.parkNanos(LockSupport.java:252)
+ java.base@17.0.12/java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.awaitNanos(AbstractQueuedSynchronizer.java:1672)
+ java.base@17.0.12/java.util.concurrent.LinkedBlockingQueue.poll(LinkedBlockingQueue.java:460)
+ java.base@17.0.12/java.util.concurrent.ThreadPoolExecutor.getTask(ThreadPoolExecutor.java:1061)
+ java.base@17.0.12/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1122)
+ java.base@17.0.12/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+ java.base@17.0.12/java.lang.Thread.run(Thread.java:842)
+2026-09-24 15:34:24
+                [main]
+                [trace_id=,span_id=]
+                WARN 
+                o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext
+                | Exception encountered during context initialization - cancelling refresh attempt: org.springframework.context.ApplicationContextException: Unable to start web server
+2026-09-24 15:34:24
+                [main]
+                [trace_id=,span_id=]
+                INFO 
+                o.s.o.j.LocalContainerEntityManagerFactoryBean
+                | Closing JPA EntityManagerFactory for persistence unit 'default'
+2026-09-24 15:34:24
+                [main]
+                [trace_id=,span_id=]
+                INFO 
+                com.zaxxer.hikari.HikariDataSource
+                | HikariPool-1 - Shutdown initiated...
+2026-09-24 15:34:24
+                [main]
+                [trace_id=,span_id=]
+                INFO 
+                com.zaxxer.hikari.HikariDataSource
+                | HikariPool-1 - Shutdown completed.
+2026-09-24 15:34:24
+                [main]
+                [trace_id=,span_id=]
+                INFO 
+                o.s.b.a.l.ConditionEvaluationReportLogger
+                | 
+
+Error starting ApplicationContext. To display the condition evaluation report re-run your application with 'debug' enabled.
+2026-09-24 15:34:24
+                [main]
+                [trace_id=,span_id=]
+                ERROR
+                o.s.b.d.LoggingFailureAnalysisReporter
+                | 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Parameter 1 of constructor in com.vtc.logging.config.JwtAuthFilter required a bean of type 'org.springframework.security.core.userdetails.UserDetailsService' that could not be found.
+
+
+Action:
+
+Consider defining a bean of type 'org.springframework.security.core.userdetails.UserDetailsService' in your configuration.
+
+2026-09-24 15:37:00
+                [background-preinit]
+                [trace_id=,span_id=]
+                INFO 
+                o.h.validator.internal.util.Version
+                | HV000001: Hibernate Validator 8.0.3.Final
+2026-09-24 15:37:00
+                [main]
+                [trace_id=,span_id=]
+                INFO 
+                com.vtc.logging.LoggingApplication
+                | Starting LoggingApplication using Java 17.0.12 with PID 15720 (C:\Users\Tranaf\Downloads\logging-site\logging-site\logging-be\target\classes started by Tranaf in C:\Users\Tranaf\Downloads\logging-site\logging-site\logging-be)
+2026-09-24 15:37:00
+                [main]
+                [trace_id=,span_id=]
+                INFO 
+                com.vtc.logging.LoggingApplication
+                | No active profile set, falling back to 1 default profile: "default"
+2026-09-24 15:37:01
+                [main]
+                [trace_id=,span_id=]
+                WARN 
+                o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext
+                | Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.support.BeanDefinitionOverrideException: Invalid bean definition with name 'authenticationManager' defined in class path resource [com/vtc/logging/config/SecurityConfig.class]: Cannot register bean definition [Root bean: class=null; scope=; abstract=false; lazyInit=null; autowireMode=3; dependencyCheck=0; autowireCandidate=true; primary=false; fallback=false; factoryBeanName=securityConfig; factoryMethodName=authenticationManager; initMethodNames=null; destroyMethodNames=[(inferred)]; defined in class path resource [com/vtc/logging/config/SecurityConfig.class]] for bean 'authenticationManager' since there is already [Root bean: class=null; scope=; abstract=false; lazyInit=null; autowireMode=3; dependencyCheck=0; autowireCandidate=true; primary=false; fallback=false; factoryBeanName=appConfig; factoryMethodName=authenticationManager; initMethodNames=null; destroyMethodNames=[(inferred)]; defined in class path resource [com/vtc/logging/config/AppConfig.class]] bound.
+2026-09-24 15:37:01
+                [main]
+                [trace_id=,span_id=]
+                INFO 
+                o.s.b.a.l.ConditionEvaluationReportLogger
+                | 
+
+Error starting ApplicationContext. To display the condition evaluation report re-run your application with 'debug' enabled.
+2026-09-24 15:37:01
+                [main]
+                [trace_id=,span_id=]
+                ERROR
+                o.s.b.d.LoggingFailureAnalysisReporter
+                | 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+The bean 'authenticationManager', defined in class path resource [com/vtc/logging/config/SecurityConfig.class], could not be registered. A bean with that name has already been defined in class path resource [com/vtc/logging/config/AppConfig.class] and overriding is disabled.
+
+Action:
+
+Consider renaming one of the beans or enabling overriding by setting spring.main.allow-bean-definition-overriding=true
+
+2026-09-24 15:37:33
+                [background-preinit]
+                [trace_id=,span_id=]
+                INFO 
+                o.h.validator.internal.util.Version
+                | HV000001: Hibernate Validator 8.0.3.Final
+2026-09-24 15:37:34
+                [main]
+                [trace_id=,span_id=]
+                INFO 
+                com.vtc.logging.LoggingApplication
+                | Starting LoggingApplication using Java 17.0.12 with PID 8852 (C:\Users\Tranaf\Downloads\logging-site\logging-site\logging-be\target\classes started by Tranaf in C:\Users\Tranaf\Downloads\logging-site\logging-site\logging-be)
+2026-09-24 15:37:34
+                [main]
+                [trace_id=,span_id=]
+                INFO 
+                com.vtc.logging.LoggingApplication
+                | No active profile set, falling back to 1 default profile: "default"
+2026-09-24 15:37:35
+                [main]
+                [trace_id=,span_id=]
+                INFO 
+                o.s.d.r.c.RepositoryConfigurationDelegate
+                | Multiple Spring Data modules found, entering strict repository configuration mode
+2026-09-24 15:37:35
+                [main]
+                [trace_id=,span_id=]
+                INFO 
+                o.s.d.r.c.RepositoryConfigurationDelegate
+                | Bootstrapping Spring Data JDBC repositories in DEFAULT mode.
+2026-09-24 15:37:35
+                [main]
+                [trace_id=,span_id=]
+                INFO 
+                o.s.d.r.c.RepositoryConfigurationExtensionSupport
+                | Spring Data JDBC - Could not safely identify store assignment for repository candidate interface com.vtc.logging.repository.GameRepository; If you want this repository to be a JDBC repository, consider annotating your entities with one of these annotations: org.springframework.data.relational.core.mapping.Table.
+2026-09-24 15:37:35
+                [main]
+                [trace_id=,span_id=]
+                INFO 
+                o.s.d.r.c.RepositoryConfigurationExtensionSupport
+                | Spring Data JDBC - Could not safely identify store assignment for repository candidate interface com.vtc.logging.repository.UserRepository; If you want this repository to be a JDBC repository, consider annotating your entities with one of these annotations: org.springframework.data.relational.core.mapping.Table.
+2026-09-24 15:37:35
+                [main]
+                [trace_id=,span_id=]
+                INFO 
+                o.s.d.r.c.RepositoryConfigurationDelegate
+                | Finished Spring Data repository scanning in 27 ms. Found 0 JDBC repository interfaces.
+2026-09-24 15:37:35
+                [main]
+                [trace_id=,span_id=]
+                INFO 
+                o.s.d.r.c.RepositoryConfigurationDelegate
+                | Multiple Spring Data modules found, entering strict repository configuration mode
+2026-09-24 15:37:35
+                [main]
+                [trace_id=,span_id=]
+                INFO 
+                o.s.d.r.c.RepositoryConfigurationDelegate
+                | Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2026-09-24 15:37:35
+                [main]
+                [trace_id=,span_id=]
+                INFO 
+                o.s.d.r.c.RepositoryConfigurationDelegate
+                | Finished Spring Data repository scanning in 29 ms. Found 2 JPA repository interfaces.
+2026-09-24 15:37:35
+                [main]
+                [trace_id=,span_id=]
+                INFO 
+                o.s.b.w.e.tomcat.TomcatWebServer
+                | Tomcat initialized with port 8081 (http)
+2026-09-24 15:37:35
+                [main]
+                [trace_id=,span_id=]
+                INFO 
+                o.a.coyote.http11.Http11NioProtocol
+                | Initializing ProtocolHandler ["http-nio-8081"]
+2026-09-24 15:37:35
+                [main]
+                [trace_id=,span_id=]
+                INFO 
+                o.a.catalina.core.StandardService
+                | Starting service [Tomcat]
+2026-09-24 15:37:35
+                [main]
+                [trace_id=,span_id=]
+                INFO 
+                o.a.catalina.core.StandardEngine
+                | Starting Servlet engine: [Apache Tomcat/10.1.52]
+2026-09-24 15:37:35
+                [main]
+                [trace_id=,span_id=]
+                INFO 
+                o.a.c.c.C.[Tomcat].[localhost].[/]
+                | Initializing Spring embedded WebApplicationContext
+2026-09-24 15:37:35
+                [main]
+                [trace_id=,span_id=]
+                INFO 
+                o.s.b.w.s.c.ServletWebServerApplicationContext
+                | Root WebApplicationContext: initialization completed in 1604 ms
+2026-09-24 15:37:35
+                [main]
+                [trace_id=,span_id=]
+                INFO 
+                o.h.jpa.internal.util.LogHelper
+                | HHH000204: Processing PersistenceUnitInfo [name: default]
+2026-09-24 15:37:35
+                [main]
+                [trace_id=,span_id=]
+                INFO 
+                org.hibernate.Version
+                | HHH000412: Hibernate ORM core version 6.6.42.Final
+2026-09-24 15:37:36
+                [main]
+                [trace_id=,span_id=]
+                INFO 
+                o.h.c.i.RegionFactoryInitiator
+                | HHH000026: Second-level cache disabled
+2026-09-24 15:37:36
+                [main]
+                [trace_id=,span_id=]
+                INFO 
+                o.s.o.j.p.SpringPersistenceUnitInfo
+                | No LoadTimeWeaver setup: ignoring JPA class transformer
+2026-09-24 15:37:36
+                [main]
+                [trace_id=,span_id=]
+                INFO 
+                com.zaxxer.hikari.HikariDataSource
+                | HikariPool-1 - Starting...
+2026-09-24 15:37:36
+                [main]
+                [trace_id=,span_id=]
+                INFO 
+                com.zaxxer.hikari.pool.HikariPool
+                | HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@4e3ffd0
+2026-09-24 15:37:36
+                [main]
+                [trace_id=,span_id=]
+                INFO 
+                com.zaxxer.hikari.HikariDataSource
+                | HikariPool-1 - Start completed.
+2026-09-24 15:37:36
+                [main]
+                [trace_id=,span_id=]
+                INFO 
+                o.hibernate.orm.connections.pooling
+                | HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-1)']
+	Database driver: undefined/unknown
+	Database version: 8.0.32
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2026-09-24 15:37:37
+                [main]
+                [trace_id=,span_id=]
+                INFO 
+                o.h.e.t.j.p.i.JtaPlatformInitiator
+                | HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2026-09-24 15:37:37
+                [main]
+                [trace_id=,span_id=]
+                INFO 
+                o.s.o.j.LocalContainerEntityManagerFactoryBean
+                | Initialized JPA EntityManagerFactory for persistence unit 'default'
+2026-09-24 15:37:37
+                [main]
+                [trace_id=,span_id=]
+                INFO 
+                o.s.s.c.a.a.c.InitializeAuthenticationProviderBeanManagerConfigurer$InitializeAuthenticationProviderManagerConfigurer
+                | Global AuthenticationManager configured with AuthenticationProvider bean with name authenticationProvider
+2026-09-24 15:37:37
+                [main]
+                [trace_id=,span_id=]
+                WARN 
+                o.s.s.c.a.a.c.InitializeUserDetailsBeanManagerConfigurer$InitializeUserDetailsManagerConfigurer
+                | Global AuthenticationManager configured with an AuthenticationProvider bean. UserDetailsService beans will not be used by Spring Security for automatically configuring username/password login. Consider removing the AuthenticationProvider bean. Alternatively, consider using the UserDetailsService in a manually instantiated DaoAuthenticationProvider. If the current configuration is intentional, to turn off this warning, increase the logging level of 'org.springframework.security.config.annotation.authentication.configuration.InitializeUserDetailsBeanManagerConfigurer' to ERROR
+2026-09-24 15:37:38
+                [main]
+                [trace_id=,span_id=]
+                INFO 
+                o.s.b.a.e.web.EndpointLinksResolver
+                | Exposing 2 endpoints beneath base path '/actuator'
+2026-09-24 15:37:38
+                [main]
+                [trace_id=,span_id=]
+                INFO 
+                o.a.coyote.http11.Http11NioProtocol
+                | Starting ProtocolHandler ["http-nio-8081"]
+2026-09-24 15:37:38
+                [main]
+                [trace_id=,span_id=]
+                INFO 
+                o.s.b.w.e.tomcat.TomcatWebServer
+                | Tomcat started on port 8081 (http) with context path '/'
+2026-09-24 15:37:38
+                [main]
+                [trace_id=,span_id=]
+                INFO 
+                com.vtc.logging.LoggingApplication
+                | Started LoggingApplication in 5.393 seconds (process running for 6.009)
+2026-09-24 15:37:59
+                [http-nio-8081-exec-1]
+                [trace_id=,span_id=]
+                INFO 
+                o.a.c.c.C.[Tomcat].[localhost].[/]
+                | Initializing Spring DispatcherServlet 'dispatcherServlet'
+2026-09-24 15:37:59
+                [http-nio-8081-exec-1]
+                [trace_id=,span_id=]
+                INFO 
+                o.s.web.servlet.DispatcherServlet
+                | Initializing Servlet 'dispatcherServlet'
+2026-09-24 15:37:59
+                [http-nio-8081-exec-1]
+                [trace_id=,span_id=]
+                INFO 
+                o.s.web.servlet.DispatcherServlet
+                | Completed initialization in 1 ms
+2026-09-24 15:37:59
+                [http-nio-8081-exec-1]
+                [trace_id=,span_id=]
+                ERROR
+                o.a.c.c.C.[.[.[.[dispatcherServlet]
+                | Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception
+io.jsonwebtoken.security.SignatureException: JWT signature does not match locally computed signature. JWT validity cannot be asserted and should not be trusted.
+	at io.jsonwebtoken.impl.DefaultJwtParser.parse(DefaultJwtParser.java:399)
+	at io.jsonwebtoken.impl.DefaultJwtParser.parse(DefaultJwtParser.java:529)
+	at io.jsonwebtoken.impl.DefaultJwtParser.parseClaimsJws(DefaultJwtParser.java:589)
+	at io.jsonwebtoken.impl.ImmutableJwtParser.parseClaimsJws(ImmutableJwtParser.java:173)
+	at com.vtc.logging.service.JwtService.extractAllClaims(JwtService.java:52)
+	at com.vtc.logging.service.JwtService.extractClaim(JwtService.java:35)
+	at com.vtc.logging.service.JwtService.extractUsername(JwtService.java:40)
+	at com.vtc.logging.config.JwtAuthFilter.doFilterInternal(JwtAuthFilter.java:45)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.springframework.security.web.ObservationFilterChainDecorator$ObservationFilter.wrapFilter(ObservationFilterChainDecorator.java:241)
+	at org.springframework.security.web.ObservationFilterChainDecorator$ObservationFilter.doFilter(ObservationFilterChainDecorator.java:228)
+	at org.springframework.security.web.ObservationFilterChainDecorator$VirtualFilterChain.doFilter(ObservationFilterChainDecorator.java:138)
+	at org.springframework.security.web.authentication.logout.LogoutFilter.doFilter(LogoutFilter.java:107)
+	at org.springframework.security.web.authentication.logout.LogoutFilter.doFilter(LogoutFilter.java:93)
+	at org.springframework.security.web.ObservationFilterChainDecorator$ObservationFilter.wrapFilter(ObservationFilterChainDecorator.java:241)
+	at org.springframework.security.web.ObservationFilterChainDecorator$ObservationFilter.doFilter(ObservationFilterChainDecorator.java:228)
+	at org.springframework.security.web.ObservationFilterChainDecorator$VirtualFilterChain.doFilter(ObservationFilterChainDecorator.java:138)
+	at org.springframework.web.filter.CorsFilter.doFilterInternal(CorsFilter.java:91)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.springframework.security.web.ObservationFilterChainDecorator$ObservationFilter.wrapFilter(ObservationFilterChainDecorator.java:241)
+	at org.springframework.security.web.ObservationFilterChainDecorator$ObservationFilter.doFilter(ObservationFilterChainDecorator.java:228)
+	at org.springframework.security.web.ObservationFilterChainDecorator$VirtualFilterChain.doFilter(ObservationFilterChainDecorator.java:138)
+	at org.springframework.security.web.header.HeaderWriterFilter.doHeadersAfter(HeaderWriterFilter.java:90)
+	at org.springframework.security.web.header.HeaderWriterFilter.doFilterInternal(HeaderWriterFilter.java:75)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.springframework.security.web.ObservationFilterChainDecorator$ObservationFilter.wrapFilter(ObservationFilterChainDecorator.java:241)
+	at org.springframework.security.web.ObservationFilterChainDecorator$ObservationFilter.doFilter(ObservationFilterChainDecorator.java:228)
+	at org.springframework.security.web.ObservationFilterChainDecorator$VirtualFilterChain.doFilter(ObservationFilterChainDecorator.java:138)
+	at org.springframework.security.web.context.SecurityContextHolderFilter.doFilter(SecurityContextHolderFilter.java:82)
+	at org.springframework.security.web.context.SecurityContextHolderFilter.doFilter(SecurityContextHolderFilter.java:69)
+	at org.springframework.security.web.ObservationFilterChainDecorator$ObservationFilter.wrapFilter(ObservationFilterChainDecorator.java:241)
+	at org.springframework.security.web.ObservationFilterChainDecorator$ObservationFilter.doFilter(ObservationFilterChainDecorator.java:228)
+	at org.springframework.security.web.ObservationFilterChainDecorator$VirtualFilterChain.doFilter(ObservationFilterChainDecorator.java:138)
+	at org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter.doFilterInternal(WebAsyncManagerIntegrationFilter.java:62)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.springframework.security.web.ObservationFilterChainDecorator$ObservationFilter.wrapFilter(ObservationFilterChainDecorator.java:241)
+	at org.springframework.security.web.ObservationFilterChainDecorator$ObservationFilter.doFilter(ObservationFilterChainDecorator.java:228)
+	at org.springframework.security.web.ObservationFilterChainDecorator$VirtualFilterChain.doFilter(ObservationFilterChainDecorator.java:138)
+	at org.springframework.security.web.session.DisableEncodeUrlFilter.doFilterInternal(DisableEncodeUrlFilter.java:42)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.springframework.security.web.ObservationFilterChainDecorator$ObservationFilter.wrapFilter(ObservationFilterChainDecorator.java:241)
+	at org.springframework.security.web.ObservationFilterChainDecorator$AroundFilterObservation$SimpleAroundFilterObservation.lambda$wrap$0(ObservationFilterChainDecorator.java:334)
+	at org.springframework.security.web.ObservationFilterChainDecorator$ObservationFilter.doFilter(ObservationFilterChainDecorator.java:225)
+	at org.springframework.security.web.ObservationFilterChainDecorator$VirtualFilterChain.doFilter(ObservationFilterChainDecorator.java:138)
+	at org.springframework.security.web.FilterChainProxy.doFilterInternal(FilterChainProxy.java:233)
+	at org.springframework.security.web.FilterChainProxy.doFilter(FilterChainProxy.java:191)
+	at org.springframework.web.filter.CompositeFilter$VirtualFilterChain.doFilter(CompositeFilter.java:113)
+	at org.springframework.web.filter.ServletRequestPathFilter.doFilter(ServletRequestPathFilter.java:52)
+	at org.springframework.web.filter.CompositeFilter$VirtualFilterChain.doFilter(CompositeFilter.java:113)
+	at org.springframework.web.filter.CompositeFilter.doFilter(CompositeFilter.java:74)
+	at org.springframework.security.config.annotation.web.configuration.WebSecurityConfiguration$CompositeFilterChainProxy.doFilter(WebSecurityConfiguration.java:319)
+	at org.springframework.web.filter.CompositeFilter$VirtualFilterChain.doFilter(CompositeFilter.java:113)
+	at org.springframework.web.servlet.handler.HandlerMappingIntrospector.lambda$createCacheFilter$4(HandlerMappingIntrospector.java:267)
+	at org.springframework.web.filter.CompositeFilter$VirtualFilterChain.doFilter(CompositeFilter.java:113)
+	at org.springframework.web.filter.CompositeFilter.doFilter(CompositeFilter.java:74)
+	at org.springframework.security.config.annotation.web.configuration.WebMvcSecurityConfiguration$CompositeFilterChainProxy.doFilter(WebMvcSecurityConfiguration.java:240)
+	at org.springframework.web.filter.DelegatingFilterProxy.invokeDelegate(DelegatingFilterProxy.java:362)
+	at org.springframework.web.filter.DelegatingFilterProxy.doFilter(DelegatingFilterProxy.java:278)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:162)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:138)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:162)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:138)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:162)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:138)
+	at org.springframework.web.filter.ServerHttpObservationFilter.doFilterInternal(ServerHttpObservationFilter.java:110)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:162)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:138)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:162)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:138)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:165)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:88)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:492)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:113)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:83)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:72)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:342)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:399)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:903)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1775)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:973)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:491)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:63)
+	at java.base/java.lang.Thread.run(Thread.java:842)
+2026-09-24 15:38:20
+                [http-nio-8081-exec-3]
+                [trace_id=,span_id=]
+                INFO 
+                c.v.l.c.RequestLoggingInterceptor
+                | Incoming request: POST /auth/login
+2026-09-24 15:38:20
+                [http-nio-8081-exec-3]
+                [trace_id=,span_id=]
+                INFO 
+                c.v.l.c.RequestLoggingInterceptor
+                | Completed request: POST /auth/login -> 200 (318 ms)
+2026-09-24 15:38:48
+                [http-nio-8081-exec-4]
+                [trace_id=,span_id=]
+                INFO 
+                c.v.l.c.RequestLoggingInterceptor
+                | Incoming request: POST /auth/login
+2026-09-24 15:38:48
+                [http-nio-8081-exec-4]
+                [trace_id=,span_id=]
+                INFO 
+                c.v.l.c.RequestLoggingInterceptor
+                | Completed request: POST /auth/login -> 200 (104 ms)
+2026-09-24 15:39:25
+                [http-nio-8081-exec-10]
+                [trace_id=,span_id=]
+                INFO 
+                c.v.l.c.RequestLoggingInterceptor
+                | Incoming request: DELETE /games/delete/1
+2026-09-24 15:39:25
+                [http-nio-8081-exec-10]
+                [trace_id=,span_id=]
+                INFO 
+                c.v.l.c.RequestLoggingInterceptor
+                | Completed request: DELETE /games/delete/1 -> 404 (10 ms)
+2026-09-24 15:39:34
+                [http-nio-8081-exec-6]
+                [trace_id=,span_id=]
+                INFO 
+                c.v.l.c.RequestLoggingInterceptor
+                | Incoming request: DELETE /games/delete
+2026-09-24 15:39:34
+                [http-nio-8081-exec-6]
+                [trace_id=,span_id=]
+                WARN 
+                o.s.w.s.m.s.DefaultHandlerExceptionResolver
+                | Resolved [org.springframework.web.method.annotation.MethodArgumentTypeMismatchException: Method parameter 'id': Failed to convert value of type 'java.lang.String' to required type 'java.lang.Integer'; For input string: "delete"]
+2026-09-24 15:39:34
+                [http-nio-8081-exec-6]
+                [trace_id=,span_id=]
+                INFO 
+                c.v.l.c.RequestLoggingInterceptor
+                | Completed request: DELETE /games/delete -> 400 (9 ms)
+2026-09-24 15:39:38
+                [http-nio-8081-exec-7]
+                [trace_id=,span_id=]
+                INFO 
+                c.v.l.c.RequestLoggingInterceptor
+                | Incoming request: DELETE /games/delete/1
+2026-09-24 15:39:38
+                [http-nio-8081-exec-7]
+                [trace_id=,span_id=]
+                INFO 
+                c.v.l.c.RequestLoggingInterceptor
+                | Completed request: DELETE /games/delete/1 -> 404 (5 ms)
+2026-09-24 15:40:19
+                [http-nio-8081-exec-8]
+                [trace_id=,span_id=]
+                INFO 
+                c.v.l.c.RequestLoggingInterceptor
+                | Incoming request: POST /auth/login
+2026-09-24 15:40:19
+                [http-nio-8081-exec-8]
+                [trace_id=,span_id=]
+                INFO 
+                c.v.l.c.RequestLoggingInterceptor
+                | Completed request: POST /auth/login -> 200 (110 ms)
+2026-09-24 15:40:39
+                [http-nio-8081-exec-5]
+                [trace_id=,span_id=]
+                INFO 
+                c.v.l.c.RequestLoggingInterceptor
+                | Incoming request: GET /games
+2026-09-24 15:40:39
+                [http-nio-8081-exec-5]
+                [trace_id=,span_id=]
+                INFO 
+                com.vtc.logging.service.GameService
+                | Filtering games with platform=null status=null
+2026-09-24 15:40:39
+                [http-nio-8081-exec-5]
+                [trace_id=,span_id=]
+                INFO 
+                com.vtc.logging.service.GameService
+                | Found 8 games
+2026-09-24 15:40:39
+                [http-nio-8081-exec-5]
+                [trace_id=,span_id=]
+                INFO 
+                c.v.l.c.RequestLoggingInterceptor
+                | Completed request: GET /games -> 200 (15 ms)
+2026-09-24 15:41:14
+                [http-nio-8081-exec-1]
+                [trace_id=,span_id=]
+                INFO 
+                c.v.l.c.RequestLoggingInterceptor
+                | Incoming request: DELETE /games/1
+2026-09-24 15:41:14
+                [http-nio-8081-exec-1]
+                [trace_id=,span_id=]
+                WARN 
+                com.vtc.logging.service.GameService
+                | Deleting game with id=1
+2026-09-24 15:41:14
+                [http-nio-8081-exec-1]
+                [trace_id=,span_id=]
+                INFO 
+                com.vtc.logging.service.GameService
+                | Game deleted successfully id=1
+2026-09-24 15:41:14
+                [http-nio-8081-exec-1]
+                [trace_id=,span_id=]
+                INFO 
+                c.v.l.c.RequestLoggingInterceptor
+                | Completed request: DELETE /games/1 -> 200 (30 ms)
+2026-09-24 15:41:20
+                [http-nio-8081-exec-3]
+                [trace_id=,span_id=]
+                INFO 
+                c.v.l.c.RequestLoggingInterceptor
+                | Incoming request: DELETE /games/1
+2026-09-24 15:41:20
+                [http-nio-8081-exec-3]
+                [trace_id=,span_id=]
+                WARN 
+                com.vtc.logging.service.GameService
+                | Deleting game with id=1
+2026-09-24 15:41:20
+                [http-nio-8081-exec-3]
+                [trace_id=,span_id=]
+                INFO 
+                com.vtc.logging.service.GameService
+                | Game deleted successfully id=1
+2026-09-24 15:41:20
+                [http-nio-8081-exec-3]
+                [trace_id=,span_id=]
+                INFO 
+                c.v.l.c.RequestLoggingInterceptor
+                | Completed request: DELETE /games/1 -> 200 (5 ms)
+2026-09-24 15:42:42
+                [http-nio-8081-exec-6]
+                [trace_id=,span_id=]
+                INFO 
+                c.v.l.c.RequestLoggingInterceptor
+                | Incoming request: POST /auth/login
+2026-09-24 15:42:42
+                [http-nio-8081-exec-6]
+                [trace_id=,span_id=]
+                INFO 
+                c.v.l.c.RequestLoggingInterceptor
+                | Completed request: POST /auth/login -> 200 (124 ms)
+2026-09-24 15:43:07
+                [http-nio-8081-exec-9]
+                [trace_id=,span_id=]
+                INFO 
+                c.v.l.c.RequestLoggingInterceptor
+                | Incoming request: POST /auth/login
+2026-09-24 15:43:07
+                [http-nio-8081-exec-9]
+                [trace_id=,span_id=]
+                INFO 
+                c.v.l.c.RequestLoggingInterceptor
+                | Completed request: POST /auth/login -> 200 (107 ms)
+2026-09-24 15:43:19
+                [http-nio-8081-exec-5]
+                [trace_id=,span_id=]
+                INFO 
+                c.v.l.c.RequestLoggingInterceptor
+                | Incoming request: DELETE /games/2
+2026-09-24 15:43:19
+                [http-nio-8081-exec-5]
+                [trace_id=,span_id=]
+                WARN 
+                com.vtc.logging.service.GameService
+                | Deleting game with id=2
+2026-09-24 15:43:19
+                [http-nio-8081-exec-5]
+                [trace_id=,span_id=]
+                INFO 
+                com.vtc.logging.service.GameService
+                | Game deleted successfully id=2
+2026-09-24 15:43:19
+                [http-nio-8081-exec-5]
+                [trace_id=,span_id=]
+                INFO 
+                c.v.l.c.RequestLoggingInterceptor
+                | Completed request: DELETE /games/2 -> 200 (7 ms)
+2026-09-24 15:43:22
+                [SpringApplicationShutdownHook]
+                [trace_id=,span_id=]
+                INFO 
+                o.s.b.w.e.tomcat.GracefulShutdown
+                | Commencing graceful shutdown. Waiting for active requests to complete
+2026-09-24 15:43:22
+                [tomcat-shutdown]
+                [trace_id=,span_id=]
+                INFO 
+                o.s.b.w.e.tomcat.GracefulShutdown
+                | Graceful shutdown complete
+2026-09-24 15:43:22
+                [SpringApplicationShutdownHook]
+                [trace_id=,span_id=]
+                INFO 
+                o.s.o.j.LocalContainerEntityManagerFactoryBean
+                | Closing JPA EntityManagerFactory for persistence unit 'default'
+2026-09-24 15:43:22
+                [SpringApplicationShutdownHook]
+                [trace_id=,span_id=]
+                INFO 
+                com.zaxxer.hikari.HikariDataSource
+                | HikariPool-1 - Shutdown initiated...
+2026-09-24 15:43:22
+                [SpringApplicationShutdownHook]
+                [trace_id=,span_id=]
+                INFO 
+                com.zaxxer.hikari.HikariDataSource
+                | HikariPool-1 - Shutdown completed.
+2026-09-25 14:20:50
+                [background-preinit]
+                [trace_id=,span_id=]
+                INFO 
+                o.h.validator.internal.util.Version
+                | HV000001: Hibernate Validator 8.0.3.Final
+2026-09-25 14:20:50
+                [main]
+                [trace_id=,span_id=]
+                INFO 
+                com.vtc.logging.LoggingApplication
+                | Starting LoggingApplication using Java 17.0.12 with PID 18176 (C:\Users\Tranaf\Downloads\logging-site\logging-site\logging-be\target\classes started by Tranaf in C:\Users\Tranaf\Downloads\logging-site\logging-site\logging-be)
+2026-09-25 14:20:50
+                [main]
+                [trace_id=,span_id=]
+                INFO 
+                com.vtc.logging.LoggingApplication
+                | No active profile set, falling back to 1 default profile: "default"
+2026-09-25 14:20:52
+                [main]
+                [trace_id=,span_id=]
+                INFO 
+                o.s.d.r.c.RepositoryConfigurationDelegate
+                | Multiple Spring Data modules found, entering strict repository configuration mode
+2026-09-25 14:20:52
+                [main]
+                [trace_id=,span_id=]
+                INFO 
+                o.s.d.r.c.RepositoryConfigurationDelegate
+                | Bootstrapping Spring Data JDBC repositories in DEFAULT mode.
+2026-09-25 14:20:52
+                [main]
+                [trace_id=,span_id=]
+                INFO 
+                o.s.d.r.c.RepositoryConfigurationExtensionSupport
+                | Spring Data JDBC - Could not safely identify store assignment for repository candidate interface com.vtc.logging.repository.GameRepository; If you want this repository to be a JDBC repository, consider annotating your entities with one of these annotations: org.springframework.data.relational.core.mapping.Table.
+2026-09-25 14:20:52
+                [main]
+                [trace_id=,span_id=]
+                INFO 
+                o.s.d.r.c.RepositoryConfigurationExtensionSupport
+                | Spring Data JDBC - Could not safely identify store assignment for repository candidate interface com.vtc.logging.repository.UserRepository; If you want this repository to be a JDBC repository, consider annotating your entities with one of these annotations: org.springframework.data.relational.core.mapping.Table.
+2026-09-25 14:20:52
+                [main]
+                [trace_id=,span_id=]
+                INFO 
+                o.s.d.r.c.RepositoryConfigurationDelegate
+                | Finished Spring Data repository scanning in 46 ms. Found 0 JDBC repository interfaces.
+2026-09-25 14:20:52
+                [main]
+                [trace_id=,span_id=]
+                INFO 
+                o.s.d.r.c.RepositoryConfigurationDelegate
+                | Multiple Spring Data modules found, entering strict repository configuration mode
+2026-09-25 14:20:52
+                [main]
+                [trace_id=,span_id=]
+                INFO 
+                o.s.d.r.c.RepositoryConfigurationDelegate
+                | Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2026-09-25 14:20:52
+                [main]
+                [trace_id=,span_id=]
+                INFO 
+                o.s.d.r.c.RepositoryConfigurationDelegate
+                | Finished Spring Data repository scanning in 40 ms. Found 2 JPA repository interfaces.
+2026-09-25 14:20:53
+                [main]
+                [trace_id=,span_id=]
+                INFO 
+                o.s.b.w.e.tomcat.TomcatWebServer
+                | Tomcat initialized with port 8081 (http)
+2026-09-25 14:20:53
+                [main]
+                [trace_id=,span_id=]
+                INFO 
+                o.a.coyote.http11.Http11NioProtocol
+                | Initializing ProtocolHandler ["http-nio-8081"]
+2026-09-25 14:20:53
+                [main]
+                [trace_id=,span_id=]
+                INFO 
+                o.a.catalina.core.StandardService
+                | Starting service [Tomcat]
+2026-09-25 14:20:53
+                [main]
+                [trace_id=,span_id=]
+                INFO 
+                o.a.catalina.core.StandardEngine
+                | Starting Servlet engine: [Apache Tomcat/10.1.52]
+2026-09-25 14:20:53
+                [main]
+                [trace_id=,span_id=]
+                INFO 
+                o.a.c.c.C.[Tomcat].[localhost].[/]
+                | Initializing Spring embedded WebApplicationContext
+2026-09-25 14:20:53
+                [main]
+                [trace_id=,span_id=]
+                INFO 
+                o.s.b.w.s.c.ServletWebServerApplicationContext
+                | Root WebApplicationContext: initialization completed in 2669 ms
+2026-09-25 14:20:54
+                [main]
+                [trace_id=,span_id=]
+                INFO 
+                o.h.jpa.internal.util.LogHelper
+                | HHH000204: Processing PersistenceUnitInfo [name: default]
+2026-09-25 14:20:54
+                [main]
+                [trace_id=,span_id=]
+                INFO 
+                org.hibernate.Version
+                | HHH000412: Hibernate ORM core version 6.6.42.Final
+2026-09-25 14:20:54
+                [main]
+                [trace_id=,span_id=]
+                INFO 
+                o.h.c.i.RegionFactoryInitiator
+                | HHH000026: Second-level cache disabled
+2026-09-25 14:20:54
+                [main]
+                [trace_id=,span_id=]
+                INFO 
+                o.s.o.j.p.SpringPersistenceUnitInfo
+                | No LoadTimeWeaver setup: ignoring JPA class transformer
+2026-09-25 14:20:54
+                [main]
+                [trace_id=,span_id=]
+                INFO 
+                com.zaxxer.hikari.HikariDataSource
+                | HikariPool-1 - Starting...
+2026-09-25 14:20:55
+                [main]
+                [trace_id=,span_id=]
+                INFO 
+                com.zaxxer.hikari.pool.HikariPool
+                | HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@2586e878
+2026-09-25 14:20:55
+                [main]
+                [trace_id=,span_id=]
+                INFO 
+                com.zaxxer.hikari.HikariDataSource
+                | HikariPool-1 - Start completed.
+2026-09-25 14:20:55
+                [main]
+                [trace_id=,span_id=]
+                INFO 
+                o.hibernate.orm.connections.pooling
+                | HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-1)']
+	Database driver: undefined/unknown
+	Database version: 8.0.32
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2026-09-25 14:20:56
+                [main]
+                [trace_id=,span_id=]
+                INFO 
+                o.h.e.t.j.p.i.JtaPlatformInitiator
+                | HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2026-09-25 14:20:56
+                [main]
+                [trace_id=,span_id=]
+                INFO 
+                o.s.o.j.LocalContainerEntityManagerFactoryBean
+                | Initialized JPA EntityManagerFactory for persistence unit 'default'
+2026-09-25 14:20:57
+                [main]
+                [trace_id=,span_id=]
+                INFO 
+                o.s.s.c.a.a.c.InitializeAuthenticationProviderBeanManagerConfigurer$InitializeAuthenticationProviderManagerConfigurer
+                | Global AuthenticationManager configured with AuthenticationProvider bean with name authenticationProvider
+2026-09-25 14:20:57
+                [main]
+                [trace_id=,span_id=]
+                WARN 
+                o.s.s.c.a.a.c.InitializeUserDetailsBeanManagerConfigurer$InitializeUserDetailsManagerConfigurer
+                | Global AuthenticationManager configured with an AuthenticationProvider bean. UserDetailsService beans will not be used by Spring Security for automatically configuring username/password login. Consider removing the AuthenticationProvider bean. Alternatively, consider using the UserDetailsService in a manually instantiated DaoAuthenticationProvider. If the current configuration is intentional, to turn off this warning, increase the logging level of 'org.springframework.security.config.annotation.authentication.configuration.InitializeUserDetailsBeanManagerConfigurer' to ERROR
+2026-09-25 14:20:58
+                [main]
+                [trace_id=,span_id=]
+                INFO 
+                o.s.b.a.e.web.EndpointLinksResolver
+                | Exposing 2 endpoints beneath base path '/actuator'
+2026-09-25 14:21:00
+                [main]
+                [trace_id=,span_id=]
+                INFO 
+                o.a.coyote.http11.Http11NioProtocol
+                | Starting ProtocolHandler ["http-nio-8081"]
+2026-09-25 14:21:00
+                [main]
+                [trace_id=,span_id=]
+                INFO 
+                o.s.b.w.e.tomcat.TomcatWebServer
+                | Tomcat started on port 8081 (http) with context path '/'
+2026-09-25 14:21:00
+                [main]
+                [trace_id=,span_id=]
+                INFO 
+                com.vtc.logging.LoggingApplication
+                | Started LoggingApplication in 10.723 seconds (process running for 12.521)
+2026-09-25 14:23:31
+                [http-nio-8081-exec-1]
+                [trace_id=,span_id=]
+                INFO 
+                o.a.c.c.C.[Tomcat].[localhost].[/]
+                | Initializing Spring DispatcherServlet 'dispatcherServlet'
+2026-09-25 14:23:31
+                [http-nio-8081-exec-1]
+                [trace_id=,span_id=]
+                INFO 
+                o.s.web.servlet.DispatcherServlet
+                | Initializing Servlet 'dispatcherServlet'
+2026-09-25 14:23:31
+                [http-nio-8081-exec-1]
+                [trace_id=,span_id=]
+                INFO 
+                o.s.web.servlet.DispatcherServlet
+                | Completed initialization in 1 ms
+2026-09-25 14:24:01
+                [SpringApplicationShutdownHook]
+                [trace_id=,span_id=]
+                INFO 
+                o.s.b.w.e.tomcat.GracefulShutdown
+                | Commencing graceful shutdown. Waiting for active requests to complete
+2026-09-25 14:24:01
+                [tomcat-shutdown]
+                [trace_id=,span_id=]
+                INFO 
+                o.s.b.w.e.tomcat.GracefulShutdown
+                | Graceful shutdown complete
+2026-09-25 14:24:01
+                [SpringApplicationShutdownHook]
+                [trace_id=,span_id=]
+                INFO 
+                o.s.o.j.LocalContainerEntityManagerFactoryBean
+                | Closing JPA EntityManagerFactory for persistence unit 'default'
+2026-09-25 14:24:01
+                [SpringApplicationShutdownHook]
+                [trace_id=,span_id=]
+                INFO 
+                com.zaxxer.hikari.HikariDataSource
+                | HikariPool-1 - Shutdown initiated...
+2026-09-25 14:24:01
+                [SpringApplicationShutdownHook]
+                [trace_id=,span_id=]
+                INFO 
+                com.zaxxer.hikari.HikariDataSource
+                | HikariPool-1 - Shutdown completed.
+2026-09-25 14:24:11
+                [background-preinit]
+                [trace_id=,span_id=]
+                INFO 
+                o.h.validator.internal.util.Version
+                | HV000001: Hibernate Validator 8.0.3.Final
+2026-09-25 14:24:11
+                [main]
+                [trace_id=,span_id=]
+                INFO 
+                com.vtc.logging.LoggingApplication
+                | Starting LoggingApplication using Java 17.0.12 with PID 8348 (C:\Users\Tranaf\Downloads\logging-site\logging-site\logging-be\target\classes started by Tranaf in C:\Users\Tranaf\Downloads\logging-site\logging-site\logging-be)
+2026-09-25 14:24:11
+                [main]
+                [trace_id=,span_id=]
+                INFO 
+                com.vtc.logging.LoggingApplication
+                | No active profile set, falling back to 1 default profile: "default"
+2026-09-25 14:24:13
+                [main]
+                [trace_id=,span_id=]
+                INFO 
+                o.s.d.r.c.RepositoryConfigurationDelegate
+                | Multiple Spring Data modules found, entering strict repository configuration mode
+2026-09-25 14:24:13
+                [main]
+                [trace_id=,span_id=]
+                INFO 
+                o.s.d.r.c.RepositoryConfigurationDelegate
+                | Bootstrapping Spring Data JDBC repositories in DEFAULT mode.
+2026-09-25 14:24:13
+                [main]
+                [trace_id=,span_id=]
+                INFO 
+                o.s.d.r.c.RepositoryConfigurationExtensionSupport
+                | Spring Data JDBC - Could not safely identify store assignment for repository candidate interface com.vtc.logging.repository.GameRepository; If you want this repository to be a JDBC repository, consider annotating your entities with one of these annotations: org.springframework.data.relational.core.mapping.Table.
+2026-09-25 14:24:13
+                [main]
+                [trace_id=,span_id=]
+                INFO 
+                o.s.d.r.c.RepositoryConfigurationExtensionSupport
+                | Spring Data JDBC - Could not safely identify store assignment for repository candidate interface com.vtc.logging.repository.UserRepository; If you want this repository to be a JDBC repository, consider annotating your entities with one of these annotations: org.springframework.data.relational.core.mapping.Table.
+2026-09-25 14:24:13
+                [main]
+                [trace_id=,span_id=]
+                INFO 
+                o.s.d.r.c.RepositoryConfigurationDelegate
+                | Finished Spring Data repository scanning in 31 ms. Found 0 JDBC repository interfaces.
+2026-09-25 14:24:13
+                [main]
+                [trace_id=,span_id=]
+                INFO 
+                o.s.d.r.c.RepositoryConfigurationDelegate
+                | Multiple Spring Data modules found, entering strict repository configuration mode
+2026-09-25 14:24:13
+                [main]
+                [trace_id=,span_id=]
+                INFO 
+                o.s.d.r.c.RepositoryConfigurationDelegate
+                | Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2026-09-25 14:24:13
+                [main]
+                [trace_id=,span_id=]
+                INFO 
+                o.s.d.r.c.RepositoryConfigurationDelegate
+                | Finished Spring Data repository scanning in 30 ms. Found 2 JPA repository interfaces.
+2026-09-25 14:24:13
+                [main]
+                [trace_id=,span_id=]
+                INFO 
+                o.s.b.w.e.tomcat.TomcatWebServer
+                | Tomcat initialized with port 8081 (http)
+2026-09-25 14:24:13
+                [main]
+                [trace_id=,span_id=]
+                INFO 
+                o.a.coyote.http11.Http11NioProtocol
+                | Initializing ProtocolHandler ["http-nio-8081"]
+2026-09-25 14:24:13
+                [main]
+                [trace_id=,span_id=]
+                INFO 
+                o.a.catalina.core.StandardService
+                | Starting service [Tomcat]
+2026-09-25 14:24:13
+                [main]
+                [trace_id=,span_id=]
+                INFO 
+                o.a.catalina.core.StandardEngine
+                | Starting Servlet engine: [Apache Tomcat/10.1.52]
+2026-09-25 14:24:13
+                [main]
+                [trace_id=,span_id=]
+                INFO 
+                o.a.c.c.C.[Tomcat].[localhost].[/]
+                | Initializing Spring embedded WebApplicationContext
+2026-09-25 14:24:13
+                [main]
+                [trace_id=,span_id=]
+                INFO 
+                o.s.b.w.s.c.ServletWebServerApplicationContext
+                | Root WebApplicationContext: initialization completed in 2260 ms
+2026-09-25 14:24:14
+                [main]
+                [trace_id=,span_id=]
+                INFO 
+                o.h.jpa.internal.util.LogHelper
+                | HHH000204: Processing PersistenceUnitInfo [name: default]
+2026-09-25 14:24:14
+                [main]
+                [trace_id=,span_id=]
+                INFO 
+                org.hibernate.Version
+                | HHH000412: Hibernate ORM core version 6.6.42.Final
+2026-09-25 14:24:14
+                [main]
+                [trace_id=,span_id=]
+                INFO 
+                o.h.c.i.RegionFactoryInitiator
+                | HHH000026: Second-level cache disabled
+2026-09-25 14:24:14
+                [main]
+                [trace_id=,span_id=]
+                INFO 
+                o.s.o.j.p.SpringPersistenceUnitInfo
+                | No LoadTimeWeaver setup: ignoring JPA class transformer
+2026-09-25 14:24:14
+                [main]
+                [trace_id=,span_id=]
+                INFO 
+                com.zaxxer.hikari.HikariDataSource
+                | HikariPool-1 - Starting...
+2026-09-25 14:24:15
+                [main]
+                [trace_id=,span_id=]
+                INFO 
+                com.zaxxer.hikari.pool.HikariPool
+                | HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@3340ce58
+2026-09-25 14:24:15
+                [main]
+                [trace_id=,span_id=]
+                INFO 
+                com.zaxxer.hikari.HikariDataSource
+                | HikariPool-1 - Start completed.
+2026-09-25 14:24:15
+                [main]
+                [trace_id=,span_id=]
+                INFO 
+                o.hibernate.orm.connections.pooling
+                | HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-1)']
+	Database driver: undefined/unknown
+	Database version: 8.0.32
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2026-09-25 14:24:16
+                [main]
+                [trace_id=,span_id=]
+                INFO 
+                o.h.e.t.j.p.i.JtaPlatformInitiator
+                | HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2026-09-25 14:24:16
+                [main]
+                [trace_id=,span_id=]
+                INFO 
+                o.s.o.j.LocalContainerEntityManagerFactoryBean
+                | Initialized JPA EntityManagerFactory for persistence unit 'default'
+2026-09-25 14:24:16
+                [main]
+                [trace_id=,span_id=]
+                INFO 
+                o.s.s.c.a.a.c.InitializeAuthenticationProviderBeanManagerConfigurer$InitializeAuthenticationProviderManagerConfigurer
+                | Global AuthenticationManager configured with AuthenticationProvider bean with name authenticationProvider
+2026-09-25 14:24:16
+                [main]
+                [trace_id=,span_id=]
+                WARN 
+                o.s.s.c.a.a.c.InitializeUserDetailsBeanManagerConfigurer$InitializeUserDetailsManagerConfigurer
+                | Global AuthenticationManager configured with an AuthenticationProvider bean. UserDetailsService beans will not be used by Spring Security for automatically configuring username/password login. Consider removing the AuthenticationProvider bean. Alternatively, consider using the UserDetailsService in a manually instantiated DaoAuthenticationProvider. If the current configuration is intentional, to turn off this warning, increase the logging level of 'org.springframework.security.config.annotation.authentication.configuration.InitializeUserDetailsBeanManagerConfigurer' to ERROR
+2026-09-25 14:24:17
+                [main]
+                [trace_id=,span_id=]
+                INFO 
+                o.s.b.a.e.web.EndpointLinksResolver
+                | Exposing 2 endpoints beneath base path '/actuator'
+2026-09-25 14:24:17
+                [main]
+                [trace_id=,span_id=]
+                INFO 
+                o.a.coyote.http11.Http11NioProtocol
+                | Starting ProtocolHandler ["http-nio-8081"]
+2026-09-25 14:24:17
+                [main]
+                [trace_id=,span_id=]
+                INFO 
+                o.s.b.w.e.tomcat.TomcatWebServer
+                | Tomcat started on port 8081 (http) with context path '/'
+2026-09-25 14:24:17
+                [main]
+                [trace_id=,span_id=]
+                INFO 
+                com.vtc.logging.LoggingApplication
+                | Started LoggingApplication in 7.117 seconds (process running for 8.856)
+2026-09-25 14:28:01
+                [http-nio-8081-exec-1]
+                [trace_id=,span_id=]
+                INFO 
+                o.a.c.c.C.[Tomcat].[localhost].[/]
+                | Initializing Spring DispatcherServlet 'dispatcherServlet'
+2026-09-25 14:28:01
+                [http-nio-8081-exec-1]
+                [trace_id=,span_id=]
+                INFO 
+                o.s.web.servlet.DispatcherServlet
+                | Initializing Servlet 'dispatcherServlet'
+2026-09-25 14:28:01
+                [http-nio-8081-exec-1]
+                [trace_id=,span_id=]
+                INFO 
+                o.s.web.servlet.DispatcherServlet
+                | Completed initialization in 2 ms
+2026-09-25 14:30:47
+                [SpringApplicationShutdownHook]
+                [trace_id=,span_id=]
+                INFO 
+                o.s.b.w.e.tomcat.GracefulShutdown
+                | Commencing graceful shutdown. Waiting for active requests to complete
+2026-09-25 14:30:47
+                [tomcat-shutdown]
+                [trace_id=,span_id=]
+                INFO 
+                o.s.b.w.e.tomcat.GracefulShutdown
+                | Graceful shutdown complete
+2026-09-25 14:30:47
+                [SpringApplicationShutdownHook]
+                [trace_id=,span_id=]
+                INFO 
+                o.s.o.j.LocalContainerEntityManagerFactoryBean
+                | Closing JPA EntityManagerFactory for persistence unit 'default'
+2026-09-25 14:30:47
+                [SpringApplicationShutdownHook]
+                [trace_id=,span_id=]
+                INFO 
+                com.zaxxer.hikari.HikariDataSource
+                | HikariPool-1 - Shutdown initiated...
+2026-09-25 14:30:47
+                [SpringApplicationShutdownHook]
+                [trace_id=,span_id=]
+                INFO 
+                com.zaxxer.hikari.HikariDataSource
+                | HikariPool-1 - Shutdown completed.
+2026-09-25 14:30:56
+                [background-preinit]
+                [trace_id=,span_id=]
+                INFO 
+                o.h.validator.internal.util.Version
+                | HV000001: Hibernate Validator 8.0.3.Final
+2026-09-25 14:30:56
+                [main]
+                [trace_id=,span_id=]
+                INFO 
+                com.vtc.logging.LoggingApplication
+                | Starting LoggingApplication using Java 17.0.12 with PID 18608 (C:\Users\Tranaf\Downloads\logging-site\logging-site\logging-be\target\classes started by Tranaf in C:\Users\Tranaf\Downloads\logging-site\logging-site\logging-be)
+2026-09-25 14:30:56
+                [main]
+                [trace_id=,span_id=]
+                INFO 
+                com.vtc.logging.LoggingApplication
+                | No active profile set, falling back to 1 default profile: "default"
+2026-09-25 14:30:57
+                [main]
+                [trace_id=,span_id=]
+                INFO 
+                o.s.d.r.c.RepositoryConfigurationDelegate
+                | Multiple Spring Data modules found, entering strict repository configuration mode
+2026-09-25 14:30:57
+                [main]
+                [trace_id=,span_id=]
+                INFO 
+                o.s.d.r.c.RepositoryConfigurationDelegate
+                | Bootstrapping Spring Data JDBC repositories in DEFAULT mode.
+2026-09-25 14:30:58
+                [main]
+                [trace_id=,span_id=]
+                INFO 
+                o.s.d.r.c.RepositoryConfigurationExtensionSupport
+                | Spring Data JDBC - Could not safely identify store assignment for repository candidate interface com.vtc.logging.repository.GameRepository; If you want this repository to be a JDBC repository, consider annotating your entities with one of these annotations: org.springframework.data.relational.core.mapping.Table.
+2026-09-25 14:30:58
+                [main]
+                [trace_id=,span_id=]
+                INFO 
+                o.s.d.r.c.RepositoryConfigurationExtensionSupport
+                | Spring Data JDBC - Could not safely identify store assignment for repository candidate interface com.vtc.logging.repository.UserRepository; If you want this repository to be a JDBC repository, consider annotating your entities with one of these annotations: org.springframework.data.relational.core.mapping.Table.
+2026-09-25 14:30:58
+                [main]
+                [trace_id=,span_id=]
+                INFO 
+                o.s.d.r.c.RepositoryConfigurationDelegate
+                | Finished Spring Data repository scanning in 31 ms. Found 0 JDBC repository interfaces.
+2026-09-25 14:30:58
+                [main]
+                [trace_id=,span_id=]
+                INFO 
+                o.s.d.r.c.RepositoryConfigurationDelegate
+                | Multiple Spring Data modules found, entering strict repository configuration mode
+2026-09-25 14:30:58
+                [main]
+                [trace_id=,span_id=]
+                INFO 
+                o.s.d.r.c.RepositoryConfigurationDelegate
+                | Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2026-09-25 14:30:58
+                [main]
+                [trace_id=,span_id=]
+                INFO 
+                o.s.d.r.c.RepositoryConfigurationDelegate
+                | Finished Spring Data repository scanning in 26 ms. Found 2 JPA repository interfaces.
+2026-09-25 14:30:58
+                [main]
+                [trace_id=,span_id=]
+                INFO 
+                o.s.b.w.e.tomcat.TomcatWebServer
+                | Tomcat initialized with port 8081 (http)
+2026-09-25 14:30:58
+                [main]
+                [trace_id=,span_id=]
+                INFO 
+                o.a.coyote.http11.Http11NioProtocol
+                | Initializing ProtocolHandler ["http-nio-8081"]
+2026-09-25 14:30:58
+                [main]
+                [trace_id=,span_id=]
+                INFO 
+                o.a.catalina.core.StandardService
+                | Starting service [Tomcat]
+2026-09-25 14:30:58
+                [main]
+                [trace_id=,span_id=]
+                INFO 
+                o.a.catalina.core.StandardEngine
+                | Starting Servlet engine: [Apache Tomcat/10.1.52]
+2026-09-25 14:30:58
+                [main]
+                [trace_id=,span_id=]
+                INFO 
+                o.a.c.c.C.[Tomcat].[localhost].[/]
+                | Initializing Spring embedded WebApplicationContext
+2026-09-25 14:30:58
+                [main]
+                [trace_id=,span_id=]
+                INFO 
+                o.s.b.w.s.c.ServletWebServerApplicationContext
+                | Root WebApplicationContext: initialization completed in 2154 ms
+2026-09-25 14:30:59
+                [main]
+                [trace_id=,span_id=]
+                INFO 
+                o.h.jpa.internal.util.LogHelper
+                | HHH000204: Processing PersistenceUnitInfo [name: default]
+2026-09-25 14:30:59
+                [main]
+                [trace_id=,span_id=]
+                INFO 
+                org.hibernate.Version
+                | HHH000412: Hibernate ORM core version 6.6.42.Final
+2026-09-25 14:30:59
+                [main]
+                [trace_id=,span_id=]
+                INFO 
+                o.h.c.i.RegionFactoryInitiator
+                | HHH000026: Second-level cache disabled
+2026-09-25 14:30:59
+                [main]
+                [trace_id=,span_id=]
+                INFO 
+                o.s.o.j.p.SpringPersistenceUnitInfo
+                | No LoadTimeWeaver setup: ignoring JPA class transformer
+2026-09-25 14:30:59
+                [main]
+                [trace_id=,span_id=]
+                INFO 
+                com.zaxxer.hikari.HikariDataSource
+                | HikariPool-1 - Starting...
+2026-09-25 14:31:00
+                [main]
+                [trace_id=,span_id=]
+                INFO 
+                com.zaxxer.hikari.pool.HikariPool
+                | HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@5f803481
+2026-09-25 14:31:00
+                [main]
+                [trace_id=,span_id=]
+                INFO 
+                com.zaxxer.hikari.HikariDataSource
+                | HikariPool-1 - Start completed.
+2026-09-25 14:31:00
+                [main]
+                [trace_id=,span_id=]
+                INFO 
+                o.hibernate.orm.connections.pooling
+                | HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-1)']
+	Database driver: undefined/unknown
+	Database version: 8.0.32
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2026-09-25 14:31:01
+                [main]
+                [trace_id=,span_id=]
+                INFO 
+                o.h.e.t.j.p.i.JtaPlatformInitiator
+                | HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2026-09-25 14:31:01
+                [main]
+                [trace_id=,span_id=]
+                INFO 
+                o.s.o.j.LocalContainerEntityManagerFactoryBean
+                | Initialized JPA EntityManagerFactory for persistence unit 'default'
+2026-09-25 14:31:01
+                [main]
+                [trace_id=,span_id=]
+                INFO 
+                o.s.s.c.a.a.c.InitializeAuthenticationProviderBeanManagerConfigurer$InitializeAuthenticationProviderManagerConfigurer
+                | Global AuthenticationManager configured with AuthenticationProvider bean with name authenticationProvider
+2026-09-25 14:31:01
+                [main]
+                [trace_id=,span_id=]
+                WARN 
+                o.s.s.c.a.a.c.InitializeUserDetailsBeanManagerConfigurer$InitializeUserDetailsManagerConfigurer
+                | Global AuthenticationManager configured with an AuthenticationProvider bean. UserDetailsService beans will not be used by Spring Security for automatically configuring username/password login. Consider removing the AuthenticationProvider bean. Alternatively, consider using the UserDetailsService in a manually instantiated DaoAuthenticationProvider. If the current configuration is intentional, to turn off this warning, increase the logging level of 'org.springframework.security.config.annotation.authentication.configuration.InitializeUserDetailsBeanManagerConfigurer' to ERROR
+2026-09-25 14:31:02
+                [main]
+                [trace_id=,span_id=]
+                INFO 
+                o.s.b.a.e.web.EndpointLinksResolver
+                | Exposing 2 endpoints beneath base path '/actuator'
+2026-09-25 14:31:03
+                [main]
+                [trace_id=,span_id=]
+                INFO 
+                o.a.coyote.http11.Http11NioProtocol
+                | Starting ProtocolHandler ["http-nio-8081"]
+2026-09-25 14:31:03
+                [main]
+                [trace_id=,span_id=]
+                INFO 
+                o.s.b.w.e.tomcat.TomcatWebServer
+                | Tomcat started on port 8081 (http) with context path '/'
+2026-09-25 14:31:03
+                [main]
+                [trace_id=,span_id=]
+                INFO 
+                com.vtc.logging.LoggingApplication
+                | Started LoggingApplication in 7.435 seconds (process running for 9.013)
+2026-09-25 14:37:29
+                [http-nio-8081-exec-1]
+                [trace_id=,span_id=]
+                INFO 
+                o.a.c.c.C.[Tomcat].[localhost].[/]
+                | Initializing Spring DispatcherServlet 'dispatcherServlet'
+2026-09-25 14:37:29
+                [http-nio-8081-exec-1]
+                [trace_id=,span_id=]
+                INFO 
+                o.s.web.servlet.DispatcherServlet
+                | Initializing Servlet 'dispatcherServlet'
+2026-09-25 14:37:29
+                [http-nio-8081-exec-1]
+                [trace_id=,span_id=]
+                INFO 
+                o.s.web.servlet.DispatcherServlet
+                | Completed initialization in 1 ms
+2026-09-25 14:37:29
+                [http-nio-8081-exec-2]
+                [trace_id=,span_id=]
+                INFO 
+                c.v.l.c.RequestLoggingInterceptor
+                | Incoming request: POST /auth/login
+2026-09-25 14:37:29
+                [http-nio-8081-exec-2]
+                [trace_id=,span_id=]
+                INFO 
+                c.v.l.c.RequestLoggingInterceptor
+                | Completed request: POST /auth/login -> 200 (343 ms)
+2026-09-25 14:38:39
+                [http-nio-8081-exec-6]
+                [trace_id=,span_id=]
+                INFO 
+                c.v.l.c.RequestLoggingInterceptor
+                | Incoming request: POST /auth/login
+2026-09-25 14:38:39
+                [http-nio-8081-exec-6]
+                [trace_id=,span_id=]
+                INFO 
+                c.v.l.c.RequestLoggingInterceptor
+                | Completed request: POST /auth/login -> 200 (104 ms)
+2026-09-25 14:39:05
+                [http-nio-8081-exec-5]
+                [trace_id=,span_id=]
+                INFO 
+                c.v.l.c.RequestLoggingInterceptor
+                | Incoming request: POST /auth/login
+2026-09-25 14:39:05
+                [http-nio-8081-exec-5]
+                [trace_id=,span_id=]
+                INFO 
+                c.v.l.c.RequestLoggingInterceptor
+                | Completed request: POST /auth/login -> 200 (105 ms)
+2026-09-25 14:42:45
+                [http-nio-8081-exec-10]
+                [trace_id=,span_id=]
+                INFO 
+                c.v.l.c.RequestLoggingInterceptor
+                | Incoming request: GET /games
+2026-09-25 14:42:45
+                [http-nio-8081-exec-10]
+                [trace_id=,span_id=]
+                INFO 
+                com.vtc.logging.service.GameService
+                | Filtering games with platform=null status=null
+2026-09-25 14:42:45
+                [http-nio-8081-exec-10]
+                [trace_id=,span_id=]
+                INFO 
+                com.vtc.logging.service.GameService
+                | Found 6 games
+2026-09-25 14:42:45
+                [http-nio-8081-exec-10]
+                [trace_id=,span_id=]
+                INFO 
+                c.v.l.c.RequestLoggingInterceptor
+                | Completed request: GET /games -> 200 (22 ms)
+2026-09-25 14:42:47
+                [http-nio-8081-exec-1]
+                [trace_id=,span_id=]
+                INFO 
+                c.v.l.c.RequestLoggingInterceptor
+                | Incoming request: GET /games
+2026-09-25 14:42:47
+                [http-nio-8081-exec-1]
+                [trace_id=,span_id=]
+                INFO 
+                com.vtc.logging.service.GameService
+                | Filtering games with platform=null status=null
+2026-09-25 14:42:47
+                [http-nio-8081-exec-1]
+                [trace_id=,span_id=]
+                INFO 
+                com.vtc.logging.service.GameService
+                | Found 6 games
+2026-09-25 14:42:47
+                [http-nio-8081-exec-1]
+                [trace_id=,span_id=]
+                INFO 
+                c.v.l.c.RequestLoggingInterceptor
+                | Completed request: GET /games -> 200 (9 ms)
+2026-09-25 14:42:49
+                [http-nio-8081-exec-2]
+                [trace_id=,span_id=]
+                INFO 
+                c.v.l.c.RequestLoggingInterceptor
+                | Incoming request: GET /games
+2026-09-25 14:42:50
+                [http-nio-8081-exec-2]
+                [trace_id=,span_id=]
+                INFO 
+                com.vtc.logging.service.GameService
+                | Filtering games with platform=null status=null
+2026-09-25 14:42:50
+                [http-nio-8081-exec-2]
+                [trace_id=,span_id=]
+                INFO 
+                com.vtc.logging.service.GameService
+                | Found 6 games
+2026-09-25 14:42:50
+                [http-nio-8081-exec-2]
+                [trace_id=,span_id=]
+                INFO 
+                c.v.l.c.RequestLoggingInterceptor
+                | Completed request: GET /games -> 200 (9 ms)
+2026-09-25 14:42:52
+                [http-nio-8081-exec-4]
+                [trace_id=,span_id=]
+                INFO 
+                c.v.l.c.RequestLoggingInterceptor
+                | Incoming request: GET /games
+2026-09-25 14:42:52
+                [http-nio-8081-exec-4]
+                [trace_id=,span_id=]
+                INFO 
+                com.vtc.logging.service.GameService
+                | Filtering games with platform=null status=null
+2026-09-25 14:42:52
+                [http-nio-8081-exec-4]
+                [trace_id=,span_id=]
+                INFO 
+                com.vtc.logging.service.GameService
+                | Found 6 games
+2026-09-25 14:42:52
+                [http-nio-8081-exec-4]
+                [trace_id=,span_id=]
+                INFO 
+                c.v.l.c.RequestLoggingInterceptor
+                | Completed request: GET /games -> 200 (6 ms)
+2026-09-25 15:15:01
+                [http-nio-8081-exec-5]
+                [trace_id=,span_id=]
+                INFO 
+                c.v.l.c.RequestLoggingInterceptor
+                | Incoming request: POST /auth/login
+2026-09-25 15:15:01
+                [http-nio-8081-exec-5]
+                [trace_id=,span_id=]
+                INFO 
+                c.v.l.c.RequestLoggingInterceptor
+                | Completed request: POST /auth/login -> 200 (106 ms)
+2026-09-25 15:15:01
+                [http-nio-8081-exec-9]
+                [trace_id=,span_id=]
+                INFO 
+                c.v.l.c.RequestLoggingInterceptor
+                | Incoming request: GET /games
+2026-09-25 15:15:01
+                [http-nio-8081-exec-9]
+                [trace_id=,span_id=]
+                INFO 
+                com.vtc.logging.service.GameService
+                | Filtering games with platform=null status=null
+2026-09-25 15:15:01
+                [http-nio-8081-exec-9]
+                [trace_id=,span_id=]
+                INFO 
+                com.vtc.logging.service.GameService
+                | Found 6 games
+2026-09-25 15:15:01
+                [http-nio-8081-exec-9]
+                [trace_id=,span_id=]
+                INFO 
+                c.v.l.c.RequestLoggingInterceptor
+                | Completed request: GET /games -> 200 (6 ms)
+2026-09-25 15:15:08
+                [http-nio-8081-exec-1]
+                [trace_id=,span_id=]
+                INFO 
+                c.v.l.c.RequestLoggingInterceptor
+                | Incoming request: GET /games
+2026-09-25 15:15:08
+                [http-nio-8081-exec-1]
+                [trace_id=,span_id=]
+                INFO 
+                com.vtc.logging.service.GameService
+                | Filtering games with platform=null status=null
+2026-09-25 15:15:09
+                [http-nio-8081-exec-1]
+                [trace_id=,span_id=]
+                INFO 
+                com.vtc.logging.service.GameService
+                | Found 6 games
+2026-09-25 15:15:09
+                [http-nio-8081-exec-1]
+                [trace_id=,span_id=]
+                INFO 
+                c.v.l.c.RequestLoggingInterceptor
+                | Completed request: GET /games -> 200 (9 ms)
+2026-09-25 15:15:28
+                [http-nio-8081-exec-3]
+                [trace_id=,span_id=]
+                INFO 
+                c.v.l.c.RequestLoggingInterceptor
+                | Incoming request: POST /games
+2026-09-25 15:15:28
+                [http-nio-8081-exec-3]
+                [trace_id=,span_id=]
+                INFO 
+                com.vtc.logging.service.GameService
+                | Adding new game: name=Test Admin, platform=PC, status=ONGOING
+2026-09-25 15:15:28
+                [http-nio-8081-exec-3]
+                [trace_id=,span_id=]
+                INFO 
+                com.vtc.logging.service.GameService
+                | Game created successfully with id=16
+2026-09-25 15:15:28
+                [http-nio-8081-exec-3]
+                [trace_id=,span_id=]
+                INFO 
+                c.v.l.c.RequestLoggingInterceptor
+                | Completed request: POST /games -> 200 (40 ms)
+2026-09-25 15:15:28
+                [http-nio-8081-exec-6]
+                [trace_id=,span_id=]
+                INFO 
+                c.v.l.c.RequestLoggingInterceptor
+                | Incoming request: GET /games
+2026-09-25 15:15:28
+                [http-nio-8081-exec-6]
+                [trace_id=,span_id=]
+                INFO 
+                com.vtc.logging.service.GameService
+                | Filtering games with platform=null status=null
+2026-09-25 15:15:28
+                [http-nio-8081-exec-6]
+                [trace_id=,span_id=]
+                INFO 
+                com.vtc.logging.service.GameService
+                | Found 7 games
+2026-09-25 15:15:28
+                [http-nio-8081-exec-6]
+                [trace_id=,span_id=]
+                INFO 
+                c.v.l.c.RequestLoggingInterceptor
+                | Completed request: GET /games -> 200 (8 ms)
+2026-09-25 15:15:39
+                [http-nio-8081-exec-5]
+                [trace_id=,span_id=]
+                INFO 
+                c.v.l.c.RequestLoggingInterceptor
+                | Incoming request: POST /auth/login
+2026-09-25 15:15:39
+                [http-nio-8081-exec-5]
+                [trace_id=,span_id=]
+                INFO 
+                c.v.l.c.RequestLoggingInterceptor
+                | Completed request: POST /auth/login -> 200 (102 ms)
+2026-09-25 15:15:39
+                [http-nio-8081-exec-9]
+                [trace_id=,span_id=]
+                INFO 
+                c.v.l.c.RequestLoggingInterceptor
+                | Incoming request: GET /games
+2026-09-25 15:15:39
+                [http-nio-8081-exec-9]
+                [trace_id=,span_id=]
+                INFO 
+                com.vtc.logging.service.GameService
+                | Filtering games with platform=null status=null
+2026-09-25 15:15:39
+                [http-nio-8081-exec-9]
+                [trace_id=,span_id=]
+                INFO 
+                com.vtc.logging.service.GameService
+                | Found 7 games
+2026-09-25 15:15:39
+                [http-nio-8081-exec-9]
+                [trace_id=,span_id=]
+                INFO 
+                c.v.l.c.RequestLoggingInterceptor
+                | Completed request: GET /games -> 200 (7 ms)
+2026-09-25 15:16:07
+                [http-nio-8081-exec-2]
+                [trace_id=,span_id=]
+                INFO 
+                c.v.l.c.RequestLoggingInterceptor
+                | Incoming request: GET /games
+2026-09-25 15:16:07
+                [http-nio-8081-exec-2]
+                [trace_id=,span_id=]
+                INFO 
+                com.vtc.logging.service.GameService
+                | Filtering games with platform=null status=null
+2026-09-25 15:16:07
+                [http-nio-8081-exec-2]
+                [trace_id=,span_id=]
+                INFO 
+                com.vtc.logging.service.GameService
+                | Found 7 games
+2026-09-25 15:16:07
+                [http-nio-8081-exec-2]
+                [trace_id=,span_id=]
+                INFO 
+                c.v.l.c.RequestLoggingInterceptor
+                | Completed request: GET /games -> 200 (8 ms)
+2026-09-25 15:16:22
+                [http-nio-8081-exec-4]
+                [trace_id=,span_id=]
+                INFO 
+                c.v.l.c.RequestLoggingInterceptor
+                | Incoming request: POST /auth/login
+2026-09-25 15:16:22
+                [http-nio-8081-exec-4]
+                [trace_id=,span_id=]
+                INFO 
+                c.v.l.c.RequestLoggingInterceptor
+                | Completed request: POST /auth/login -> 200 (104 ms)
+2026-09-25 15:16:22
+                [http-nio-8081-exec-7]
+                [trace_id=,span_id=]
+                INFO 
+                c.v.l.c.RequestLoggingInterceptor
+                | Incoming request: GET /games
+2026-09-25 15:16:22
+                [http-nio-8081-exec-7]
+                [trace_id=,span_id=]
+                INFO 
+                com.vtc.logging.service.GameService
+                | Filtering games with platform=null status=null
+2026-09-25 15:16:22
+                [http-nio-8081-exec-7]
+                [trace_id=,span_id=]
+                INFO 
+                com.vtc.logging.service.GameService
+                | Found 7 games
+2026-09-25 15:16:22
+                [http-nio-8081-exec-7]
+                [trace_id=,span_id=]
+                INFO 
+                c.v.l.c.RequestLoggingInterceptor
+                | Completed request: GET /games -> 200 (6 ms)
+2026-09-25 17:34:37
+                [SpringApplicationShutdownHook]
+                [trace_id=,span_id=]
+                INFO 
+                o.s.b.w.e.tomcat.GracefulShutdown
+                | Commencing graceful shutdown. Waiting for active requests to complete
+2026-09-25 17:34:38
+                [tomcat-shutdown]
+                [trace_id=,span_id=]
+                INFO 
+                o.s.b.w.e.tomcat.GracefulShutdown
+                | Graceful shutdown complete
+2026-09-25 17:34:38
+                [SpringApplicationShutdownHook]
+                [trace_id=,span_id=]
+                INFO 
+                o.s.o.j.LocalContainerEntityManagerFactoryBean
+                | Closing JPA EntityManagerFactory for persistence unit 'default'
+2026-09-25 17:34:38
+                [SpringApplicationShutdownHook]
+                [trace_id=,span_id=]
+                INFO 
+                com.zaxxer.hikari.HikariDataSource
+                | HikariPool-1 - Shutdown initiated...
+2026-09-25 17:34:38
+                [SpringApplicationShutdownHook]
+                [trace_id=,span_id=]
+                INFO 
+                com.zaxxer.hikari.HikariDataSource
+                | HikariPool-1 - Shutdown completed.
+2026-09-28 16:04:58
+                [background-preinit]
+                [trace_id=,span_id=]
+                INFO 
+                o.h.validator.internal.util.Version
+                | HV000001: Hibernate Validator 8.0.3.Final
+2026-09-28 16:04:58
+                [main]
+                [trace_id=,span_id=]
+                INFO 
+                com.vtc.logging.LoggingApplication
+                | Starting LoggingApplication using Java 17.0.12 with PID 3388 (C:\Users\Tranaf\Downloads\logging-site\logging-site\logging-be\target\classes started by Tranaf in C:\Users\Tranaf\Downloads\logging-site\logging-site\logging-be)
+2026-09-28 16:04:58
+                [main]
+                [trace_id=,span_id=]
+                INFO 
+                com.vtc.logging.LoggingApplication
+                | No active profile set, falling back to 1 default profile: "default"
+2026-09-28 16:04:59
+                [main]
+                [trace_id=,span_id=]
+                INFO 
+                o.s.d.r.c.RepositoryConfigurationDelegate
+                | Multiple Spring Data modules found, entering strict repository configuration mode
+2026-09-28 16:04:59
+                [main]
+                [trace_id=,span_id=]
+                INFO 
+                o.s.d.r.c.RepositoryConfigurationDelegate
+                | Bootstrapping Spring Data JDBC repositories in DEFAULT mode.
+2026-09-28 16:04:59
+                [main]
+                [trace_id=,span_id=]
+                INFO 
+                o.s.d.r.c.RepositoryConfigurationExtensionSupport
+                | Spring Data JDBC - Could not safely identify store assignment for repository candidate interface com.vtc.logging.repository.GameRepository; If you want this repository to be a JDBC repository, consider annotating your entities with one of these annotations: org.springframework.data.relational.core.mapping.Table.
+2026-09-28 16:04:59
+                [main]
+                [trace_id=,span_id=]
+                INFO 
+                o.s.d.r.c.RepositoryConfigurationExtensionSupport
+                | Spring Data JDBC - Could not safely identify store assignment for repository candidate interface com.vtc.logging.repository.UserRepository; If you want this repository to be a JDBC repository, consider annotating your entities with one of these annotations: org.springframework.data.relational.core.mapping.Table.
+2026-09-28 16:04:59
+                [main]
+                [trace_id=,span_id=]
+                INFO 
+                o.s.d.r.c.RepositoryConfigurationDelegate
+                | Finished Spring Data repository scanning in 34 ms. Found 0 JDBC repository interfaces.
+2026-09-28 16:04:59
+                [main]
+                [trace_id=,span_id=]
+                INFO 
+                o.s.d.r.c.RepositoryConfigurationDelegate
+                | Multiple Spring Data modules found, entering strict repository configuration mode
+2026-09-28 16:04:59
+                [main]
+                [trace_id=,span_id=]
+                INFO 
+                o.s.d.r.c.RepositoryConfigurationDelegate
+                | Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2026-09-28 16:04:59
+                [main]
+                [trace_id=,span_id=]
+                INFO 
+                o.s.d.r.c.RepositoryConfigurationDelegate
+                | Finished Spring Data repository scanning in 35 ms. Found 2 JPA repository interfaces.
+2026-09-28 16:05:00
+                [main]
+                [trace_id=,span_id=]
+                INFO 
+                o.s.b.w.e.tomcat.TomcatWebServer
+                | Tomcat initialized with port 8081 (http)
+2026-09-28 16:05:00
+                [main]
+                [trace_id=,span_id=]
+                INFO 
+                o.a.coyote.http11.Http11NioProtocol
+                | Initializing ProtocolHandler ["http-nio-8081"]
+2026-09-28 16:05:00
+                [main]
+                [trace_id=,span_id=]
+                INFO 
+                o.a.catalina.core.StandardService
+                | Starting service [Tomcat]
+2026-09-28 16:05:00
+                [main]
+                [trace_id=,span_id=]
+                INFO 
+                o.a.catalina.core.StandardEngine
+                | Starting Servlet engine: [Apache Tomcat/10.1.52]
+2026-09-28 16:05:00
+                [main]
+                [trace_id=,span_id=]
+                INFO 
+                o.a.c.c.C.[Tomcat].[localhost].[/]
+                | Initializing Spring embedded WebApplicationContext
+2026-09-28 16:05:00
+                [main]
+                [trace_id=,span_id=]
+                INFO 
+                o.s.b.w.s.c.ServletWebServerApplicationContext
+                | Root WebApplicationContext: initialization completed in 2136 ms
+2026-09-28 16:05:00
+                [main]
+                [trace_id=,span_id=]
+                INFO 
+                o.h.jpa.internal.util.LogHelper
+                | HHH000204: Processing PersistenceUnitInfo [name: default]
+2026-09-28 16:05:00
+                [main]
+                [trace_id=,span_id=]
+                INFO 
+                org.hibernate.Version
+                | HHH000412: Hibernate ORM core version 6.6.42.Final
+2026-09-28 16:05:00
+                [main]
+                [trace_id=,span_id=]
+                INFO 
+                o.h.c.i.RegionFactoryInitiator
+                | HHH000026: Second-level cache disabled
+2026-09-28 16:05:01
+                [main]
+                [trace_id=,span_id=]
+                INFO 
+                o.s.o.j.p.SpringPersistenceUnitInfo
+                | No LoadTimeWeaver setup: ignoring JPA class transformer
+2026-09-28 16:05:01
+                [main]
+                [trace_id=,span_id=]
+                INFO 
+                com.zaxxer.hikari.HikariDataSource
+                | HikariPool-1 - Starting...
+2026-09-28 16:05:01
+                [main]
+                [trace_id=,span_id=]
+                INFO 
+                com.zaxxer.hikari.pool.HikariPool
+                | HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@414e8b31
+2026-09-28 16:05:01
+                [main]
+                [trace_id=,span_id=]
+                INFO 
+                com.zaxxer.hikari.HikariDataSource
+                | HikariPool-1 - Start completed.
+2026-09-28 16:05:01
+                [main]
+                [trace_id=,span_id=]
+                INFO 
+                o.hibernate.orm.connections.pooling
+                | HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-1)']
+	Database driver: undefined/unknown
+	Database version: 8.0.32
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2026-09-28 16:05:02
+                [main]
+                [trace_id=,span_id=]
+                INFO 
+                o.h.e.t.j.p.i.JtaPlatformInitiator
+                | HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2026-09-28 16:05:03
+                [main]
+                [trace_id=,span_id=]
+                INFO 
+                o.s.o.j.LocalContainerEntityManagerFactoryBean
+                | Initialized JPA EntityManagerFactory for persistence unit 'default'
+2026-09-28 16:05:03
+                [main]
+                [trace_id=,span_id=]
+                INFO 
+                o.s.s.c.a.a.c.InitializeAuthenticationProviderBeanManagerConfigurer$InitializeAuthenticationProviderManagerConfigurer
+                | Global AuthenticationManager configured with AuthenticationProvider bean with name authenticationProvider
+2026-09-28 16:05:03
+                [main]
+                [trace_id=,span_id=]
+                WARN 
+                o.s.s.c.a.a.c.InitializeUserDetailsBeanManagerConfigurer$InitializeUserDetailsManagerConfigurer
+                | Global AuthenticationManager configured with an AuthenticationProvider bean. UserDetailsService beans will not be used by Spring Security for automatically configuring username/password login. Consider removing the AuthenticationProvider bean. Alternatively, consider using the UserDetailsService in a manually instantiated DaoAuthenticationProvider. If the current configuration is intentional, to turn off this warning, increase the logging level of 'org.springframework.security.config.annotation.authentication.configuration.InitializeUserDetailsBeanManagerConfigurer' to ERROR
+2026-09-28 16:05:04
+                [main]
+                [trace_id=,span_id=]
+                INFO 
+                o.s.b.a.e.web.EndpointLinksResolver
+                | Exposing 2 endpoints beneath base path '/actuator'
+2026-09-28 16:05:04
+                [main]
+                [trace_id=,span_id=]
+                INFO 
+                o.a.coyote.http11.Http11NioProtocol
+                | Starting ProtocolHandler ["http-nio-8081"]
+2026-09-28 16:05:04
+                [main]
+                [trace_id=,span_id=]
+                INFO 
+                o.s.b.w.e.tomcat.TomcatWebServer
+                | Tomcat started on port 8081 (http) with context path '/'
+2026-09-28 16:05:04
+                [main]
+                [trace_id=,span_id=]
+                INFO 
+                com.vtc.logging.LoggingApplication
+                | Started LoggingApplication in 7.552 seconds (process running for 8.743)
+2026-09-28 17:33:39
+                [SpringApplicationShutdownHook]
+                [trace_id=,span_id=]
+                INFO 
+                o.s.b.w.e.tomcat.GracefulShutdown
+                | Commencing graceful shutdown. Waiting for active requests to complete
+2026-09-28 17:33:40
+                [tomcat-shutdown]
+                [trace_id=,span_id=]
+                INFO 
+                o.s.b.w.e.tomcat.GracefulShutdown
+                | Graceful shutdown complete
+2026-09-28 17:33:40
+                [SpringApplicationShutdownHook]
+                [trace_id=,span_id=]
+                INFO 
+                o.s.o.j.LocalContainerEntityManagerFactoryBean
+                | Closing JPA EntityManagerFactory for persistence unit 'default'
+2026-09-28 17:33:40
+                [SpringApplicationShutdownHook]
+                [trace_id=,span_id=]
+                INFO 
+                com.zaxxer.hikari.HikariDataSource
+                | HikariPool-1 - Shutdown initiated...
+2026-09-28 17:33:40
+                [SpringApplicationShutdownHook]
+                [trace_id=,span_id=]
+                INFO 
+                com.zaxxer.hikari.HikariDataSource
+                | HikariPool-1 - Shutdown completed.
+2026-09-29 10:36:18
+                [background-preinit]
+                [trace_id=,span_id=]
+                INFO 
+                o.h.validator.internal.util.Version
+                | HV000001: Hibernate Validator 8.0.3.Final
+2026-09-29 10:36:18
+                [main]
+                [trace_id=,span_id=]
+                INFO 
+                com.vtc.logging.LoggingApplication
+                | Starting LoggingApplication using Java 17.0.12 with PID 5088 (C:\Users\Tranaf\Downloads\logging-site\logging-site\logging-be\target\classes started by Tranaf in C:\Users\Tranaf\Downloads\logging-site\logging-site\logging-be)
+2026-09-29 10:36:18
+                [main]
+                [trace_id=,span_id=]
+                INFO 
+                com.vtc.logging.LoggingApplication
+                | No active profile set, falling back to 1 default profile: "default"
+2026-09-29 10:36:19
+                [main]
+                [trace_id=,span_id=]
+                INFO 
+                o.s.d.r.c.RepositoryConfigurationDelegate
+                | Multiple Spring Data modules found, entering strict repository configuration mode
+2026-09-29 10:36:19
+                [main]
+                [trace_id=,span_id=]
+                INFO 
+                o.s.d.r.c.RepositoryConfigurationDelegate
+                | Bootstrapping Spring Data JDBC repositories in DEFAULT mode.
+2026-09-29 10:36:19
+                [main]
+                [trace_id=,span_id=]
+                INFO 
+                o.s.d.r.c.RepositoryConfigurationExtensionSupport
+                | Spring Data JDBC - Could not safely identify store assignment for repository candidate interface com.vtc.logging.repository.GameRepository; If you want this repository to be a JDBC repository, consider annotating your entities with one of these annotations: org.springframework.data.relational.core.mapping.Table.
+2026-09-29 10:36:19
+                [main]
+                [trace_id=,span_id=]
+                INFO 
+                o.s.d.r.c.RepositoryConfigurationExtensionSupport
+                | Spring Data JDBC - Could not safely identify store assignment for repository candidate interface com.vtc.logging.repository.UserRepository; If you want this repository to be a JDBC repository, consider annotating your entities with one of these annotations: org.springframework.data.relational.core.mapping.Table.
+2026-09-29 10:36:19
+                [main]
+                [trace_id=,span_id=]
+                INFO 
+                o.s.d.r.c.RepositoryConfigurationDelegate
+                | Finished Spring Data repository scanning in 33 ms. Found 0 JDBC repository interfaces.
+2026-09-29 10:36:19
+                [main]
+                [trace_id=,span_id=]
+                INFO 
+                o.s.d.r.c.RepositoryConfigurationDelegate
+                | Multiple Spring Data modules found, entering strict repository configuration mode
+2026-09-29 10:36:19
+                [main]
+                [trace_id=,span_id=]
+                INFO 
+                o.s.d.r.c.RepositoryConfigurationDelegate
+                | Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2026-09-29 10:36:19
+                [main]
+                [trace_id=,span_id=]
+                INFO 
+                o.s.d.r.c.RepositoryConfigurationDelegate
+                | Finished Spring Data repository scanning in 31 ms. Found 2 JPA repository interfaces.
+2026-09-29 10:36:20
+                [main]
+                [trace_id=,span_id=]
+                INFO 
+                o.s.b.w.e.tomcat.TomcatWebServer
+                | Tomcat initialized with port 8081 (http)
+2026-09-29 10:36:20
+                [main]
+                [trace_id=,span_id=]
+                INFO 
+                o.a.coyote.http11.Http11NioProtocol
+                | Initializing ProtocolHandler ["http-nio-8081"]
+2026-09-29 10:36:20
+                [main]
+                [trace_id=,span_id=]
+                INFO 
+                o.a.catalina.core.StandardService
+                | Starting service [Tomcat]
+2026-09-29 10:36:20
+                [main]
+                [trace_id=,span_id=]
+                INFO 
+                o.a.catalina.core.StandardEngine
+                | Starting Servlet engine: [Apache Tomcat/10.1.52]
+2026-09-29 10:36:20
+                [main]
+                [trace_id=,span_id=]
+                INFO 
+                o.a.c.c.C.[Tomcat].[localhost].[/]
+                | Initializing Spring embedded WebApplicationContext
+2026-09-29 10:36:20
+                [main]
+                [trace_id=,span_id=]
+                INFO 
+                o.s.b.w.s.c.ServletWebServerApplicationContext
+                | Root WebApplicationContext: initialization completed in 2143 ms
+2026-09-29 10:36:20
+                [main]
+                [trace_id=,span_id=]
+                INFO 
+                o.h.jpa.internal.util.LogHelper
+                | HHH000204: Processing PersistenceUnitInfo [name: default]
+2026-09-29 10:36:20
+                [main]
+                [trace_id=,span_id=]
+                INFO 
+                org.hibernate.Version
+                | HHH000412: Hibernate ORM core version 6.6.42.Final
+2026-09-29 10:36:20
+                [main]
+                [trace_id=,span_id=]
+                INFO 
+                o.h.c.i.RegionFactoryInitiator
+                | HHH000026: Second-level cache disabled
+2026-09-29 10:36:21
+                [main]
+                [trace_id=,span_id=]
+                INFO 
+                o.s.o.j.p.SpringPersistenceUnitInfo
+                | No LoadTimeWeaver setup: ignoring JPA class transformer
+2026-09-29 10:36:21
+                [main]
+                [trace_id=,span_id=]
+                INFO 
+                com.zaxxer.hikari.HikariDataSource
+                | HikariPool-1 - Starting...
+2026-09-29 10:36:21
+                [main]
+                [trace_id=,span_id=]
+                INFO 
+                com.zaxxer.hikari.pool.HikariPool
+                | HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@787a0fd6
+2026-09-29 10:36:21
+                [main]
+                [trace_id=,span_id=]
+                INFO 
+                com.zaxxer.hikari.HikariDataSource
+                | HikariPool-1 - Start completed.
+2026-09-29 10:36:21
+                [main]
+                [trace_id=,span_id=]
+                INFO 
+                o.hibernate.orm.connections.pooling
+                | HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-1)']
+	Database driver: undefined/unknown
+	Database version: 8.0.32
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2026-09-29 10:36:22
+                [main]
+                [trace_id=,span_id=]
+                INFO 
+                o.h.e.t.j.p.i.JtaPlatformInitiator
+                | HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2026-09-29 10:36:22
+                [main]
+                [trace_id=,span_id=]
+                INFO 
+                o.s.o.j.LocalContainerEntityManagerFactoryBean
+                | Initialized JPA EntityManagerFactory for persistence unit 'default'
+2026-09-29 10:36:23
+                [main]
+                [trace_id=,span_id=]
+                INFO 
+                o.s.s.c.a.a.c.InitializeAuthenticationProviderBeanManagerConfigurer$InitializeAuthenticationProviderManagerConfigurer
+                | Global AuthenticationManager configured with AuthenticationProvider bean with name authenticationProvider
+2026-09-29 10:36:23
+                [main]
+                [trace_id=,span_id=]
+                WARN 
+                o.s.s.c.a.a.c.InitializeUserDetailsBeanManagerConfigurer$InitializeUserDetailsManagerConfigurer
+                | Global AuthenticationManager configured with an AuthenticationProvider bean. UserDetailsService beans will not be used by Spring Security for automatically configuring username/password login. Consider removing the AuthenticationProvider bean. Alternatively, consider using the UserDetailsService in a manually instantiated DaoAuthenticationProvider. If the current configuration is intentional, to turn off this warning, increase the logging level of 'org.springframework.security.config.annotation.authentication.configuration.InitializeUserDetailsBeanManagerConfigurer' to ERROR
+2026-09-29 10:36:23
+                [main]
+                [trace_id=,span_id=]
+                INFO 
+                o.s.b.a.e.web.EndpointLinksResolver
+                | Exposing 2 endpoints beneath base path '/actuator'
+2026-09-29 10:36:24
+                [main]
+                [trace_id=,span_id=]
+                INFO 
+                o.a.coyote.http11.Http11NioProtocol
+                | Starting ProtocolHandler ["http-nio-8081"]
+2026-09-29 10:36:24
+                [main]
+                [trace_id=,span_id=]
+                INFO 
+                o.s.b.w.e.tomcat.TomcatWebServer
+                | Tomcat started on port 8081 (http) with context path '/'
+2026-09-29 10:36:24
+                [main]
+                [trace_id=,span_id=]
+                INFO 
+                com.vtc.logging.LoggingApplication
+                | Started LoggingApplication in 6.826 seconds (process running for 7.939)
+2026-09-29 10:37:49
+                [http-nio-8081-exec-1]
+                [trace_id=,span_id=]
+                INFO 
+                o.a.c.c.C.[Tomcat].[localhost].[/]
+                | Initializing Spring DispatcherServlet 'dispatcherServlet'
+2026-09-29 10:37:49
+                [http-nio-8081-exec-1]
+                [trace_id=,span_id=]
+                INFO 
+                o.s.web.servlet.DispatcherServlet
+                | Initializing Servlet 'dispatcherServlet'
+2026-09-29 10:37:49
+                [http-nio-8081-exec-1]
+                [trace_id=,span_id=]
+                INFO 
+                o.s.web.servlet.DispatcherServlet
+                | Completed initialization in 2 ms
+2026-09-29 10:37:50
+                [http-nio-8081-exec-1]
+                [trace_id=,span_id=]
+                ERROR
+                o.a.c.c.C.[.[.[.[dispatcherServlet]
+                | Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception
+io.jsonwebtoken.UnsupportedJwtException: The parsed JWT indicates it was signed with the 'RS256' signature algorithm, but the provided javax.crypto.spec.SecretKeySpec key may not be used to verify RS256 signatures.  Because the specified key reflects a specific and expected algorithm, and the JWT does not reflect this algorithm, it is likely that the JWT was not expected and therefore should not be trusted.  Another possibility is that the parser was provided the incorrect signature verification key, but this cannot be assumed for security reasons.
+	at io.jsonwebtoken.impl.DefaultJwtParser.parse(DefaultJwtParser.java:393)
+	at io.jsonwebtoken.impl.DefaultJwtParser.parse(DefaultJwtParser.java:529)
+	at io.jsonwebtoken.impl.DefaultJwtParser.parseClaimsJws(DefaultJwtParser.java:589)
+	at io.jsonwebtoken.impl.ImmutableJwtParser.parseClaimsJws(ImmutableJwtParser.java:173)
+	at com.vtc.logging.service.JwtService.extractAllClaims(JwtService.java:52)
+	at com.vtc.logging.service.JwtService.extractClaim(JwtService.java:35)
+	at com.vtc.logging.service.JwtService.extractUsername(JwtService.java:40)
+	at com.vtc.logging.config.JwtAuthFilter.doFilterInternal(JwtAuthFilter.java:45)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:162)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:138)
+	at org.springframework.web.filter.CompositeFilter$VirtualFilterChain.doFilter(CompositeFilter.java:108)
+	at org.springframework.web.filter.CompositeFilter$VirtualFilterChain.doFilter(CompositeFilter.java:108)
+	at org.springframework.security.web.FilterChainProxy.lambda$doFilterInternal$3(FilterChainProxy.java:231)
+	at org.springframework.security.web.ObservationFilterChainDecorator$FilterObservation$SimpleFilterObservation.lambda$wrap$1(ObservationFilterChainDecorator.java:490)
+	at org.springframework.security.web.ObservationFilterChainDecorator$AroundFilterObservation$SimpleAroundFilterObservation.lambda$wrap$1(ObservationFilterChainDecorator.java:351)
+	at org.springframework.security.web.ObservationFilterChainDecorator.lambda$wrapSecured$0(ObservationFilterChainDecorator.java:83)
+	at org.springframework.security.web.ObservationFilterChainDecorator$VirtualFilterChain.doFilter(ObservationFilterChainDecorator.java:129)
+	at org.springframework.security.web.access.intercept.AuthorizationFilter.doFilter(AuthorizationFilter.java:101)
+	at org.springframework.security.web.ObservationFilterChainDecorator$ObservationFilter.wrapFilter(ObservationFilterChainDecorator.java:241)
+	at org.springframework.security.web.ObservationFilterChainDecorator$ObservationFilter.doFilter(ObservationFilterChainDecorator.java:228)
+	at org.springframework.security.web.ObservationFilterChainDecorator$VirtualFilterChain.doFilter(ObservationFilterChainDecorator.java:138)
+	at org.springframework.security.web.access.ExceptionTranslationFilter.doFilter(ExceptionTranslationFilter.java:125)
+	at org.springframework.security.web.access.ExceptionTranslationFilter.doFilter(ExceptionTranslationFilter.java:119)
+	at org.springframework.security.web.ObservationFilterChainDecorator$ObservationFilter.wrapFilter(ObservationFilterChainDecorator.java:241)
+	at org.springframework.security.web.ObservationFilterChainDecorator$ObservationFilter.doFilter(ObservationFilterChainDecorator.java:228)
+	at org.springframework.security.web.ObservationFilterChainDecorator$VirtualFilterChain.doFilter(ObservationFilterChainDecorator.java:138)
+	at org.springframework.security.web.session.SessionManagementFilter.doFilter(SessionManagementFilter.java:131)
+	at org.springframework.security.web.session.SessionManagementFilter.doFilter(SessionManagementFilter.java:85)
+	at org.springframework.security.web.ObservationFilterChainDecorator$ObservationFilter.wrapFilter(ObservationFilterChainDecorator.java:241)
+	at org.springframework.security.web.ObservationFilterChainDecorator$ObservationFilter.doFilter(ObservationFilterChainDecorator.java:228)
+	at org.springframework.security.web.ObservationFilterChainDecorator$VirtualFilterChain.doFilter(ObservationFilterChainDecorator.java:138)
+	at org.springframework.security.web.authentication.AnonymousAuthenticationFilter.doFilter(AnonymousAuthenticationFilter.java:100)
+	at org.springframework.security.web.ObservationFilterChainDecorator$ObservationFilter.wrapFilter(ObservationFilterChainDecorator.java:241)
+	at org.springframework.security.web.ObservationFilterChainDecorator$ObservationFilter.doFilter(ObservationFilterChainDecorator.java:228)
+	at org.springframework.security.web.ObservationFilterChainDecorator$VirtualFilterChain.doFilter(ObservationFilterChainDecorator.java:138)
+	at org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter.doFilter(SecurityContextHolderAwareRequestFilter.java:179)
+	at org.springframework.security.web.ObservationFilterChainDecorator$ObservationFilter.wrapFilter(ObservationFilterChainDecorator.java:241)
+	at org.springframework.security.web.ObservationFilterChainDecorator$ObservationFilter.doFilter(ObservationFilterChainDecorator.java:228)
+	at org.springframework.security.web.ObservationFilterChainDecorator$VirtualFilterChain.doFilter(ObservationFilterChainDecorator.java:138)
+	at org.springframework.security.web.savedrequest.RequestCacheAwareFilter.doFilter(RequestCacheAwareFilter.java:63)
+	at org.springframework.security.web.ObservationFilterChainDecorator$ObservationFilter.wrapFilter(ObservationFilterChainDecorator.java:241)
+	at org.springframework.security.web.ObservationFilterChainDecorator$ObservationFilter.doFilter(ObservationFilterChainDecorator.java:228)
+	at org.springframework.security.web.ObservationFilterChainDecorator$VirtualFilterChain.doFilter(ObservationFilterChainDecorator.java:138)
+	at org.springframework.security.web.authentication.AuthenticationFilter.doFilterInternal(AuthenticationFilter.java:177)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.springframework.security.web.ObservationFilterChainDecorator$ObservationFilter.wrapFilter(ObservationFilterChainDecorator.java:241)
+	at org.springframework.security.web.ObservationFilterChainDecorator$ObservationFilter.doFilter(ObservationFilterChainDecorator.java:228)
+	at org.springframework.security.web.ObservationFilterChainDecorator$VirtualFilterChain.doFilter(ObservationFilterChainDecorator.java:138)
+	at org.springframework.security.oauth2.server.resource.web.authentication.BearerTokenAuthenticationFilter.doFilterInternal(BearerTokenAuthenticationFilter.java:158)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.springframework.security.web.ObservationFilterChainDecorator$ObservationFilter.wrapFilter(ObservationFilterChainDecorator.java:241)
+	at org.springframework.security.web.ObservationFilterChainDecorator$ObservationFilter.doFilter(ObservationFilterChainDecorator.java:228)
+	at org.springframework.security.web.ObservationFilterChainDecorator$VirtualFilterChain.doFilter(ObservationFilterChainDecorator.java:138)
+	at org.springframework.security.web.authentication.logout.LogoutFilter.doFilter(LogoutFilter.java:107)
+	at org.springframework.security.web.authentication.logout.LogoutFilter.doFilter(LogoutFilter.java:93)
+	at org.springframework.security.web.ObservationFilterChainDecorator$ObservationFilter.wrapFilter(ObservationFilterChainDecorator.java:241)
+	at org.springframework.security.web.ObservationFilterChainDecorator$ObservationFilter.doFilter(ObservationFilterChainDecorator.java:228)
+	at org.springframework.security.web.ObservationFilterChainDecorator$VirtualFilterChain.doFilter(ObservationFilterChainDecorator.java:138)
+	at org.springframework.web.filter.CorsFilter.doFilterInternal(CorsFilter.java:91)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.springframework.security.web.ObservationFilterChainDecorator$ObservationFilter.wrapFilter(ObservationFilterChainDecorator.java:241)
+	at org.springframework.security.web.ObservationFilterChainDecorator$ObservationFilter.doFilter(ObservationFilterChainDecorator.java:228)
+	at org.springframework.security.web.ObservationFilterChainDecorator$VirtualFilterChain.doFilter(ObservationFilterChainDecorator.java:138)
+	at org.springframework.security.web.header.HeaderWriterFilter.doHeadersAfter(HeaderWriterFilter.java:90)
+	at org.springframework.security.web.header.HeaderWriterFilter.doFilterInternal(HeaderWriterFilter.java:75)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.springframework.security.web.ObservationFilterChainDecorator$ObservationFilter.wrapFilter(ObservationFilterChainDecorator.java:241)
+	at org.springframework.security.web.ObservationFilterChainDecorator$ObservationFilter.doFilter(ObservationFilterChainDecorator.java:228)
+	at org.springframework.security.web.ObservationFilterChainDecorator$VirtualFilterChain.doFilter(ObservationFilterChainDecorator.java:138)
+	at org.springframework.security.web.context.SecurityContextHolderFilter.doFilter(SecurityContextHolderFilter.java:82)
+	at org.springframework.security.web.context.SecurityContextHolderFilter.doFilter(SecurityContextHolderFilter.java:69)
+	at org.springframework.security.web.ObservationFilterChainDecorator$ObservationFilter.wrapFilter(ObservationFilterChainDecorator.java:241)
+	at org.springframework.security.web.ObservationFilterChainDecorator$ObservationFilter.doFilter(ObservationFilterChainDecorator.java:228)
+	at org.springframework.security.web.ObservationFilterChainDecorator$VirtualFilterChain.doFilter(ObservationFilterChainDecorator.java:138)
+	at org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter.doFilterInternal(WebAsyncManagerIntegrationFilter.java:62)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.springframework.security.web.ObservationFilterChainDecorator$ObservationFilter.wrapFilter(ObservationFilterChainDecorator.java:241)
+	at org.springframework.security.web.ObservationFilterChainDecorator$ObservationFilter.doFilter(ObservationFilterChainDecorator.java:228)
+	at org.springframework.security.web.ObservationFilterChainDecorator$VirtualFilterChain.doFilter(ObservationFilterChainDecorator.java:138)
+	at org.springframework.security.web.session.DisableEncodeUrlFilter.doFilterInternal(DisableEncodeUrlFilter.java:42)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.springframework.security.web.ObservationFilterChainDecorator$ObservationFilter.wrapFilter(ObservationFilterChainDecorator.java:241)
+	at org.springframework.security.web.ObservationFilterChainDecorator$AroundFilterObservation$SimpleAroundFilterObservation.lambda$wrap$0(ObservationFilterChainDecorator.java:334)
+	at org.springframework.security.web.ObservationFilterChainDecorator$ObservationFilter.doFilter(ObservationFilterChainDecorator.java:225)
+	at org.springframework.security.web.ObservationFilterChainDecorator$VirtualFilterChain.doFilter(ObservationFilterChainDecorator.java:138)
+	at org.springframework.security.web.FilterChainProxy.doFilterInternal(FilterChainProxy.java:233)
+	at org.springframework.security.web.FilterChainProxy.doFilter(FilterChainProxy.java:191)
+	at org.springframework.web.filter.CompositeFilter$VirtualFilterChain.doFilter(CompositeFilter.java:113)
+	at org.springframework.web.filter.ServletRequestPathFilter.doFilter(ServletRequestPathFilter.java:52)
+	at org.springframework.web.filter.CompositeFilter$VirtualFilterChain.doFilter(CompositeFilter.java:113)
+	at org.springframework.web.filter.CompositeFilter.doFilter(CompositeFilter.java:74)
+	at org.springframework.security.config.annotation.web.configuration.WebSecurityConfiguration$CompositeFilterChainProxy.doFilter(WebSecurityConfiguration.java:319)
+	at org.springframework.web.filter.CompositeFilter$VirtualFilterChain.doFilter(CompositeFilter.java:113)
+	at org.springframework.web.servlet.handler.HandlerMappingIntrospector.lambda$createCacheFilter$4(HandlerMappingIntrospector.java:267)
+	at org.springframework.web.filter.CompositeFilter$VirtualFilterChain.doFilter(CompositeFilter.java:113)
+	at org.springframework.web.filter.CompositeFilter.doFilter(CompositeFilter.java:74)
+	at org.springframework.security.config.annotation.web.configuration.WebMvcSecurityConfiguration$CompositeFilterChainProxy.doFilter(WebMvcSecurityConfiguration.java:240)
+	at org.springframework.web.filter.DelegatingFilterProxy.invokeDelegate(DelegatingFilterProxy.java:362)
+	at org.springframework.web.filter.DelegatingFilterProxy.doFilter(DelegatingFilterProxy.java:278)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:162)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:138)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:162)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:138)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:162)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:138)
+	at org.springframework.web.filter.ServerHttpObservationFilter.doFilterInternal(ServerHttpObservationFilter.java:110)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:162)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:138)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:162)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:138)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:165)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:88)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:492)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:113)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:83)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:72)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:342)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:399)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:903)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1775)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:973)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:491)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:63)
+	at java.base/java.lang.Thread.run(Thread.java:842)
+Caused by: io.jsonwebtoken.security.InvalidKeyException: RSA verification keys must be RSAKey instances.
+	at io.jsonwebtoken.SignatureAlgorithm.assertValid(SignatureAlgorithm.java:424)
+	at io.jsonwebtoken.SignatureAlgorithm.assertValidVerificationKey(SignatureAlgorithm.java:328)
+	at io.jsonwebtoken.impl.DefaultJwtParser.parse(DefaultJwtParser.java:380)
+	... 133 common frames omitted
+2026-09-29 10:37:50
+                [http-nio-8081-exec-1]
+                [trace_id=,span_id=]
+                INFO 
+                c.v.l.c.RequestLoggingInterceptor
+                | Incoming request: GET /error
+2026-09-29 10:37:50
+                [http-nio-8081-exec-1]
+                [trace_id=,span_id=]
+                INFO 
+                c.v.l.c.RequestLoggingInterceptor
+                | Completed request: GET /error -> 500 (42 ms)
+2026-09-29 10:47:02
+                [SpringApplicationShutdownHook]
+                [trace_id=,span_id=]
+                INFO 
+                o.s.b.w.e.tomcat.GracefulShutdown
+                | Commencing graceful shutdown. Waiting for active requests to complete
+2026-09-29 10:47:02
+                [tomcat-shutdown]
+                [trace_id=,span_id=]
+                INFO 
+                o.s.b.w.e.tomcat.GracefulShutdown
+                | Graceful shutdown complete
+2026-09-29 10:47:02
+                [SpringApplicationShutdownHook]
+                [trace_id=,span_id=]
+                INFO 
+                o.s.o.j.LocalContainerEntityManagerFactoryBean
+                | Closing JPA EntityManagerFactory for persistence unit 'default'
+2026-09-29 10:47:02
+                [SpringApplicationShutdownHook]
+                [trace_id=,span_id=]
+                INFO 
+                com.zaxxer.hikari.HikariDataSource
+                | HikariPool-1 - Shutdown initiated...
+2026-09-29 10:47:02
+                [SpringApplicationShutdownHook]
+                [trace_id=,span_id=]
+                INFO 
+                com.zaxxer.hikari.HikariDataSource
+                | HikariPool-1 - Shutdown completed.
+2026-09-29 11:35:14
+                [background-preinit]
+                [trace_id=,span_id=]
+                INFO 
+                o.h.validator.internal.util.Version
+                | HV000001: Hibernate Validator 8.0.3.Final
+2026-09-29 11:35:14
+                [main]
+                [trace_id=,span_id=]
+                INFO 
+                com.vtc.logging.LoggingApplication
+                | Starting LoggingApplication using Java 17.0.12 with PID 14956 (C:\Users\Tranaf\Downloads\logging-site\logging-site\logging-be\target\classes started by Tranaf in C:\Users\Tranaf\Downloads\logging-site\logging-site\logging-be)
+2026-09-29 11:35:14
+                [main]
+                [trace_id=,span_id=]
+                INFO 
+                com.vtc.logging.LoggingApplication
+                | No active profile set, falling back to 1 default profile: "default"
+2026-09-29 11:35:15
+                [main]
+                [trace_id=,span_id=]
+                INFO 
+                o.s.d.r.c.RepositoryConfigurationDelegate
+                | Multiple Spring Data modules found, entering strict repository configuration mode
+2026-09-29 11:35:15
+                [main]
+                [trace_id=,span_id=]
+                INFO 
+                o.s.d.r.c.RepositoryConfigurationDelegate
+                | Bootstrapping Spring Data JDBC repositories in DEFAULT mode.
+2026-09-29 11:35:15
+                [main]
+                [trace_id=,span_id=]
+                INFO 
+                o.s.d.r.c.RepositoryConfigurationExtensionSupport
+                | Spring Data JDBC - Could not safely identify store assignment for repository candidate interface com.vtc.logging.repository.GameRepository; If you want this repository to be a JDBC repository, consider annotating your entities with one of these annotations: org.springframework.data.relational.core.mapping.Table.
+2026-09-29 11:35:15
+                [main]
+                [trace_id=,span_id=]
+                INFO 
+                o.s.d.r.c.RepositoryConfigurationDelegate
+                | Finished Spring Data repository scanning in 35 ms. Found 0 JDBC repository interfaces.
+2026-09-29 11:35:15
+                [main]
+                [trace_id=,span_id=]
+                INFO 
+                o.s.d.r.c.RepositoryConfigurationDelegate
+                | Multiple Spring Data modules found, entering strict repository configuration mode
+2026-09-29 11:35:15
+                [main]
+                [trace_id=,span_id=]
+                INFO 
+                o.s.d.r.c.RepositoryConfigurationDelegate
+                | Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2026-09-29 11:35:15
+                [main]
+                [trace_id=,span_id=]
+                INFO 
+                o.s.d.r.c.RepositoryConfigurationDelegate
+                | Finished Spring Data repository scanning in 32 ms. Found 1 JPA repository interface.
+2026-09-29 11:35:16
+                [main]
+                [trace_id=,span_id=]
+                INFO 
+                o.s.b.w.e.tomcat.TomcatWebServer
+                | Tomcat initialized with port 8081 (http)
+2026-09-29 11:35:16
+                [main]
+                [trace_id=,span_id=]
+                INFO 
+                o.a.coyote.http11.Http11NioProtocol
+                | Initializing ProtocolHandler ["http-nio-8081"]
+2026-09-29 11:35:16
+                [main]
+                [trace_id=,span_id=]
+                INFO 
+                o.a.catalina.core.StandardService
+                | Starting service [Tomcat]
+2026-09-29 11:35:16
+                [main]
+                [trace_id=,span_id=]
+                INFO 
+                o.a.catalina.core.StandardEngine
+                | Starting Servlet engine: [Apache Tomcat/10.1.52]
+2026-09-29 11:35:16
+                [main]
+                [trace_id=,span_id=]
+                INFO 
+                o.a.c.c.C.[Tomcat].[localhost].[/]
+                | Initializing Spring embedded WebApplicationContext
+2026-09-29 11:35:16
+                [main]
+                [trace_id=,span_id=]
+                INFO 
+                o.s.b.w.s.c.ServletWebServerApplicationContext
+                | Root WebApplicationContext: initialization completed in 1914 ms
+2026-09-29 11:35:16
+                [main]
+                [trace_id=,span_id=]
+                INFO 
+                o.h.jpa.internal.util.LogHelper
+                | HHH000204: Processing PersistenceUnitInfo [name: default]
+2026-09-29 11:35:16
+                [main]
+                [trace_id=,span_id=]
+                INFO 
+                org.hibernate.Version
+                | HHH000412: Hibernate ORM core version 6.6.42.Final
+2026-09-29 11:35:16
+                [main]
+                [trace_id=,span_id=]
+                INFO 
+                o.h.c.i.RegionFactoryInitiator
+                | HHH000026: Second-level cache disabled
+2026-09-29 11:35:16
+                [main]
+                [trace_id=,span_id=]
+                INFO 
+                o.s.o.j.p.SpringPersistenceUnitInfo
+                | No LoadTimeWeaver setup: ignoring JPA class transformer
+2026-09-29 11:35:16
+                [main]
+                [trace_id=,span_id=]
+                INFO 
+                com.zaxxer.hikari.HikariDataSource
+                | HikariPool-1 - Starting...
+2026-09-29 11:35:17
+                [main]
+                [trace_id=,span_id=]
+                INFO 
+                com.zaxxer.hikari.pool.HikariPool
+                | HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@33f81280
+2026-09-29 11:35:17
+                [main]
+                [trace_id=,span_id=]
+                INFO 
+                com.zaxxer.hikari.HikariDataSource
+                | HikariPool-1 - Start completed.
+2026-09-29 11:35:17
+                [main]
+                [trace_id=,span_id=]
+                INFO 
+                o.hibernate.orm.connections.pooling
+                | HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-1)']
+	Database driver: undefined/unknown
+	Database version: 8.0.32
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2026-09-29 11:35:18
+                [main]
+                [trace_id=,span_id=]
+                INFO 
+                o.h.e.t.j.p.i.JtaPlatformInitiator
+                | HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2026-09-29 11:35:18
+                [main]
+                [trace_id=,span_id=]
+                INFO 
+                o.s.o.j.LocalContainerEntityManagerFactoryBean
+                | Initialized JPA EntityManagerFactory for persistence unit 'default'
+2026-09-29 11:35:18
+                [main]
+                [trace_id=,span_id=]
+                INFO 
+                o.s.b.a.e.web.EndpointLinksResolver
+                | Exposing 2 endpoints beneath base path '/actuator'
+2026-09-29 11:35:19
+                [main]
+                [trace_id=,span_id=]
+                INFO 
+                o.a.coyote.http11.Http11NioProtocol
+                | Starting ProtocolHandler ["http-nio-8081"]
+2026-09-29 11:35:19
+                [main]
+                [trace_id=,span_id=]
+                INFO 
+                o.s.b.w.e.tomcat.TomcatWebServer
+                | Tomcat started on port 8081 (http) with context path '/'
+2026-09-29 11:35:19
+                [main]
+                [trace_id=,span_id=]
+                INFO 
+                com.vtc.logging.LoggingApplication
+                | Started LoggingApplication in 5.83 seconds (process running for 6.872)
+2026-09-29 11:35:50
+                [http-nio-8081-exec-2]
+                [trace_id=,span_id=]
+                INFO 
+                o.a.c.c.C.[Tomcat].[localhost].[/]
+                | Initializing Spring DispatcherServlet 'dispatcherServlet'
+2026-09-29 11:35:50
+                [http-nio-8081-exec-2]
+                [trace_id=,span_id=]
+                INFO 
+                o.s.web.servlet.DispatcherServlet
+                | Initializing Servlet 'dispatcherServlet'
+2026-09-29 11:35:50
+                [http-nio-8081-exec-2]
+                [trace_id=,span_id=]
+                INFO 
+                o.s.web.servlet.DispatcherServlet
+                | Completed initialization in 1 ms
+2026-09-29 11:35:50
+                [http-nio-8081-exec-2]
+                [trace_id=,span_id=]
+                INFO 
+                c.v.l.c.RequestLoggingInterceptor
+                | Incoming request: GET /games
+2026-09-29 11:35:50
+                [http-nio-8081-exec-2]
+                [trace_id=,span_id=]
+                INFO 
+                com.vtc.logging.service.GameService
+                | Filtering games with platform=null status=null
+2026-09-29 11:35:50
+                [http-nio-8081-exec-2]
+                [trace_id=,span_id=]
+                INFO 
+                com.vtc.logging.service.GameService
+                | Found 7 games
+2026-09-29 11:35:50
+                [http-nio-8081-exec-2]
+                [trace_id=,span_id=]
+                INFO 
+                c.v.l.c.RequestLoggingInterceptor
+                | Completed request: GET /games -> 200 (84 ms)
+2026-09-29 11:35:57
+                [http-nio-8081-exec-9]
+                [trace_id=,span_id=]
+                INFO 
+                c.v.l.c.RequestLoggingInterceptor
+                | Incoming request: GET /games
+2026-09-29 11:35:57
+                [http-nio-8081-exec-9]
+                [trace_id=,span_id=]
+                INFO 
+                com.vtc.logging.service.GameService
+                | Filtering games with platform=null status=null
+2026-09-29 11:35:57
+                [http-nio-8081-exec-9]
+                [trace_id=,span_id=]
+                INFO 
+                com.vtc.logging.service.GameService
+                | Found 7 games
+2026-09-29 11:35:57
+                [http-nio-8081-exec-9]
+                [trace_id=,span_id=]
+                INFO 
+                c.v.l.c.RequestLoggingInterceptor
+                | Completed request: GET /games -> 200 (9 ms)
+2026-09-29 11:40:35
+                [http-nio-8081-exec-1]
+                [trace_id=,span_id=]
+                INFO 
+                c.v.l.c.RequestLoggingInterceptor
+                | Incoming request: POST /games
+2026-09-29 11:40:35
+                [http-nio-8081-exec-1]
+                [trace_id=,span_id=]
+                INFO 
+                com.vtc.logging.service.GameService
+                | Adding new game: name=test, platform=PC, status=ONGOING
+2026-09-29 11:40:35
+                [http-nio-8081-exec-1]
+                [trace_id=,span_id=]
+                INFO 
+                com.vtc.logging.service.GameService
+                | Game created successfully with id=17
+2026-09-29 11:40:35
+                [http-nio-8081-exec-1]
+                [trace_id=,span_id=]
+                INFO 
+                c.v.l.c.RequestLoggingInterceptor
+                | Completed request: POST /games -> 200 (132 ms)
+2026-09-29 13:21:08
+                [HikariPool-1:housekeeper]
+                [trace_id=,span_id=]
+                WARN 
+                com.zaxxer.hikari.pool.HikariPool
+                | HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=1h37m21s294ms584µs400ns).
+2026-09-29 13:24:50
+                [SpringApplicationShutdownHook]
+                [trace_id=,span_id=]
+                INFO 
+                o.s.b.w.e.tomcat.GracefulShutdown
+                | Commencing graceful shutdown. Waiting for active requests to complete
+2026-09-29 13:24:50
+                [tomcat-shutdown]
+                [trace_id=,span_id=]
+                INFO 
+                o.s.b.w.e.tomcat.GracefulShutdown
+                | Graceful shutdown complete
+2026-09-29 13:24:50
+                [SpringApplicationShutdownHook]
+                [trace_id=,span_id=]
+                INFO 
+                o.s.o.j.LocalContainerEntityManagerFactoryBean
+                | Closing JPA EntityManagerFactory for persistence unit 'default'
+2026-09-29 13:24:50
+                [SpringApplicationShutdownHook]
+                [trace_id=,span_id=]
+                INFO 
+                com.zaxxer.hikari.HikariDataSource
+                | HikariPool-1 - Shutdown initiated...
+2026-09-29 13:24:50
+                [SpringApplicationShutdownHook]
+                [trace_id=,span_id=]
+                INFO 
+                com.zaxxer.hikari.HikariDataSource
+                | HikariPool-1 - Shutdown completed.
