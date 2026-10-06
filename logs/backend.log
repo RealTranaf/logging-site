@@ -3830,3 +3830,2760 @@ Caused by: io.jsonwebtoken.security.InvalidKeyException: RSA verification keys m
                 INFO 
                 com.zaxxer.hikari.HikariDataSource
                 | HikariPool-1 - Shutdown completed.
+2026-09-29 14:36:19
+                [background-preinit]
+                [trace_id=,span_id=]
+                INFO 
+                o.h.validator.internal.util.Version
+                | HV000001: Hibernate Validator 8.0.3.Final
+2026-09-29 14:36:19
+                [main]
+                [trace_id=,span_id=]
+                INFO 
+                com.vtc.logging.LoggingApplication
+                | Starting LoggingApplication using Java 17.0.12 with PID 9164 (C:\Users\Tranaf\Downloads\logging-site\logging-site\logging-be\target\classes started by Tranaf in C:\Users\Tranaf\Downloads\logging-site\logging-site\logging-be)
+2026-09-29 14:36:19
+                [main]
+                [trace_id=,span_id=]
+                INFO 
+                com.vtc.logging.LoggingApplication
+                | No active profile set, falling back to 1 default profile: "default"
+2026-09-29 14:36:21
+                [main]
+                [trace_id=,span_id=]
+                INFO 
+                o.s.d.r.c.RepositoryConfigurationDelegate
+                | Multiple Spring Data modules found, entering strict repository configuration mode
+2026-09-29 14:36:21
+                [main]
+                [trace_id=,span_id=]
+                INFO 
+                o.s.d.r.c.RepositoryConfigurationDelegate
+                | Bootstrapping Spring Data JDBC repositories in DEFAULT mode.
+2026-09-29 14:36:21
+                [main]
+                [trace_id=,span_id=]
+                INFO 
+                o.s.d.r.c.RepositoryConfigurationExtensionSupport
+                | Spring Data JDBC - Could not safely identify store assignment for repository candidate interface com.vtc.logging.repository.GameRepository; If you want this repository to be a JDBC repository, consider annotating your entities with one of these annotations: org.springframework.data.relational.core.mapping.Table.
+2026-09-29 14:36:21
+                [main]
+                [trace_id=,span_id=]
+                INFO 
+                o.s.d.r.c.RepositoryConfigurationDelegate
+                | Finished Spring Data repository scanning in 38 ms. Found 0 JDBC repository interfaces.
+2026-09-29 14:36:21
+                [main]
+                [trace_id=,span_id=]
+                INFO 
+                o.s.d.r.c.RepositoryConfigurationDelegate
+                | Multiple Spring Data modules found, entering strict repository configuration mode
+2026-09-29 14:36:21
+                [main]
+                [trace_id=,span_id=]
+                INFO 
+                o.s.d.r.c.RepositoryConfigurationDelegate
+                | Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2026-09-29 14:36:21
+                [main]
+                [trace_id=,span_id=]
+                INFO 
+                o.s.d.r.c.RepositoryConfigurationDelegate
+                | Finished Spring Data repository scanning in 29 ms. Found 1 JPA repository interface.
+2026-09-29 14:36:21
+                [main]
+                [trace_id=,span_id=]
+                INFO 
+                o.s.b.w.e.tomcat.TomcatWebServer
+                | Tomcat initialized with port 8081 (http)
+2026-09-29 14:36:21
+                [main]
+                [trace_id=,span_id=]
+                INFO 
+                o.a.coyote.http11.Http11NioProtocol
+                | Initializing ProtocolHandler ["http-nio-8081"]
+2026-09-29 14:36:21
+                [main]
+                [trace_id=,span_id=]
+                INFO 
+                o.a.catalina.core.StandardService
+                | Starting service [Tomcat]
+2026-09-29 14:36:21
+                [main]
+                [trace_id=,span_id=]
+                INFO 
+                o.a.catalina.core.StandardEngine
+                | Starting Servlet engine: [Apache Tomcat/10.1.52]
+2026-09-29 14:36:21
+                [main]
+                [trace_id=,span_id=]
+                INFO 
+                o.a.c.c.C.[Tomcat].[localhost].[/]
+                | Initializing Spring embedded WebApplicationContext
+2026-09-29 14:36:21
+                [main]
+                [trace_id=,span_id=]
+                INFO 
+                o.s.b.w.s.c.ServletWebServerApplicationContext
+                | Root WebApplicationContext: initialization completed in 2421 ms
+2026-09-29 14:36:22
+                [main]
+                [trace_id=,span_id=]
+                INFO 
+                o.h.jpa.internal.util.LogHelper
+                | HHH000204: Processing PersistenceUnitInfo [name: default]
+2026-09-29 14:36:22
+                [main]
+                [trace_id=,span_id=]
+                INFO 
+                org.hibernate.Version
+                | HHH000412: Hibernate ORM core version 6.6.42.Final
+2026-09-29 14:36:22
+                [main]
+                [trace_id=,span_id=]
+                INFO 
+                o.h.c.i.RegionFactoryInitiator
+                | HHH000026: Second-level cache disabled
+2026-09-29 14:36:22
+                [main]
+                [trace_id=,span_id=]
+                INFO 
+                o.s.o.j.p.SpringPersistenceUnitInfo
+                | No LoadTimeWeaver setup: ignoring JPA class transformer
+2026-09-29 14:36:22
+                [main]
+                [trace_id=,span_id=]
+                INFO 
+                com.zaxxer.hikari.HikariDataSource
+                | HikariPool-1 - Starting...
+2026-09-29 14:36:23
+                [main]
+                [trace_id=,span_id=]
+                INFO 
+                com.zaxxer.hikari.pool.HikariPool
+                | HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@33f81280
+2026-09-29 14:36:23
+                [main]
+                [trace_id=,span_id=]
+                INFO 
+                com.zaxxer.hikari.HikariDataSource
+                | HikariPool-1 - Start completed.
+2026-09-29 14:36:23
+                [main]
+                [trace_id=,span_id=]
+                INFO 
+                o.hibernate.orm.connections.pooling
+                | HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-1)']
+	Database driver: undefined/unknown
+	Database version: 8.0.32
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2026-09-29 14:36:24
+                [main]
+                [trace_id=,span_id=]
+                INFO 
+                o.h.e.t.j.p.i.JtaPlatformInitiator
+                | HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2026-09-29 14:36:24
+                [main]
+                [trace_id=,span_id=]
+                INFO 
+                o.s.o.j.LocalContainerEntityManagerFactoryBean
+                | Initialized JPA EntityManagerFactory for persistence unit 'default'
+2026-09-29 14:36:25
+                [main]
+                [trace_id=,span_id=]
+                INFO 
+                o.s.b.a.e.web.EndpointLinksResolver
+                | Exposing 2 endpoints beneath base path '/actuator'
+2026-09-29 14:36:26
+                [main]
+                [trace_id=,span_id=]
+                INFO 
+                o.a.coyote.http11.Http11NioProtocol
+                | Starting ProtocolHandler ["http-nio-8081"]
+2026-09-29 14:36:26
+                [main]
+                [trace_id=,span_id=]
+                INFO 
+                o.s.b.w.e.tomcat.TomcatWebServer
+                | Tomcat started on port 8081 (http) with context path '/'
+2026-09-29 14:36:26
+                [main]
+                [trace_id=,span_id=]
+                INFO 
+                com.vtc.logging.LoggingApplication
+                | Started LoggingApplication in 7.828 seconds (process running for 9.338)
+2026-09-29 14:36:47
+                [http-nio-8081-exec-1]
+                [trace_id=,span_id=]
+                INFO 
+                o.a.c.c.C.[Tomcat].[localhost].[/]
+                | Initializing Spring DispatcherServlet 'dispatcherServlet'
+2026-09-29 14:36:47
+                [http-nio-8081-exec-1]
+                [trace_id=,span_id=]
+                INFO 
+                o.s.web.servlet.DispatcherServlet
+                | Initializing Servlet 'dispatcherServlet'
+2026-09-29 14:36:47
+                [http-nio-8081-exec-1]
+                [trace_id=,span_id=]
+                INFO 
+                o.s.web.servlet.DispatcherServlet
+                | Completed initialization in 2 ms
+2026-09-29 14:37:26
+                [SpringApplicationShutdownHook]
+                [trace_id=,span_id=]
+                INFO 
+                o.s.b.w.e.tomcat.GracefulShutdown
+                | Commencing graceful shutdown. Waiting for active requests to complete
+2026-09-29 14:37:26
+                [tomcat-shutdown]
+                [trace_id=,span_id=]
+                INFO 
+                o.s.b.w.e.tomcat.GracefulShutdown
+                | Graceful shutdown complete
+2026-09-29 14:37:26
+                [SpringApplicationShutdownHook]
+                [trace_id=,span_id=]
+                INFO 
+                o.s.o.j.LocalContainerEntityManagerFactoryBean
+                | Closing JPA EntityManagerFactory for persistence unit 'default'
+2026-09-29 14:37:26
+                [SpringApplicationShutdownHook]
+                [trace_id=,span_id=]
+                INFO 
+                com.zaxxer.hikari.HikariDataSource
+                | HikariPool-1 - Shutdown initiated...
+2026-09-29 14:37:26
+                [SpringApplicationShutdownHook]
+                [trace_id=,span_id=]
+                INFO 
+                com.zaxxer.hikari.HikariDataSource
+                | HikariPool-1 - Shutdown completed.
+2026-09-29 14:37:33
+                [background-preinit]
+                [trace_id=,span_id=]
+                INFO 
+                o.h.validator.internal.util.Version
+                | HV000001: Hibernate Validator 8.0.3.Final
+2026-09-29 14:37:33
+                [main]
+                [trace_id=,span_id=]
+                INFO 
+                com.vtc.logging.LoggingApplication
+                | Starting LoggingApplication using Java 17.0.12 with PID 8692 (C:\Users\Tranaf\Downloads\logging-site\logging-site\logging-be\target\classes started by Tranaf in C:\Users\Tranaf\Downloads\logging-site\logging-site\logging-be)
+2026-09-29 14:37:33
+                [main]
+                [trace_id=,span_id=]
+                INFO 
+                com.vtc.logging.LoggingApplication
+                | No active profile set, falling back to 1 default profile: "default"
+2026-09-29 14:37:35
+                [main]
+                [trace_id=,span_id=]
+                INFO 
+                o.s.d.r.c.RepositoryConfigurationDelegate
+                | Multiple Spring Data modules found, entering strict repository configuration mode
+2026-09-29 14:37:35
+                [main]
+                [trace_id=,span_id=]
+                INFO 
+                o.s.d.r.c.RepositoryConfigurationDelegate
+                | Bootstrapping Spring Data JDBC repositories in DEFAULT mode.
+2026-09-29 14:37:35
+                [main]
+                [trace_id=,span_id=]
+                INFO 
+                o.s.d.r.c.RepositoryConfigurationExtensionSupport
+                | Spring Data JDBC - Could not safely identify store assignment for repository candidate interface com.vtc.logging.repository.GameRepository; If you want this repository to be a JDBC repository, consider annotating your entities with one of these annotations: org.springframework.data.relational.core.mapping.Table.
+2026-09-29 14:37:35
+                [main]
+                [trace_id=,span_id=]
+                INFO 
+                o.s.d.r.c.RepositoryConfigurationDelegate
+                | Finished Spring Data repository scanning in 27 ms. Found 0 JDBC repository interfaces.
+2026-09-29 14:37:35
+                [main]
+                [trace_id=,span_id=]
+                INFO 
+                o.s.d.r.c.RepositoryConfigurationDelegate
+                | Multiple Spring Data modules found, entering strict repository configuration mode
+2026-09-29 14:37:35
+                [main]
+                [trace_id=,span_id=]
+                INFO 
+                o.s.d.r.c.RepositoryConfigurationDelegate
+                | Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2026-09-29 14:37:35
+                [main]
+                [trace_id=,span_id=]
+                INFO 
+                o.s.d.r.c.RepositoryConfigurationDelegate
+                | Finished Spring Data repository scanning in 36 ms. Found 1 JPA repository interface.
+2026-09-29 14:37:36
+                [main]
+                [trace_id=,span_id=]
+                INFO 
+                o.s.b.w.e.tomcat.TomcatWebServer
+                | Tomcat initialized with port 8081 (http)
+2026-09-29 14:37:36
+                [main]
+                [trace_id=,span_id=]
+                INFO 
+                o.a.coyote.http11.Http11NioProtocol
+                | Initializing ProtocolHandler ["http-nio-8081"]
+2026-09-29 14:37:36
+                [main]
+                [trace_id=,span_id=]
+                INFO 
+                o.a.catalina.core.StandardService
+                | Starting service [Tomcat]
+2026-09-29 14:37:36
+                [main]
+                [trace_id=,span_id=]
+                INFO 
+                o.a.catalina.core.StandardEngine
+                | Starting Servlet engine: [Apache Tomcat/10.1.52]
+2026-09-29 14:37:36
+                [main]
+                [trace_id=,span_id=]
+                INFO 
+                o.a.c.c.C.[Tomcat].[localhost].[/]
+                | Initializing Spring embedded WebApplicationContext
+2026-09-29 14:37:36
+                [main]
+                [trace_id=,span_id=]
+                INFO 
+                o.s.b.w.s.c.ServletWebServerApplicationContext
+                | Root WebApplicationContext: initialization completed in 2471 ms
+2026-09-29 14:37:36
+                [main]
+                [trace_id=,span_id=]
+                INFO 
+                o.h.jpa.internal.util.LogHelper
+                | HHH000204: Processing PersistenceUnitInfo [name: default]
+2026-09-29 14:37:36
+                [main]
+                [trace_id=,span_id=]
+                INFO 
+                org.hibernate.Version
+                | HHH000412: Hibernate ORM core version 6.6.42.Final
+2026-09-29 14:37:36
+                [main]
+                [trace_id=,span_id=]
+                INFO 
+                o.h.c.i.RegionFactoryInitiator
+                | HHH000026: Second-level cache disabled
+2026-09-29 14:37:37
+                [main]
+                [trace_id=,span_id=]
+                INFO 
+                o.s.o.j.p.SpringPersistenceUnitInfo
+                | No LoadTimeWeaver setup: ignoring JPA class transformer
+2026-09-29 14:37:37
+                [main]
+                [trace_id=,span_id=]
+                INFO 
+                com.zaxxer.hikari.HikariDataSource
+                | HikariPool-1 - Starting...
+2026-09-29 14:37:37
+                [main]
+                [trace_id=,span_id=]
+                INFO 
+                com.zaxxer.hikari.pool.HikariPool
+                | HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@663622b1
+2026-09-29 14:37:37
+                [main]
+                [trace_id=,span_id=]
+                INFO 
+                com.zaxxer.hikari.HikariDataSource
+                | HikariPool-1 - Start completed.
+2026-09-29 14:37:37
+                [main]
+                [trace_id=,span_id=]
+                INFO 
+                o.hibernate.orm.connections.pooling
+                | HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-1)']
+	Database driver: undefined/unknown
+	Database version: 8.0.32
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2026-09-29 14:37:38
+                [main]
+                [trace_id=,span_id=]
+                INFO 
+                o.h.e.t.j.p.i.JtaPlatformInitiator
+                | HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2026-09-29 14:37:38
+                [main]
+                [trace_id=,span_id=]
+                INFO 
+                o.s.o.j.LocalContainerEntityManagerFactoryBean
+                | Initialized JPA EntityManagerFactory for persistence unit 'default'
+2026-09-29 14:37:39
+                [main]
+                [trace_id=,span_id=]
+                INFO 
+                o.s.b.a.e.web.EndpointLinksResolver
+                | Exposing 2 endpoints beneath base path '/actuator'
+2026-09-29 14:37:40
+                [main]
+                [trace_id=,span_id=]
+                INFO 
+                o.a.coyote.http11.Http11NioProtocol
+                | Starting ProtocolHandler ["http-nio-8081"]
+2026-09-29 14:37:40
+                [main]
+                [trace_id=,span_id=]
+                INFO 
+                o.s.b.w.e.tomcat.TomcatWebServer
+                | Tomcat started on port 8081 (http) with context path '/'
+2026-09-29 14:37:40
+                [main]
+                [trace_id=,span_id=]
+                INFO 
+                com.vtc.logging.LoggingApplication
+                | Started LoggingApplication in 7.531 seconds (process running for 9.133)
+2026-09-29 14:40:10
+                [http-nio-8081-exec-1]
+                [trace_id=,span_id=]
+                INFO 
+                o.a.c.c.C.[Tomcat].[localhost].[/]
+                | Initializing Spring DispatcherServlet 'dispatcherServlet'
+2026-09-29 14:40:10
+                [http-nio-8081-exec-1]
+                [trace_id=,span_id=]
+                INFO 
+                o.s.web.servlet.DispatcherServlet
+                | Initializing Servlet 'dispatcherServlet'
+2026-09-29 14:40:10
+                [http-nio-8081-exec-1]
+                [trace_id=,span_id=]
+                INFO 
+                o.s.web.servlet.DispatcherServlet
+                | Completed initialization in 2 ms
+2026-09-29 14:40:10
+                [http-nio-8081-exec-1]
+                [trace_id=,span_id=]
+                INFO 
+                c.v.l.c.RequestLoggingInterceptor
+                | Incoming request: GET /games
+2026-09-29 14:40:11
+                [http-nio-8081-exec-1]
+                [trace_id=,span_id=]
+                INFO 
+                com.vtc.logging.service.GameService
+                | Filtering games with platform=null status=null
+2026-09-29 14:40:11
+                [http-nio-8081-exec-1]
+                [trace_id=,span_id=]
+                INFO 
+                com.vtc.logging.service.GameService
+                | Found 8 games
+2026-09-29 14:40:11
+                [http-nio-8081-exec-1]
+                [trace_id=,span_id=]
+                INFO 
+                c.v.l.c.RequestLoggingInterceptor
+                | Completed request: GET /games -> 200 (118 ms)
+2026-09-29 14:40:16
+                [http-nio-8081-exec-3]
+                [trace_id=,span_id=]
+                INFO 
+                c.v.l.c.RequestLoggingInterceptor
+                | Incoming request: POST /games
+2026-09-29 14:40:16
+                [http-nio-8081-exec-3]
+                [trace_id=,span_id=]
+                INFO 
+                com.vtc.logging.service.GameService
+                | Adding new game: name=test, platform=PC, status=ONGOING
+2026-09-29 14:40:16
+                [http-nio-8081-exec-3]
+                [trace_id=,span_id=]
+                INFO 
+                com.vtc.logging.service.GameService
+                | Game created successfully with id=18
+2026-09-29 14:40:16
+                [http-nio-8081-exec-3]
+                [trace_id=,span_id=]
+                INFO 
+                c.v.l.c.RequestLoggingInterceptor
+                | Completed request: POST /games -> 200 (86 ms)
+2026-09-29 15:00:11
+                [SpringApplicationShutdownHook]
+                [trace_id=,span_id=]
+                INFO 
+                o.s.b.w.e.tomcat.GracefulShutdown
+                | Commencing graceful shutdown. Waiting for active requests to complete
+2026-09-29 15:00:11
+                [tomcat-shutdown]
+                [trace_id=,span_id=]
+                INFO 
+                o.s.b.w.e.tomcat.GracefulShutdown
+                | Graceful shutdown complete
+2026-09-29 15:00:11
+                [SpringApplicationShutdownHook]
+                [trace_id=,span_id=]
+                INFO 
+                o.s.o.j.LocalContainerEntityManagerFactoryBean
+                | Closing JPA EntityManagerFactory for persistence unit 'default'
+2026-09-29 15:00:11
+                [SpringApplicationShutdownHook]
+                [trace_id=,span_id=]
+                INFO 
+                com.zaxxer.hikari.HikariDataSource
+                | HikariPool-1 - Shutdown initiated...
+2026-09-29 15:00:11
+                [SpringApplicationShutdownHook]
+                [trace_id=,span_id=]
+                INFO 
+                com.zaxxer.hikari.HikariDataSource
+                | HikariPool-1 - Shutdown completed.
+2026-09-29 15:00:20
+                [background-preinit]
+                [trace_id=,span_id=]
+                INFO 
+                o.h.validator.internal.util.Version
+                | HV000001: Hibernate Validator 8.0.3.Final
+2026-09-29 15:00:20
+                [main]
+                [trace_id=,span_id=]
+                INFO 
+                com.vtc.logging.LoggingApplication
+                | Starting LoggingApplication using Java 17.0.12 with PID 11748 (C:\Users\Tranaf\Downloads\logging-site\logging-site\logging-be\target\classes started by Tranaf in C:\Users\Tranaf\Downloads\logging-site\logging-site\logging-be)
+2026-09-29 15:00:20
+                [main]
+                [trace_id=,span_id=]
+                INFO 
+                com.vtc.logging.LoggingApplication
+                | No active profile set, falling back to 1 default profile: "default"
+2026-09-29 15:00:21
+                [main]
+                [trace_id=,span_id=]
+                INFO 
+                o.s.d.r.c.RepositoryConfigurationDelegate
+                | Multiple Spring Data modules found, entering strict repository configuration mode
+2026-09-29 15:00:21
+                [main]
+                [trace_id=,span_id=]
+                INFO 
+                o.s.d.r.c.RepositoryConfigurationDelegate
+                | Bootstrapping Spring Data JDBC repositories in DEFAULT mode.
+2026-09-29 15:00:21
+                [main]
+                [trace_id=,span_id=]
+                INFO 
+                o.s.d.r.c.RepositoryConfigurationExtensionSupport
+                | Spring Data JDBC - Could not safely identify store assignment for repository candidate interface com.vtc.logging.repository.GameRepository; If you want this repository to be a JDBC repository, consider annotating your entities with one of these annotations: org.springframework.data.relational.core.mapping.Table.
+2026-09-29 15:00:21
+                [main]
+                [trace_id=,span_id=]
+                INFO 
+                o.s.d.r.c.RepositoryConfigurationDelegate
+                | Finished Spring Data repository scanning in 29 ms. Found 0 JDBC repository interfaces.
+2026-09-29 15:00:21
+                [main]
+                [trace_id=,span_id=]
+                INFO 
+                o.s.d.r.c.RepositoryConfigurationDelegate
+                | Multiple Spring Data modules found, entering strict repository configuration mode
+2026-09-29 15:00:21
+                [main]
+                [trace_id=,span_id=]
+                INFO 
+                o.s.d.r.c.RepositoryConfigurationDelegate
+                | Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2026-09-29 15:00:21
+                [main]
+                [trace_id=,span_id=]
+                INFO 
+                o.s.d.r.c.RepositoryConfigurationDelegate
+                | Finished Spring Data repository scanning in 24 ms. Found 1 JPA repository interface.
+2026-09-29 15:00:22
+                [main]
+                [trace_id=,span_id=]
+                INFO 
+                o.s.b.w.e.tomcat.TomcatWebServer
+                | Tomcat initialized with port 8081 (http)
+2026-09-29 15:00:22
+                [main]
+                [trace_id=,span_id=]
+                INFO 
+                o.a.coyote.http11.Http11NioProtocol
+                | Initializing ProtocolHandler ["http-nio-8081"]
+2026-09-29 15:00:22
+                [main]
+                [trace_id=,span_id=]
+                INFO 
+                o.a.catalina.core.StandardService
+                | Starting service [Tomcat]
+2026-09-29 15:00:22
+                [main]
+                [trace_id=,span_id=]
+                INFO 
+                o.a.catalina.core.StandardEngine
+                | Starting Servlet engine: [Apache Tomcat/10.1.52]
+2026-09-29 15:00:22
+                [main]
+                [trace_id=,span_id=]
+                INFO 
+                o.a.c.c.C.[Tomcat].[localhost].[/]
+                | Initializing Spring embedded WebApplicationContext
+2026-09-29 15:00:22
+                [main]
+                [trace_id=,span_id=]
+                INFO 
+                o.s.b.w.s.c.ServletWebServerApplicationContext
+                | Root WebApplicationContext: initialization completed in 1926 ms
+2026-09-29 15:00:22
+                [main]
+                [trace_id=,span_id=]
+                INFO 
+                o.h.jpa.internal.util.LogHelper
+                | HHH000204: Processing PersistenceUnitInfo [name: default]
+2026-09-29 15:00:22
+                [main]
+                [trace_id=,span_id=]
+                INFO 
+                org.hibernate.Version
+                | HHH000412: Hibernate ORM core version 6.6.42.Final
+2026-09-29 15:00:22
+                [main]
+                [trace_id=,span_id=]
+                INFO 
+                o.h.c.i.RegionFactoryInitiator
+                | HHH000026: Second-level cache disabled
+2026-09-29 15:00:23
+                [main]
+                [trace_id=,span_id=]
+                INFO 
+                o.s.o.j.p.SpringPersistenceUnitInfo
+                | No LoadTimeWeaver setup: ignoring JPA class transformer
+2026-09-29 15:00:23
+                [main]
+                [trace_id=,span_id=]
+                INFO 
+                com.zaxxer.hikari.HikariDataSource
+                | HikariPool-1 - Starting...
+2026-09-29 15:00:23
+                [main]
+                [trace_id=,span_id=]
+                INFO 
+                com.zaxxer.hikari.pool.HikariPool
+                | HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@40b01718
+2026-09-29 15:00:23
+                [main]
+                [trace_id=,span_id=]
+                INFO 
+                com.zaxxer.hikari.HikariDataSource
+                | HikariPool-1 - Start completed.
+2026-09-29 15:00:23
+                [main]
+                [trace_id=,span_id=]
+                INFO 
+                o.hibernate.orm.connections.pooling
+                | HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-1)']
+	Database driver: undefined/unknown
+	Database version: 8.0.32
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2026-09-29 15:00:24
+                [main]
+                [trace_id=,span_id=]
+                INFO 
+                o.h.e.t.j.p.i.JtaPlatformInitiator
+                | HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2026-09-29 15:00:24
+                [main]
+                [trace_id=,span_id=]
+                INFO 
+                o.s.o.j.LocalContainerEntityManagerFactoryBean
+                | Initialized JPA EntityManagerFactory for persistence unit 'default'
+2026-09-29 15:00:25
+                [main]
+                [trace_id=,span_id=]
+                INFO 
+                o.s.b.a.e.web.EndpointLinksResolver
+                | Exposing 2 endpoints beneath base path '/actuator'
+2026-09-29 15:00:26
+                [main]
+                [trace_id=,span_id=]
+                INFO 
+                o.a.coyote.http11.Http11NioProtocol
+                | Starting ProtocolHandler ["http-nio-8081"]
+2026-09-29 15:00:26
+                [main]
+                [trace_id=,span_id=]
+                INFO 
+                o.s.b.w.e.tomcat.TomcatWebServer
+                | Tomcat started on port 8081 (http) with context path '/'
+2026-09-29 15:00:26
+                [main]
+                [trace_id=,span_id=]
+                INFO 
+                com.vtc.logging.LoggingApplication
+                | Started LoggingApplication in 7.302 seconds (process running for 8.722)
+2026-09-29 16:47:28
+                [http-nio-8081-exec-1]
+                [trace_id=,span_id=]
+                INFO 
+                o.a.c.c.C.[Tomcat].[localhost].[/]
+                | Initializing Spring DispatcherServlet 'dispatcherServlet'
+2026-09-29 16:47:28
+                [http-nio-8081-exec-1]
+                [trace_id=,span_id=]
+                INFO 
+                o.s.web.servlet.DispatcherServlet
+                | Initializing Servlet 'dispatcherServlet'
+2026-09-29 16:47:28
+                [http-nio-8081-exec-1]
+                [trace_id=,span_id=]
+                INFO 
+                o.s.web.servlet.DispatcherServlet
+                | Completed initialization in 32 ms
+2026-09-29 16:47:29
+                [http-nio-8081-exec-4]
+                [trace_id=,span_id=]
+                INFO 
+                c.v.l.c.RequestLoggingInterceptor
+                | Incoming request: GET /games
+2026-09-29 16:47:29
+                [http-nio-8081-exec-4]
+                [trace_id=,span_id=]
+                INFO 
+                com.vtc.logging.service.GameService
+                | Filtering games with platform=null status=null
+2026-09-29 16:47:29
+                [http-nio-8081-exec-4]
+                [trace_id=,span_id=]
+                INFO 
+                com.vtc.logging.service.GameService
+                | Found 9 games
+2026-09-29 16:47:30
+                [http-nio-8081-exec-4]
+                [trace_id=,span_id=]
+                INFO 
+                c.v.l.c.RequestLoggingInterceptor
+                | Completed request: GET /games -> 200 (318 ms)
+2026-09-29 16:47:30
+                [http-nio-8081-exec-7]
+                [trace_id=,span_id=]
+                INFO 
+                c.v.l.c.RequestLoggingInterceptor
+                | Incoming request: GET /games
+2026-09-29 16:47:30
+                [http-nio-8081-exec-7]
+                [trace_id=,span_id=]
+                INFO 
+                com.vtc.logging.service.GameService
+                | Filtering games with platform=null status=null
+2026-09-29 16:47:30
+                [http-nio-8081-exec-7]
+                [trace_id=,span_id=]
+                INFO 
+                com.vtc.logging.service.GameService
+                | Found 9 games
+2026-09-29 16:47:30
+                [http-nio-8081-exec-7]
+                [trace_id=,span_id=]
+                INFO 
+                c.v.l.c.RequestLoggingInterceptor
+                | Completed request: GET /games -> 200 (16 ms)
+2026-09-29 16:47:36
+                [http-nio-8081-exec-2]
+                [trace_id=,span_id=]
+                INFO 
+                c.v.l.c.RequestLoggingInterceptor
+                | Incoming request: GET /games
+2026-09-29 16:47:36
+                [http-nio-8081-exec-2]
+                [trace_id=,span_id=]
+                INFO 
+                com.vtc.logging.service.GameService
+                | Filtering games with platform=null status=null
+2026-09-29 16:47:36
+                [http-nio-8081-exec-2]
+                [trace_id=,span_id=]
+                INFO 
+                com.vtc.logging.service.GameService
+                | Found 9 games
+2026-09-29 16:47:36
+                [http-nio-8081-exec-2]
+                [trace_id=,span_id=]
+                INFO 
+                c.v.l.c.RequestLoggingInterceptor
+                | Completed request: GET /games -> 200 (9 ms)
+2026-09-29 16:47:41
+                [http-nio-8081-exec-6]
+                [trace_id=,span_id=]
+                INFO 
+                c.v.l.c.RequestLoggingInterceptor
+                | Incoming request: GET /games
+2026-09-29 16:47:41
+                [http-nio-8081-exec-6]
+                [trace_id=,span_id=]
+                INFO 
+                com.vtc.logging.service.GameService
+                | Filtering games with platform=null status=null
+2026-09-29 16:47:41
+                [http-nio-8081-exec-6]
+                [trace_id=,span_id=]
+                INFO 
+                com.vtc.logging.service.GameService
+                | Found 9 games
+2026-09-29 16:47:41
+                [http-nio-8081-exec-6]
+                [trace_id=,span_id=]
+                INFO 
+                c.v.l.c.RequestLoggingInterceptor
+                | Completed request: GET /games -> 200 (11 ms)
+2026-09-29 16:49:03
+                [http-nio-8081-exec-5]
+                [trace_id=,span_id=]
+                INFO 
+                c.v.l.c.RequestLoggingInterceptor
+                | Incoming request: GET /games
+2026-09-29 16:49:03
+                [http-nio-8081-exec-5]
+                [trace_id=,span_id=]
+                INFO 
+                com.vtc.logging.service.GameService
+                | Filtering games with platform=null status=null
+2026-09-29 16:49:03
+                [http-nio-8081-exec-5]
+                [trace_id=,span_id=]
+                INFO 
+                com.vtc.logging.service.GameService
+                | Found 9 games
+2026-09-29 16:49:03
+                [http-nio-8081-exec-5]
+                [trace_id=,span_id=]
+                INFO 
+                c.v.l.c.RequestLoggingInterceptor
+                | Completed request: GET /games -> 200 (11 ms)
+2026-09-29 16:49:03
+                [http-nio-8081-exec-10]
+                [trace_id=,span_id=]
+                INFO 
+                c.v.l.c.RequestLoggingInterceptor
+                | Incoming request: GET /games
+2026-09-29 16:49:03
+                [http-nio-8081-exec-10]
+                [trace_id=,span_id=]
+                INFO 
+                com.vtc.logging.service.GameService
+                | Filtering games with platform=null status=null
+2026-09-29 16:49:03
+                [http-nio-8081-exec-10]
+                [trace_id=,span_id=]
+                INFO 
+                com.vtc.logging.service.GameService
+                | Found 9 games
+2026-09-29 16:49:03
+                [http-nio-8081-exec-10]
+                [trace_id=,span_id=]
+                INFO 
+                c.v.l.c.RequestLoggingInterceptor
+                | Completed request: GET /games -> 200 (16 ms)
+2026-09-29 16:49:03
+                [http-nio-8081-exec-1]
+                [trace_id=,span_id=]
+                INFO 
+                c.v.l.c.RequestLoggingInterceptor
+                | Incoming request: GET /games
+2026-09-29 16:49:03
+                [http-nio-8081-exec-1]
+                [trace_id=,span_id=]
+                INFO 
+                com.vtc.logging.service.GameService
+                | Filtering games with platform=null status=null
+2026-09-29 16:49:03
+                [http-nio-8081-exec-1]
+                [trace_id=,span_id=]
+                INFO 
+                com.vtc.logging.service.GameService
+                | Found 9 games
+2026-09-29 16:49:03
+                [http-nio-8081-exec-1]
+                [trace_id=,span_id=]
+                INFO 
+                c.v.l.c.RequestLoggingInterceptor
+                | Completed request: GET /games -> 200 (8 ms)
+2026-09-29 16:49:08
+                [http-nio-8081-exec-4]
+                [trace_id=,span_id=]
+                INFO 
+                c.v.l.c.RequestLoggingInterceptor
+                | Incoming request: GET /games
+2026-09-29 16:49:08
+                [http-nio-8081-exec-4]
+                [trace_id=,span_id=]
+                INFO 
+                com.vtc.logging.service.GameService
+                | Filtering games with platform=null status=null
+2026-09-29 16:49:08
+                [http-nio-8081-exec-4]
+                [trace_id=,span_id=]
+                INFO 
+                com.vtc.logging.service.GameService
+                | Found 9 games
+2026-09-29 16:49:08
+                [http-nio-8081-exec-4]
+                [trace_id=,span_id=]
+                INFO 
+                c.v.l.c.RequestLoggingInterceptor
+                | Completed request: GET /games -> 200 (14 ms)
+2026-09-29 16:49:35
+                [http-nio-8081-exec-9]
+                [trace_id=,span_id=]
+                INFO 
+                c.v.l.c.RequestLoggingInterceptor
+                | Incoming request: GET /games
+2026-09-29 16:49:35
+                [http-nio-8081-exec-9]
+                [trace_id=,span_id=]
+                INFO 
+                com.vtc.logging.service.GameService
+                | Filtering games with platform=null status=null
+2026-09-29 16:49:35
+                [http-nio-8081-exec-9]
+                [trace_id=,span_id=]
+                INFO 
+                com.vtc.logging.service.GameService
+                | Found 9 games
+2026-09-29 16:49:35
+                [http-nio-8081-exec-9]
+                [trace_id=,span_id=]
+                INFO 
+                c.v.l.c.RequestLoggingInterceptor
+                | Completed request: GET /games -> 200 (15 ms)
+2026-09-29 16:49:35
+                [http-nio-8081-exec-2]
+                [trace_id=,span_id=]
+                INFO 
+                c.v.l.c.RequestLoggingInterceptor
+                | Incoming request: GET /games
+2026-09-29 16:49:35
+                [http-nio-8081-exec-2]
+                [trace_id=,span_id=]
+                INFO 
+                com.vtc.logging.service.GameService
+                | Filtering games with platform=null status=null
+2026-09-29 16:49:35
+                [http-nio-8081-exec-2]
+                [trace_id=,span_id=]
+                INFO 
+                com.vtc.logging.service.GameService
+                | Found 9 games
+2026-09-29 16:49:35
+                [http-nio-8081-exec-2]
+                [trace_id=,span_id=]
+                INFO 
+                c.v.l.c.RequestLoggingInterceptor
+                | Completed request: GET /games -> 200 (20 ms)
+2026-09-29 16:49:35
+                [http-nio-8081-exec-6]
+                [trace_id=,span_id=]
+                INFO 
+                c.v.l.c.RequestLoggingInterceptor
+                | Incoming request: GET /games
+2026-09-29 16:49:35
+                [http-nio-8081-exec-6]
+                [trace_id=,span_id=]
+                INFO 
+                com.vtc.logging.service.GameService
+                | Filtering games with platform=null status=null
+2026-09-29 16:49:35
+                [http-nio-8081-exec-6]
+                [trace_id=,span_id=]
+                INFO 
+                com.vtc.logging.service.GameService
+                | Found 9 games
+2026-09-29 16:49:35
+                [http-nio-8081-exec-6]
+                [trace_id=,span_id=]
+                INFO 
+                c.v.l.c.RequestLoggingInterceptor
+                | Completed request: GET /games -> 200 (13 ms)
+2026-09-29 16:49:40
+                [http-nio-8081-exec-3]
+                [trace_id=,span_id=]
+                INFO 
+                c.v.l.c.RequestLoggingInterceptor
+                | Incoming request: GET /games
+2026-09-29 16:49:40
+                [http-nio-8081-exec-3]
+                [trace_id=,span_id=]
+                INFO 
+                com.vtc.logging.service.GameService
+                | Filtering games with platform=null status=null
+2026-09-29 16:49:40
+                [http-nio-8081-exec-3]
+                [trace_id=,span_id=]
+                INFO 
+                com.vtc.logging.service.GameService
+                | Found 9 games
+2026-09-29 16:49:40
+                [http-nio-8081-exec-3]
+                [trace_id=,span_id=]
+                INFO 
+                c.v.l.c.RequestLoggingInterceptor
+                | Completed request: GET /games -> 200 (15 ms)
+2026-09-29 16:50:11
+                [http-nio-8081-exec-6]
+                [trace_id=,span_id=]
+                INFO 
+                c.v.l.c.RequestLoggingInterceptor
+                | Incoming request: GET /games
+2026-09-29 16:50:11
+                [http-nio-8081-exec-6]
+                [trace_id=,span_id=]
+                INFO 
+                com.vtc.logging.service.GameService
+                | Filtering games with platform=null status=null
+2026-09-29 16:50:11
+                [http-nio-8081-exec-6]
+                [trace_id=,span_id=]
+                INFO 
+                com.vtc.logging.service.GameService
+                | Found 9 games
+2026-09-29 16:50:11
+                [http-nio-8081-exec-6]
+                [trace_id=,span_id=]
+                INFO 
+                c.v.l.c.RequestLoggingInterceptor
+                | Completed request: GET /games -> 200 (8 ms)
+2026-09-29 16:50:21
+                [http-nio-8081-exec-8]
+                [trace_id=,span_id=]
+                INFO 
+                c.v.l.c.RequestLoggingInterceptor
+                | Incoming request: GET /games
+2026-09-29 16:50:21
+                [http-nio-8081-exec-8]
+                [trace_id=,span_id=]
+                INFO 
+                com.vtc.logging.service.GameService
+                | Filtering games with platform=null status=null
+2026-09-29 16:50:21
+                [http-nio-8081-exec-8]
+                [trace_id=,span_id=]
+                INFO 
+                com.vtc.logging.service.GameService
+                | Found 9 games
+2026-09-29 16:50:21
+                [http-nio-8081-exec-8]
+                [trace_id=,span_id=]
+                INFO 
+                c.v.l.c.RequestLoggingInterceptor
+                | Completed request: GET /games -> 200 (6 ms)
+2026-09-29 16:50:25
+                [http-nio-8081-exec-5]
+                [trace_id=,span_id=]
+                INFO 
+                c.v.l.c.RequestLoggingInterceptor
+                | Incoming request: GET /games
+2026-09-29 16:50:25
+                [http-nio-8081-exec-5]
+                [trace_id=,span_id=]
+                INFO 
+                com.vtc.logging.service.GameService
+                | Filtering games with platform=null status=null
+2026-09-29 16:50:25
+                [http-nio-8081-exec-5]
+                [trace_id=,span_id=]
+                INFO 
+                com.vtc.logging.service.GameService
+                | Found 9 games
+2026-09-29 16:50:25
+                [http-nio-8081-exec-5]
+                [trace_id=,span_id=]
+                INFO 
+                c.v.l.c.RequestLoggingInterceptor
+                | Completed request: GET /games -> 200 (10 ms)
+2026-09-29 16:50:36
+                [http-nio-8081-exec-1]
+                [trace_id=,span_id=]
+                INFO 
+                c.v.l.c.RequestLoggingInterceptor
+                | Incoming request: POST /games
+2026-09-29 16:50:36
+                [http-nio-8081-exec-1]
+                [trace_id=,span_id=]
+                INFO 
+                com.vtc.logging.service.GameService
+                | Adding new game: name=TestAdmin, platform=PC, status=ONGOING
+2026-09-29 16:50:36
+                [http-nio-8081-exec-1]
+                [trace_id=,span_id=]
+                INFO 
+                com.vtc.logging.service.GameService
+                | Game created successfully with id=19
+2026-09-29 16:50:36
+                [http-nio-8081-exec-1]
+                [trace_id=,span_id=]
+                INFO 
+                c.v.l.c.RequestLoggingInterceptor
+                | Completed request: POST /games -> 200 (90 ms)
+2026-09-29 16:50:36
+                [http-nio-8081-exec-7]
+                [trace_id=,span_id=]
+                INFO 
+                c.v.l.c.RequestLoggingInterceptor
+                | Incoming request: GET /games
+2026-09-29 16:50:36
+                [http-nio-8081-exec-7]
+                [trace_id=,span_id=]
+                INFO 
+                com.vtc.logging.service.GameService
+                | Filtering games with platform=null status=null
+2026-09-29 16:50:36
+                [http-nio-8081-exec-7]
+                [trace_id=,span_id=]
+                INFO 
+                com.vtc.logging.service.GameService
+                | Found 10 games
+2026-09-29 16:50:36
+                [http-nio-8081-exec-7]
+                [trace_id=,span_id=]
+                INFO 
+                c.v.l.c.RequestLoggingInterceptor
+                | Completed request: GET /games -> 200 (8 ms)
+2026-09-29 16:50:38
+                [http-nio-8081-exec-2]
+                [trace_id=,span_id=]
+                INFO 
+                c.v.l.c.RequestLoggingInterceptor
+                | Incoming request: GET /games/19
+2026-09-29 16:50:38
+                [http-nio-8081-exec-2]
+                [trace_id=,span_id=]
+                INFO 
+                com.vtc.logging.service.GameService
+                | Fetching game with id=19
+2026-09-29 16:50:38
+                [http-nio-8081-exec-2]
+                [trace_id=,span_id=]
+                INFO 
+                c.v.l.c.RequestLoggingInterceptor
+                | Completed request: GET /games/19 -> 200 (15 ms)
+2026-09-29 16:57:07
+                [http-nio-8081-exec-8]
+                [trace_id=,span_id=]
+                INFO 
+                c.v.l.c.RequestLoggingInterceptor
+                | Incoming request: GET /games
+2026-09-29 16:57:07
+                [http-nio-8081-exec-8]
+                [trace_id=,span_id=]
+                INFO 
+                com.vtc.logging.service.GameService
+                | Filtering games with platform=null status=null
+2026-09-29 16:57:07
+                [http-nio-8081-exec-8]
+                [trace_id=,span_id=]
+                INFO 
+                com.vtc.logging.service.GameService
+                | Found 10 games
+2026-09-29 16:57:07
+                [http-nio-8081-exec-8]
+                [trace_id=,span_id=]
+                INFO 
+                c.v.l.c.RequestLoggingInterceptor
+                | Completed request: GET /games -> 200 (16 ms)
+2026-09-29 16:58:30
+                [http-nio-8081-exec-1]
+                [trace_id=,span_id=]
+                INFO 
+                c.v.l.c.RequestLoggingInterceptor
+                | Incoming request: GET /games/3
+2026-09-29 16:58:30
+                [http-nio-8081-exec-1]
+                [trace_id=,span_id=]
+                INFO 
+                com.vtc.logging.service.GameService
+                | Fetching game with id=3
+2026-09-29 16:58:30
+                [http-nio-8081-exec-1]
+                [trace_id=,span_id=]
+                INFO 
+                c.v.l.c.RequestLoggingInterceptor
+                | Completed request: GET /games/3 -> 200 (10 ms)
+2026-09-29 16:58:31
+                [http-nio-8081-exec-7]
+                [trace_id=,span_id=]
+                INFO 
+                c.v.l.c.RequestLoggingInterceptor
+                | Incoming request: GET /games/4
+2026-09-29 16:58:31
+                [http-nio-8081-exec-7]
+                [trace_id=,span_id=]
+                INFO 
+                com.vtc.logging.service.GameService
+                | Fetching game with id=4
+2026-09-29 16:58:31
+                [http-nio-8081-exec-7]
+                [trace_id=,span_id=]
+                INFO 
+                c.v.l.c.RequestLoggingInterceptor
+                | Completed request: GET /games/4 -> 200 (6 ms)
+2026-09-29 16:58:36
+                [http-nio-8081-exec-2]
+                [trace_id=,span_id=]
+                INFO 
+                c.v.l.c.RequestLoggingInterceptor
+                | Incoming request: GET /games
+2026-09-29 16:58:36
+                [http-nio-8081-exec-2]
+                [trace_id=,span_id=]
+                INFO 
+                com.vtc.logging.service.GameService
+                | Filtering games with platform=null status=null
+2026-09-29 16:58:36
+                [http-nio-8081-exec-2]
+                [trace_id=,span_id=]
+                INFO 
+                com.vtc.logging.service.GameService
+                | Found 10 games
+2026-09-29 16:58:36
+                [http-nio-8081-exec-2]
+                [trace_id=,span_id=]
+                INFO 
+                c.v.l.c.RequestLoggingInterceptor
+                | Completed request: GET /games -> 200 (7 ms)
+2026-09-29 16:58:41
+                [http-nio-8081-exec-3]
+                [trace_id=,span_id=]
+                INFO 
+                c.v.l.c.RequestLoggingInterceptor
+                | Incoming request: GET /games
+2026-09-29 16:58:41
+                [http-nio-8081-exec-3]
+                [trace_id=,span_id=]
+                INFO 
+                com.vtc.logging.service.GameService
+                | Filtering games with platform=null status=null
+2026-09-29 16:58:41
+                [http-nio-8081-exec-3]
+                [trace_id=,span_id=]
+                INFO 
+                com.vtc.logging.service.GameService
+                | Found 10 games
+2026-09-29 16:58:41
+                [http-nio-8081-exec-3]
+                [trace_id=,span_id=]
+                INFO 
+                c.v.l.c.RequestLoggingInterceptor
+                | Completed request: GET /games -> 200 (6 ms)
+2026-09-29 17:16:14
+                [SpringApplicationShutdownHook]
+                [trace_id=,span_id=]
+                INFO 
+                o.s.b.w.e.tomcat.GracefulShutdown
+                | Commencing graceful shutdown. Waiting for active requests to complete
+2026-09-29 17:16:14
+                [tomcat-shutdown]
+                [trace_id=,span_id=]
+                INFO 
+                o.s.b.w.e.tomcat.GracefulShutdown
+                | Graceful shutdown complete
+2026-09-29 17:16:14
+                [SpringApplicationShutdownHook]
+                [trace_id=,span_id=]
+                INFO 
+                o.s.o.j.LocalContainerEntityManagerFactoryBean
+                | Closing JPA EntityManagerFactory for persistence unit 'default'
+2026-09-29 17:16:14
+                [SpringApplicationShutdownHook]
+                [trace_id=,span_id=]
+                INFO 
+                com.zaxxer.hikari.HikariDataSource
+                | HikariPool-1 - Shutdown initiated...
+2026-09-29 17:16:14
+                [SpringApplicationShutdownHook]
+                [trace_id=,span_id=]
+                INFO 
+                com.zaxxer.hikari.HikariDataSource
+                | HikariPool-1 - Shutdown completed.
+2026-09-30 16:50:25
+                [background-preinit]
+                [trace_id=,span_id=]
+                INFO 
+                o.h.validator.internal.util.Version
+                | HV000001: Hibernate Validator 8.0.3.Final
+2026-09-30 16:50:25
+                [main]
+                [trace_id=,span_id=]
+                INFO 
+                com.vtc.logging.LoggingApplication
+                | Starting LoggingApplication using Java 17.0.12 with PID 16948 (C:\Users\Tranaf\Downloads\logging-site\logging-site\logging-be\target\classes started by Tranaf in C:\Users\Tranaf\Downloads\logging-site\logging-site\logging-be)
+2026-09-30 16:50:25
+                [main]
+                [trace_id=,span_id=]
+                INFO 
+                com.vtc.logging.LoggingApplication
+                | No active profile set, falling back to 1 default profile: "default"
+2026-09-30 16:50:26
+                [main]
+                [trace_id=,span_id=]
+                INFO 
+                o.s.d.r.c.RepositoryConfigurationDelegate
+                | Multiple Spring Data modules found, entering strict repository configuration mode
+2026-09-30 16:50:26
+                [main]
+                [trace_id=,span_id=]
+                INFO 
+                o.s.d.r.c.RepositoryConfigurationDelegate
+                | Bootstrapping Spring Data JDBC repositories in DEFAULT mode.
+2026-09-30 16:50:26
+                [main]
+                [trace_id=,span_id=]
+                INFO 
+                o.s.d.r.c.RepositoryConfigurationExtensionSupport
+                | Spring Data JDBC - Could not safely identify store assignment for repository candidate interface com.vtc.logging.repository.GameRepository; If you want this repository to be a JDBC repository, consider annotating your entities with one of these annotations: org.springframework.data.relational.core.mapping.Table.
+2026-09-30 16:50:26
+                [main]
+                [trace_id=,span_id=]
+                INFO 
+                o.s.d.r.c.RepositoryConfigurationDelegate
+                | Finished Spring Data repository scanning in 34 ms. Found 0 JDBC repository interfaces.
+2026-09-30 16:50:26
+                [main]
+                [trace_id=,span_id=]
+                INFO 
+                o.s.d.r.c.RepositoryConfigurationDelegate
+                | Multiple Spring Data modules found, entering strict repository configuration mode
+2026-09-30 16:50:26
+                [main]
+                [trace_id=,span_id=]
+                INFO 
+                o.s.d.r.c.RepositoryConfigurationDelegate
+                | Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2026-09-30 16:50:26
+                [main]
+                [trace_id=,span_id=]
+                INFO 
+                o.s.d.r.c.RepositoryConfigurationDelegate
+                | Finished Spring Data repository scanning in 28 ms. Found 1 JPA repository interface.
+2026-09-30 16:50:27
+                [main]
+                [trace_id=,span_id=]
+                INFO 
+                o.s.b.w.e.tomcat.TomcatWebServer
+                | Tomcat initialized with port 8081 (http)
+2026-09-30 16:50:27
+                [main]
+                [trace_id=,span_id=]
+                INFO 
+                o.a.coyote.http11.Http11NioProtocol
+                | Initializing ProtocolHandler ["http-nio-8081"]
+2026-09-30 16:50:27
+                [main]
+                [trace_id=,span_id=]
+                INFO 
+                o.a.catalina.core.StandardService
+                | Starting service [Tomcat]
+2026-09-30 16:50:27
+                [main]
+                [trace_id=,span_id=]
+                INFO 
+                o.a.catalina.core.StandardEngine
+                | Starting Servlet engine: [Apache Tomcat/10.1.52]
+2026-09-30 16:50:27
+                [main]
+                [trace_id=,span_id=]
+                INFO 
+                o.a.c.c.C.[Tomcat].[localhost].[/]
+                | Initializing Spring embedded WebApplicationContext
+2026-09-30 16:50:27
+                [main]
+                [trace_id=,span_id=]
+                INFO 
+                o.s.b.w.s.c.ServletWebServerApplicationContext
+                | Root WebApplicationContext: initialization completed in 2010 ms
+2026-09-30 16:50:27
+                [main]
+                [trace_id=,span_id=]
+                INFO 
+                o.h.jpa.internal.util.LogHelper
+                | HHH000204: Processing PersistenceUnitInfo [name: default]
+2026-09-30 16:50:27
+                [main]
+                [trace_id=,span_id=]
+                INFO 
+                org.hibernate.Version
+                | HHH000412: Hibernate ORM core version 6.6.42.Final
+2026-09-30 16:50:27
+                [main]
+                [trace_id=,span_id=]
+                INFO 
+                o.h.c.i.RegionFactoryInitiator
+                | HHH000026: Second-level cache disabled
+2026-09-30 16:50:28
+                [main]
+                [trace_id=,span_id=]
+                INFO 
+                o.s.o.j.p.SpringPersistenceUnitInfo
+                | No LoadTimeWeaver setup: ignoring JPA class transformer
+2026-09-30 16:50:28
+                [main]
+                [trace_id=,span_id=]
+                INFO 
+                com.zaxxer.hikari.HikariDataSource
+                | HikariPool-1 - Starting...
+2026-09-30 16:50:28
+                [main]
+                [trace_id=,span_id=]
+                INFO 
+                com.zaxxer.hikari.pool.HikariPool
+                | HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@338270ea
+2026-09-30 16:50:28
+                [main]
+                [trace_id=,span_id=]
+                INFO 
+                com.zaxxer.hikari.HikariDataSource
+                | HikariPool-1 - Start completed.
+2026-09-30 16:50:28
+                [main]
+                [trace_id=,span_id=]
+                INFO 
+                o.hibernate.orm.connections.pooling
+                | HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-1)']
+	Database driver: undefined/unknown
+	Database version: 8.0.32
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2026-09-30 16:50:29
+                [main]
+                [trace_id=,span_id=]
+                INFO 
+                o.h.e.t.j.p.i.JtaPlatformInitiator
+                | HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2026-09-30 16:50:29
+                [main]
+                [trace_id=,span_id=]
+                INFO 
+                o.s.o.j.LocalContainerEntityManagerFactoryBean
+                | Initialized JPA EntityManagerFactory for persistence unit 'default'
+2026-09-30 16:50:30
+                [main]
+                [trace_id=,span_id=]
+                INFO 
+                o.s.b.a.e.web.EndpointLinksResolver
+                | Exposing 2 endpoints beneath base path '/actuator'
+2026-09-30 16:50:31
+                [main]
+                [trace_id=,span_id=]
+                INFO 
+                o.a.coyote.http11.Http11NioProtocol
+                | Starting ProtocolHandler ["http-nio-8081"]
+2026-09-30 16:50:31
+                [main]
+                [trace_id=,span_id=]
+                INFO 
+                o.s.b.w.e.tomcat.TomcatWebServer
+                | Tomcat started on port 8081 (http) with context path '/'
+2026-09-30 16:50:31
+                [main]
+                [trace_id=,span_id=]
+                INFO 
+                com.vtc.logging.LoggingApplication
+                | Started LoggingApplication in 6.611 seconds (process running for 8.089)
+2026-09-30 16:52:09
+                [http-nio-8081-exec-1]
+                [trace_id=,span_id=]
+                INFO 
+                o.a.c.c.C.[Tomcat].[localhost].[/]
+                | Initializing Spring DispatcherServlet 'dispatcherServlet'
+2026-09-30 16:52:09
+                [http-nio-8081-exec-1]
+                [trace_id=,span_id=]
+                INFO 
+                o.s.web.servlet.DispatcherServlet
+                | Initializing Servlet 'dispatcherServlet'
+2026-09-30 16:52:09
+                [http-nio-8081-exec-1]
+                [trace_id=,span_id=]
+                INFO 
+                o.s.web.servlet.DispatcherServlet
+                | Completed initialization in 2 ms
+2026-09-30 16:52:19
+                [http-nio-8081-exec-3]
+                [trace_id=,span_id=]
+                INFO 
+                c.v.l.c.RequestLoggingInterceptor
+                | Incoming request: GET /games
+2026-09-30 16:52:19
+                [http-nio-8081-exec-3]
+                [trace_id=,span_id=]
+                INFO 
+                com.vtc.logging.service.GameService
+                | Filtering games with platform=null status=null
+2026-09-30 16:52:19
+                [http-nio-8081-exec-3]
+                [trace_id=,span_id=]
+                INFO 
+                com.vtc.logging.service.GameService
+                | Found 10 games
+2026-09-30 16:52:19
+                [http-nio-8081-exec-3]
+                [trace_id=,span_id=]
+                INFO 
+                c.v.l.c.RequestLoggingInterceptor
+                | Completed request: GET /games -> 200 (110 ms)
+2026-10-06 10:18:19
+                [background-preinit]
+                [trace_id=,span_id=]
+                INFO 
+                o.h.validator.internal.util.Version
+                | HV000001: Hibernate Validator 8.0.3.Final
+2026-10-06 10:18:19
+                [main]
+                [trace_id=,span_id=]
+                INFO 
+                com.vtc.logging.LoggingApplication
+                | Starting LoggingApplication using Java 17.0.12 with PID 10784 (C:\Users\Tranaf\Downloads\logging-site\logging-site\logging-be\target\classes started by Tranaf in C:\Users\Tranaf\Downloads\logging-site\logging-site\logging-be)
+2026-10-06 10:18:19
+                [main]
+                [trace_id=,span_id=]
+                INFO 
+                com.vtc.logging.LoggingApplication
+                | No active profile set, falling back to 1 default profile: "default"
+2026-10-06 10:18:20
+                [main]
+                [trace_id=,span_id=]
+                INFO 
+                o.s.d.r.c.RepositoryConfigurationDelegate
+                | Multiple Spring Data modules found, entering strict repository configuration mode
+2026-10-06 10:18:20
+                [main]
+                [trace_id=,span_id=]
+                INFO 
+                o.s.d.r.c.RepositoryConfigurationDelegate
+                | Bootstrapping Spring Data JDBC repositories in DEFAULT mode.
+2026-10-06 10:18:20
+                [main]
+                [trace_id=,span_id=]
+                INFO 
+                o.s.d.r.c.RepositoryConfigurationExtensionSupport
+                | Spring Data JDBC - Could not safely identify store assignment for repository candidate interface com.vtc.logging.repository.GameRepository; If you want this repository to be a JDBC repository, consider annotating your entities with one of these annotations: org.springframework.data.relational.core.mapping.Table.
+2026-10-06 10:18:20
+                [main]
+                [trace_id=,span_id=]
+                INFO 
+                o.s.d.r.c.RepositoryConfigurationDelegate
+                | Finished Spring Data repository scanning in 30 ms. Found 0 JDBC repository interfaces.
+2026-10-06 10:18:20
+                [main]
+                [trace_id=,span_id=]
+                INFO 
+                o.s.d.r.c.RepositoryConfigurationDelegate
+                | Multiple Spring Data modules found, entering strict repository configuration mode
+2026-10-06 10:18:20
+                [main]
+                [trace_id=,span_id=]
+                INFO 
+                o.s.d.r.c.RepositoryConfigurationDelegate
+                | Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2026-10-06 10:18:20
+                [main]
+                [trace_id=,span_id=]
+                INFO 
+                o.s.d.r.c.RepositoryConfigurationDelegate
+                | Finished Spring Data repository scanning in 28 ms. Found 1 JPA repository interface.
+2026-10-06 10:18:21
+                [main]
+                [trace_id=,span_id=]
+                INFO 
+                o.s.b.w.e.tomcat.TomcatWebServer
+                | Tomcat initialized with port 8081 (http)
+2026-10-06 10:18:21
+                [main]
+                [trace_id=,span_id=]
+                INFO 
+                o.a.coyote.http11.Http11NioProtocol
+                | Initializing ProtocolHandler ["http-nio-8081"]
+2026-10-06 10:18:21
+                [main]
+                [trace_id=,span_id=]
+                INFO 
+                o.a.catalina.core.StandardService
+                | Starting service [Tomcat]
+2026-10-06 10:18:21
+                [main]
+                [trace_id=,span_id=]
+                INFO 
+                o.a.catalina.core.StandardEngine
+                | Starting Servlet engine: [Apache Tomcat/10.1.52]
+2026-10-06 10:18:21
+                [main]
+                [trace_id=,span_id=]
+                INFO 
+                o.a.c.c.C.[Tomcat].[localhost].[/]
+                | Initializing Spring embedded WebApplicationContext
+2026-10-06 10:18:21
+                [main]
+                [trace_id=,span_id=]
+                INFO 
+                o.s.b.w.s.c.ServletWebServerApplicationContext
+                | Root WebApplicationContext: initialization completed in 2084 ms
+2026-10-06 10:18:22
+                [main]
+                [trace_id=,span_id=]
+                INFO 
+                o.h.jpa.internal.util.LogHelper
+                | HHH000204: Processing PersistenceUnitInfo [name: default]
+2026-10-06 10:18:22
+                [main]
+                [trace_id=,span_id=]
+                INFO 
+                org.hibernate.Version
+                | HHH000412: Hibernate ORM core version 6.6.42.Final
+2026-10-06 10:18:22
+                [main]
+                [trace_id=,span_id=]
+                INFO 
+                o.h.c.i.RegionFactoryInitiator
+                | HHH000026: Second-level cache disabled
+2026-10-06 10:18:22
+                [main]
+                [trace_id=,span_id=]
+                INFO 
+                o.s.o.j.p.SpringPersistenceUnitInfo
+                | No LoadTimeWeaver setup: ignoring JPA class transformer
+2026-10-06 10:18:22
+                [main]
+                [trace_id=,span_id=]
+                INFO 
+                com.zaxxer.hikari.HikariDataSource
+                | HikariPool-1 - Starting...
+2026-10-06 10:18:23
+                [main]
+                [trace_id=,span_id=]
+                INFO 
+                com.zaxxer.hikari.pool.HikariPool
+                | HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@15c1b543
+2026-10-06 10:18:23
+                [main]
+                [trace_id=,span_id=]
+                INFO 
+                com.zaxxer.hikari.HikariDataSource
+                | HikariPool-1 - Start completed.
+2026-10-06 10:18:23
+                [main]
+                [trace_id=,span_id=]
+                INFO 
+                o.hibernate.orm.connections.pooling
+                | HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-1)']
+	Database driver: undefined/unknown
+	Database version: 8.0.32
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2026-10-06 10:18:24
+                [main]
+                [trace_id=,span_id=]
+                INFO 
+                o.h.e.t.j.p.i.JtaPlatformInitiator
+                | HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2026-10-06 10:18:24
+                [main]
+                [trace_id=,span_id=]
+                INFO 
+                o.s.o.j.LocalContainerEntityManagerFactoryBean
+                | Initialized JPA EntityManagerFactory for persistence unit 'default'
+2026-10-06 10:18:26
+                [main]
+                [trace_id=,span_id=]
+                INFO 
+                o.s.b.a.e.web.EndpointLinksResolver
+                | Exposing 2 endpoints beneath base path '/actuator'
+2026-10-06 10:18:26
+                [main]
+                [trace_id=,span_id=]
+                INFO 
+                o.a.coyote.http11.Http11NioProtocol
+                | Starting ProtocolHandler ["http-nio-8081"]
+2026-10-06 10:18:26
+                [main]
+                [trace_id=,span_id=]
+                INFO 
+                o.s.b.w.e.tomcat.TomcatWebServer
+                | Tomcat started on port 8081 (http) with context path '/'
+2026-10-06 10:18:26
+                [main]
+                [trace_id=,span_id=]
+                INFO 
+                com.vtc.logging.LoggingApplication
+                | Started LoggingApplication in 8.626 seconds (process running for 10.469)
+2026-10-06 10:19:38
+                [http-nio-8081-exec-1]
+                [trace_id=,span_id=]
+                INFO 
+                o.a.c.c.C.[Tomcat].[localhost].[/]
+                | Initializing Spring DispatcherServlet 'dispatcherServlet'
+2026-10-06 10:19:38
+                [http-nio-8081-exec-1]
+                [trace_id=,span_id=]
+                INFO 
+                o.s.web.servlet.DispatcherServlet
+                | Initializing Servlet 'dispatcherServlet'
+2026-10-06 10:19:38
+                [http-nio-8081-exec-1]
+                [trace_id=,span_id=]
+                INFO 
+                o.s.web.servlet.DispatcherServlet
+                | Completed initialization in 1 ms
+2026-10-06 10:19:38
+                [http-nio-8081-exec-4]
+                [trace_id=,span_id=]
+                INFO 
+                c.v.l.c.RequestLoggingInterceptor
+                | Incoming request: GET /games
+2026-10-06 10:19:38
+                [http-nio-8081-exec-4]
+                [trace_id=,span_id=]
+                INFO 
+                com.vtc.logging.service.GameService
+                | Filtering games with platform=null status=null
+2026-10-06 10:19:38
+                [http-nio-8081-exec-4]
+                [trace_id=,span_id=]
+                INFO 
+                com.vtc.logging.service.GameService
+                | Found 10 games
+2026-10-06 10:19:38
+                [http-nio-8081-exec-4]
+                [trace_id=,span_id=]
+                INFO 
+                c.v.l.c.RequestLoggingInterceptor
+                | Completed request: GET /games -> 200 (72 ms)
+2026-10-06 11:11:29
+                [SpringApplicationShutdownHook]
+                [trace_id=,span_id=]
+                INFO 
+                o.s.b.w.e.tomcat.GracefulShutdown
+                | Commencing graceful shutdown. Waiting for active requests to complete
+2026-10-06 11:11:29
+                [tomcat-shutdown]
+                [trace_id=,span_id=]
+                INFO 
+                o.s.b.w.e.tomcat.GracefulShutdown
+                | Graceful shutdown complete
+2026-10-06 11:11:29
+                [SpringApplicationShutdownHook]
+                [trace_id=,span_id=]
+                INFO 
+                o.s.o.j.LocalContainerEntityManagerFactoryBean
+                | Closing JPA EntityManagerFactory for persistence unit 'default'
+2026-10-06 11:11:29
+                [SpringApplicationShutdownHook]
+                [trace_id=,span_id=]
+                INFO 
+                com.zaxxer.hikari.HikariDataSource
+                | HikariPool-1 - Shutdown initiated...
+2026-10-06 11:11:29
+                [SpringApplicationShutdownHook]
+                [trace_id=,span_id=]
+                INFO 
+                com.zaxxer.hikari.HikariDataSource
+                | HikariPool-1 - Shutdown completed.
+2026-10-06 11:11:36
+                [background-preinit]
+                [trace_id=,span_id=]
+                INFO 
+                o.h.validator.internal.util.Version
+                | HV000001: Hibernate Validator 8.0.3.Final
+2026-10-06 11:11:36
+                [main]
+                [trace_id=,span_id=]
+                INFO 
+                com.vtc.logging.LoggingApplication
+                | Starting LoggingApplication using Java 17.0.12 with PID 15792 (C:\Users\Tranaf\Downloads\logging-site\logging-site\logging-be\target\classes started by Tranaf in C:\Users\Tranaf\Downloads\logging-site\logging-site\logging-be)
+2026-10-06 11:11:36
+                [main]
+                [trace_id=,span_id=]
+                INFO 
+                com.vtc.logging.LoggingApplication
+                | No active profile set, falling back to 1 default profile: "default"
+2026-10-06 11:11:37
+                [main]
+                [trace_id=,span_id=]
+                INFO 
+                o.s.d.r.c.RepositoryConfigurationDelegate
+                | Multiple Spring Data modules found, entering strict repository configuration mode
+2026-10-06 11:11:37
+                [main]
+                [trace_id=,span_id=]
+                INFO 
+                o.s.d.r.c.RepositoryConfigurationDelegate
+                | Bootstrapping Spring Data JDBC repositories in DEFAULT mode.
+2026-10-06 11:11:37
+                [main]
+                [trace_id=,span_id=]
+                INFO 
+                o.s.d.r.c.RepositoryConfigurationExtensionSupport
+                | Spring Data JDBC - Could not safely identify store assignment for repository candidate interface com.vtc.logging.repository.GameRepository; If you want this repository to be a JDBC repository, consider annotating your entities with one of these annotations: org.springframework.data.relational.core.mapping.Table.
+2026-10-06 11:11:37
+                [main]
+                [trace_id=,span_id=]
+                INFO 
+                o.s.d.r.c.RepositoryConfigurationDelegate
+                | Finished Spring Data repository scanning in 24 ms. Found 0 JDBC repository interfaces.
+2026-10-06 11:11:37
+                [main]
+                [trace_id=,span_id=]
+                INFO 
+                o.s.d.r.c.RepositoryConfigurationDelegate
+                | Multiple Spring Data modules found, entering strict repository configuration mode
+2026-10-06 11:11:37
+                [main]
+                [trace_id=,span_id=]
+                INFO 
+                o.s.d.r.c.RepositoryConfigurationDelegate
+                | Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2026-10-06 11:11:37
+                [main]
+                [trace_id=,span_id=]
+                INFO 
+                o.s.d.r.c.RepositoryConfigurationDelegate
+                | Finished Spring Data repository scanning in 22 ms. Found 1 JPA repository interface.
+2026-10-06 11:11:38
+                [main]
+                [trace_id=,span_id=]
+                INFO 
+                o.s.b.w.e.tomcat.TomcatWebServer
+                | Tomcat initialized with port 8081 (http)
+2026-10-06 11:11:38
+                [main]
+                [trace_id=,span_id=]
+                INFO 
+                o.a.coyote.http11.Http11NioProtocol
+                | Initializing ProtocolHandler ["http-nio-8081"]
+2026-10-06 11:11:38
+                [main]
+                [trace_id=,span_id=]
+                INFO 
+                o.a.catalina.core.StandardService
+                | Starting service [Tomcat]
+2026-10-06 11:11:38
+                [main]
+                [trace_id=,span_id=]
+                INFO 
+                o.a.catalina.core.StandardEngine
+                | Starting Servlet engine: [Apache Tomcat/10.1.52]
+2026-10-06 11:11:38
+                [main]
+                [trace_id=,span_id=]
+                INFO 
+                o.a.c.c.C.[Tomcat].[localhost].[/]
+                | Initializing Spring embedded WebApplicationContext
+2026-10-06 11:11:38
+                [main]
+                [trace_id=,span_id=]
+                INFO 
+                o.s.b.w.s.c.ServletWebServerApplicationContext
+                | Root WebApplicationContext: initialization completed in 1645 ms
+2026-10-06 11:11:38
+                [main]
+                [trace_id=,span_id=]
+                INFO 
+                o.h.jpa.internal.util.LogHelper
+                | HHH000204: Processing PersistenceUnitInfo [name: default]
+2026-10-06 11:11:38
+                [main]
+                [trace_id=,span_id=]
+                INFO 
+                org.hibernate.Version
+                | HHH000412: Hibernate ORM core version 6.6.42.Final
+2026-10-06 11:11:38
+                [main]
+                [trace_id=,span_id=]
+                INFO 
+                o.h.c.i.RegionFactoryInitiator
+                | HHH000026: Second-level cache disabled
+2026-10-06 11:11:38
+                [main]
+                [trace_id=,span_id=]
+                INFO 
+                o.s.o.j.p.SpringPersistenceUnitInfo
+                | No LoadTimeWeaver setup: ignoring JPA class transformer
+2026-10-06 11:11:38
+                [main]
+                [trace_id=,span_id=]
+                INFO 
+                com.zaxxer.hikari.HikariDataSource
+                | HikariPool-1 - Starting...
+2026-10-06 11:11:39
+                [main]
+                [trace_id=,span_id=]
+                INFO 
+                com.zaxxer.hikari.pool.HikariPool
+                | HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@15c1b543
+2026-10-06 11:11:39
+                [main]
+                [trace_id=,span_id=]
+                INFO 
+                com.zaxxer.hikari.HikariDataSource
+                | HikariPool-1 - Start completed.
+2026-10-06 11:11:39
+                [main]
+                [trace_id=,span_id=]
+                INFO 
+                o.hibernate.orm.connections.pooling
+                | HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-1)']
+	Database driver: undefined/unknown
+	Database version: 8.0.32
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2026-10-06 11:11:39
+                [main]
+                [trace_id=,span_id=]
+                INFO 
+                o.h.e.t.j.p.i.JtaPlatformInitiator
+                | HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2026-10-06 11:11:40
+                [main]
+                [trace_id=,span_id=]
+                INFO 
+                o.s.o.j.LocalContainerEntityManagerFactoryBean
+                | Initialized JPA EntityManagerFactory for persistence unit 'default'
+2026-10-06 11:11:40
+                [main]
+                [trace_id=,span_id=]
+                INFO 
+                o.s.b.a.e.web.EndpointLinksResolver
+                | Exposing 2 endpoints beneath base path '/actuator'
+2026-10-06 11:11:41
+                [main]
+                [trace_id=,span_id=]
+                INFO 
+                o.a.coyote.http11.Http11NioProtocol
+                | Starting ProtocolHandler ["http-nio-8081"]
+2026-10-06 11:11:41
+                [main]
+                [trace_id=,span_id=]
+                INFO 
+                o.s.b.w.e.tomcat.TomcatWebServer
+                | Tomcat started on port 8081 (http) with context path '/'
+2026-10-06 11:11:41
+                [main]
+                [trace_id=,span_id=]
+                INFO 
+                com.vtc.logging.LoggingApplication
+                | Started LoggingApplication in 5.466 seconds (process running for 6.378)
+2026-10-06 11:13:39
+                [http-nio-8081-exec-1]
+                [trace_id=,span_id=]
+                INFO 
+                o.a.c.c.C.[Tomcat].[localhost].[/]
+                | Initializing Spring DispatcherServlet 'dispatcherServlet'
+2026-10-06 11:13:39
+                [http-nio-8081-exec-1]
+                [trace_id=,span_id=]
+                INFO 
+                o.s.web.servlet.DispatcherServlet
+                | Initializing Servlet 'dispatcherServlet'
+2026-10-06 11:13:39
+                [http-nio-8081-exec-1]
+                [trace_id=,span_id=]
+                INFO 
+                o.s.web.servlet.DispatcherServlet
+                | Completed initialization in 2 ms
+2026-10-06 11:13:39
+                [http-nio-8081-exec-6]
+                [trace_id=,span_id=]
+                INFO 
+                c.v.l.c.RequestLoggingInterceptor
+                | Incoming request: GET /games
+2026-10-06 11:13:39
+                [http-nio-8081-exec-6]
+                [trace_id=,span_id=]
+                INFO 
+                com.vtc.logging.service.GameService
+                | Filtering games with platform=null status=null
+2026-10-06 11:13:39
+                [http-nio-8081-exec-6]
+                [trace_id=,span_id=]
+                INFO 
+                com.vtc.logging.service.GameService
+                | Found 10 games
+2026-10-06 11:13:39
+                [http-nio-8081-exec-6]
+                [trace_id=,span_id=]
+                INFO 
+                c.v.l.c.RequestLoggingInterceptor
+                | Completed request: GET /games -> 200 (80 ms)
+2026-10-06 11:13:44
+                [http-nio-8081-exec-3]
+                [trace_id=,span_id=]
+                INFO 
+                c.v.l.c.RequestLoggingInterceptor
+                | Incoming request: GET /games
+2026-10-06 11:13:44
+                [http-nio-8081-exec-3]
+                [trace_id=,span_id=]
+                INFO 
+                com.vtc.logging.service.GameService
+                | Filtering games with platform=null status=null
+2026-10-06 11:13:44
+                [http-nio-8081-exec-3]
+                [trace_id=,span_id=]
+                INFO 
+                com.vtc.logging.service.GameService
+                | Found 10 games
+2026-10-06 11:13:44
+                [http-nio-8081-exec-3]
+                [trace_id=,span_id=]
+                INFO 
+                c.v.l.c.RequestLoggingInterceptor
+                | Completed request: GET /games -> 200 (8 ms)
+2026-10-06 11:13:54
+                [http-nio-8081-exec-4]
+                [trace_id=,span_id=]
+                INFO 
+                c.v.l.c.RequestLoggingInterceptor
+                | Incoming request: POST /games
+2026-10-06 11:13:54
+                [http-nio-8081-exec-4]
+                [trace_id=,span_id=]
+                INFO 
+                com.vtc.logging.service.GameService
+                | Adding new game: name=TestADmin2, platform=MOBILE, status=PUBLISHED
+2026-10-06 11:13:54
+                [http-nio-8081-exec-4]
+                [trace_id=,span_id=]
+                INFO 
+                com.vtc.logging.service.GameService
+                | Game created successfully with id=20
+2026-10-06 11:13:54
+                [http-nio-8081-exec-4]
+                [trace_id=,span_id=]
+                INFO 
+                c.v.l.c.RequestLoggingInterceptor
+                | Completed request: POST /games -> 200 (82 ms)
+2026-10-06 11:13:54
+                [http-nio-8081-exec-5]
+                [trace_id=,span_id=]
+                INFO 
+                c.v.l.c.RequestLoggingInterceptor
+                | Incoming request: GET /games
+2026-10-06 11:13:54
+                [http-nio-8081-exec-5]
+                [trace_id=,span_id=]
+                INFO 
+                com.vtc.logging.service.GameService
+                | Filtering games with platform=null status=null
+2026-10-06 11:13:54
+                [http-nio-8081-exec-5]
+                [trace_id=,span_id=]
+                INFO 
+                com.vtc.logging.service.GameService
+                | Found 11 games
+2026-10-06 11:13:54
+                [http-nio-8081-exec-5]
+                [trace_id=,span_id=]
+                INFO 
+                c.v.l.c.RequestLoggingInterceptor
+                | Completed request: GET /games -> 200 (7 ms)
+2026-10-06 11:22:23
+                [SpringApplicationShutdownHook]
+                [trace_id=,span_id=]
+                INFO 
+                o.s.b.w.e.tomcat.GracefulShutdown
+                | Commencing graceful shutdown. Waiting for active requests to complete
+2026-10-06 11:22:23
+                [tomcat-shutdown]
+                [trace_id=,span_id=]
+                INFO 
+                o.s.b.w.e.tomcat.GracefulShutdown
+                | Graceful shutdown complete
+2026-10-06 11:22:23
+                [SpringApplicationShutdownHook]
+                [trace_id=,span_id=]
+                INFO 
+                o.s.o.j.LocalContainerEntityManagerFactoryBean
+                | Closing JPA EntityManagerFactory for persistence unit 'default'
+2026-10-06 11:22:23
+                [SpringApplicationShutdownHook]
+                [trace_id=,span_id=]
+                INFO 
+                com.zaxxer.hikari.HikariDataSource
+                | HikariPool-1 - Shutdown initiated...
+2026-10-06 11:22:23
+                [SpringApplicationShutdownHook]
+                [trace_id=,span_id=]
+                INFO 
+                com.zaxxer.hikari.HikariDataSource
+                | HikariPool-1 - Shutdown completed.
+2026-10-06 11:23:19
+                [background-preinit]
+                [trace_id=,span_id=]
+                INFO 
+                o.h.validator.internal.util.Version
+                | HV000001: Hibernate Validator 8.0.3.Final
+2026-10-06 11:23:19
+                [main]
+                [trace_id=,span_id=]
+                INFO 
+                com.vtc.logging.LoggingApplication
+                | Starting LoggingApplication using Java 17.0.12 with PID 19036 (C:\Users\Tranaf\Downloads\logging-site\logging-site\logging-be\target\classes started by Tranaf in C:\Users\Tranaf\Downloads\logging-site\logging-site\logging-be)
+2026-10-06 11:23:19
+                [main]
+                [trace_id=,span_id=]
+                INFO 
+                com.vtc.logging.LoggingApplication
+                | No active profile set, falling back to 1 default profile: "default"
+2026-10-06 11:23:20
+                [main]
+                [trace_id=,span_id=]
+                INFO 
+                o.s.d.r.c.RepositoryConfigurationDelegate
+                | Multiple Spring Data modules found, entering strict repository configuration mode
+2026-10-06 11:23:20
+                [main]
+                [trace_id=,span_id=]
+                INFO 
+                o.s.d.r.c.RepositoryConfigurationDelegate
+                | Bootstrapping Spring Data JDBC repositories in DEFAULT mode.
+2026-10-06 11:23:20
+                [main]
+                [trace_id=,span_id=]
+                INFO 
+                o.s.d.r.c.RepositoryConfigurationExtensionSupport
+                | Spring Data JDBC - Could not safely identify store assignment for repository candidate interface com.vtc.logging.repository.GameRepository; If you want this repository to be a JDBC repository, consider annotating your entities with one of these annotations: org.springframework.data.relational.core.mapping.Table.
+2026-10-06 11:23:20
+                [main]
+                [trace_id=,span_id=]
+                INFO 
+                o.s.d.r.c.RepositoryConfigurationDelegate
+                | Finished Spring Data repository scanning in 24 ms. Found 0 JDBC repository interfaces.
+2026-10-06 11:23:20
+                [main]
+                [trace_id=,span_id=]
+                INFO 
+                o.s.d.r.c.RepositoryConfigurationDelegate
+                | Multiple Spring Data modules found, entering strict repository configuration mode
+2026-10-06 11:23:20
+                [main]
+                [trace_id=,span_id=]
+                INFO 
+                o.s.d.r.c.RepositoryConfigurationDelegate
+                | Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2026-10-06 11:23:20
+                [main]
+                [trace_id=,span_id=]
+                INFO 
+                o.s.d.r.c.RepositoryConfigurationDelegate
+                | Finished Spring Data repository scanning in 24 ms. Found 1 JPA repository interface.
+2026-10-06 11:23:21
+                [main]
+                [trace_id=,span_id=]
+                INFO 
+                o.s.b.w.e.tomcat.TomcatWebServer
+                | Tomcat initialized with port 8081 (http)
+2026-10-06 11:23:21
+                [main]
+                [trace_id=,span_id=]
+                INFO 
+                o.a.coyote.http11.Http11NioProtocol
+                | Initializing ProtocolHandler ["http-nio-8081"]
+2026-10-06 11:23:21
+                [main]
+                [trace_id=,span_id=]
+                INFO 
+                o.a.catalina.core.StandardService
+                | Starting service [Tomcat]
+2026-10-06 11:23:21
+                [main]
+                [trace_id=,span_id=]
+                INFO 
+                o.a.catalina.core.StandardEngine
+                | Starting Servlet engine: [Apache Tomcat/10.1.52]
+2026-10-06 11:23:21
+                [main]
+                [trace_id=,span_id=]
+                INFO 
+                o.a.c.c.C.[Tomcat].[localhost].[/]
+                | Initializing Spring embedded WebApplicationContext
+2026-10-06 11:23:21
+                [main]
+                [trace_id=,span_id=]
+                INFO 
+                o.s.b.w.s.c.ServletWebServerApplicationContext
+                | Root WebApplicationContext: initialization completed in 1616 ms
+2026-10-06 11:23:21
+                [main]
+                [trace_id=,span_id=]
+                INFO 
+                o.h.jpa.internal.util.LogHelper
+                | HHH000204: Processing PersistenceUnitInfo [name: default]
+2026-10-06 11:23:21
+                [main]
+                [trace_id=,span_id=]
+                INFO 
+                org.hibernate.Version
+                | HHH000412: Hibernate ORM core version 6.6.42.Final
+2026-10-06 11:23:21
+                [main]
+                [trace_id=,span_id=]
+                INFO 
+                o.h.c.i.RegionFactoryInitiator
+                | HHH000026: Second-level cache disabled
+2026-10-06 11:23:21
+                [main]
+                [trace_id=,span_id=]
+                INFO 
+                o.s.o.j.p.SpringPersistenceUnitInfo
+                | No LoadTimeWeaver setup: ignoring JPA class transformer
+2026-10-06 11:23:21
+                [main]
+                [trace_id=,span_id=]
+                INFO 
+                com.zaxxer.hikari.HikariDataSource
+                | HikariPool-1 - Starting...
+2026-10-06 11:23:22
+                [main]
+                [trace_id=,span_id=]
+                INFO 
+                com.zaxxer.hikari.pool.HikariPool
+                | HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@663622b1
+2026-10-06 11:23:22
+                [main]
+                [trace_id=,span_id=]
+                INFO 
+                com.zaxxer.hikari.HikariDataSource
+                | HikariPool-1 - Start completed.
+2026-10-06 11:23:22
+                [main]
+                [trace_id=,span_id=]
+                INFO 
+                o.hibernate.orm.connections.pooling
+                | HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-1)']
+	Database driver: undefined/unknown
+	Database version: 8.0.32
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2026-10-06 11:23:22
+                [main]
+                [trace_id=,span_id=]
+                INFO 
+                o.h.e.t.j.p.i.JtaPlatformInitiator
+                | HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2026-10-06 11:23:22
+                [main]
+                [trace_id=,span_id=]
+                INFO 
+                o.s.o.j.LocalContainerEntityManagerFactoryBean
+                | Initialized JPA EntityManagerFactory for persistence unit 'default'
+2026-10-06 11:23:23
+                [main]
+                [trace_id=,span_id=]
+                INFO 
+                o.s.b.a.e.web.EndpointLinksResolver
+                | Exposing 2 endpoints beneath base path '/actuator'
+2026-10-06 11:23:23
+                [main]
+                [trace_id=,span_id=]
+                INFO 
+                o.a.coyote.http11.Http11NioProtocol
+                | Starting ProtocolHandler ["http-nio-8081"]
+2026-10-06 11:23:23
+                [main]
+                [trace_id=,span_id=]
+                INFO 
+                o.s.b.w.e.tomcat.TomcatWebServer
+                | Tomcat started on port 8081 (http) with context path '/'
+2026-10-06 11:23:23
+                [main]
+                [trace_id=,span_id=]
+                INFO 
+                com.vtc.logging.LoggingApplication
+                | Started LoggingApplication in 5.091 seconds (process running for 6.199)
+2026-10-06 11:23:45
+                [SpringApplicationShutdownHook]
+                [trace_id=,span_id=]
+                INFO 
+                o.s.b.w.e.tomcat.GracefulShutdown
+                | Commencing graceful shutdown. Waiting for active requests to complete
+2026-10-06 11:23:45
+                [tomcat-shutdown]
+                [trace_id=,span_id=]
+                INFO 
+                o.s.b.w.e.tomcat.GracefulShutdown
+                | Graceful shutdown complete
+2026-10-06 11:23:45
+                [SpringApplicationShutdownHook]
+                [trace_id=,span_id=]
+                INFO 
+                o.s.o.j.LocalContainerEntityManagerFactoryBean
+                | Closing JPA EntityManagerFactory for persistence unit 'default'
+2026-10-06 11:23:45
+                [SpringApplicationShutdownHook]
+                [trace_id=,span_id=]
+                INFO 
+                com.zaxxer.hikari.HikariDataSource
+                | HikariPool-1 - Shutdown initiated...
+2026-10-06 11:23:45
+                [SpringApplicationShutdownHook]
+                [trace_id=,span_id=]
+                INFO 
+                com.zaxxer.hikari.HikariDataSource
+                | HikariPool-1 - Shutdown completed.
+2026-10-06 11:24:22
+                [background-preinit]
+                [trace_id=,span_id=]
+                INFO 
+                o.h.validator.internal.util.Version
+                | HV000001: Hibernate Validator 8.0.3.Final
+2026-10-06 11:24:22
+                [main]
+                [trace_id=,span_id=]
+                INFO 
+                com.vtc.logging.LoggingApplication
+                | Starting LoggingApplication using Java 17.0.12 with PID 6656 (C:\Users\Tranaf\Downloads\logging-site\logging-site\logging-be\target\classes started by Tranaf in C:\Users\Tranaf\Downloads\logging-site\logging-site\logging-be)
+2026-10-06 11:24:22
+                [main]
+                [trace_id=,span_id=]
+                INFO 
+                com.vtc.logging.LoggingApplication
+                | No active profile set, falling back to 1 default profile: "default"
+2026-10-06 11:24:23
+                [main]
+                [trace_id=,span_id=]
+                INFO 
+                o.s.d.r.c.RepositoryConfigurationDelegate
+                | Multiple Spring Data modules found, entering strict repository configuration mode
+2026-10-06 11:24:23
+                [main]
+                [trace_id=,span_id=]
+                INFO 
+                o.s.d.r.c.RepositoryConfigurationDelegate
+                | Bootstrapping Spring Data JDBC repositories in DEFAULT mode.
+2026-10-06 11:24:23
+                [main]
+                [trace_id=,span_id=]
+                INFO 
+                o.s.d.r.c.RepositoryConfigurationExtensionSupport
+                | Spring Data JDBC - Could not safely identify store assignment for repository candidate interface com.vtc.logging.repository.GameRepository; If you want this repository to be a JDBC repository, consider annotating your entities with one of these annotations: org.springframework.data.relational.core.mapping.Table.
+2026-10-06 11:24:23
+                [main]
+                [trace_id=,span_id=]
+                INFO 
+                o.s.d.r.c.RepositoryConfigurationDelegate
+                | Finished Spring Data repository scanning in 24 ms. Found 0 JDBC repository interfaces.
+2026-10-06 11:24:23
+                [main]
+                [trace_id=,span_id=]
+                INFO 
+                o.s.d.r.c.RepositoryConfigurationDelegate
+                | Multiple Spring Data modules found, entering strict repository configuration mode
+2026-10-06 11:24:23
+                [main]
+                [trace_id=,span_id=]
+                INFO 
+                o.s.d.r.c.RepositoryConfigurationDelegate
+                | Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2026-10-06 11:24:23
+                [main]
+                [trace_id=,span_id=]
+                INFO 
+                o.s.d.r.c.RepositoryConfigurationDelegate
+                | Finished Spring Data repository scanning in 22 ms. Found 1 JPA repository interface.
+2026-10-06 11:24:24
+                [main]
+                [trace_id=,span_id=]
+                INFO 
+                o.s.b.w.e.tomcat.TomcatWebServer
+                | Tomcat initialized with port 8081 (http)
+2026-10-06 11:24:24
+                [main]
+                [trace_id=,span_id=]
+                INFO 
+                o.a.coyote.http11.Http11NioProtocol
+                | Initializing ProtocolHandler ["http-nio-8081"]
+2026-10-06 11:24:24
+                [main]
+                [trace_id=,span_id=]
+                INFO 
+                o.a.catalina.core.StandardService
+                | Starting service [Tomcat]
+2026-10-06 11:24:24
+                [main]
+                [trace_id=,span_id=]
+                INFO 
+                o.a.catalina.core.StandardEngine
+                | Starting Servlet engine: [Apache Tomcat/10.1.52]
+2026-10-06 11:24:24
+                [main]
+                [trace_id=,span_id=]
+                INFO 
+                o.a.c.c.C.[Tomcat].[localhost].[/]
+                | Initializing Spring embedded WebApplicationContext
+2026-10-06 11:24:24
+                [main]
+                [trace_id=,span_id=]
+                INFO 
+                o.s.b.w.s.c.ServletWebServerApplicationContext
+                | Root WebApplicationContext: initialization completed in 1586 ms
+2026-10-06 11:24:24
+                [main]
+                [trace_id=,span_id=]
+                INFO 
+                o.h.jpa.internal.util.LogHelper
+                | HHH000204: Processing PersistenceUnitInfo [name: default]
+2026-10-06 11:24:24
+                [main]
+                [trace_id=,span_id=]
+                INFO 
+                org.hibernate.Version
+                | HHH000412: Hibernate ORM core version 6.6.42.Final
+2026-10-06 11:24:24
+                [main]
+                [trace_id=,span_id=]
+                INFO 
+                o.h.c.i.RegionFactoryInitiator
+                | HHH000026: Second-level cache disabled
+2026-10-06 11:24:24
+                [main]
+                [trace_id=,span_id=]
+                INFO 
+                o.s.o.j.p.SpringPersistenceUnitInfo
+                | No LoadTimeWeaver setup: ignoring JPA class transformer
+2026-10-06 11:24:25
+                [main]
+                [trace_id=,span_id=]
+                INFO 
+                com.zaxxer.hikari.HikariDataSource
+                | HikariPool-1 - Starting...
+2026-10-06 11:24:25
+                [main]
+                [trace_id=,span_id=]
+                INFO 
+                com.zaxxer.hikari.pool.HikariPool
+                | HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@338270ea
+2026-10-06 11:24:25
+                [main]
+                [trace_id=,span_id=]
+                INFO 
+                com.zaxxer.hikari.HikariDataSource
+                | HikariPool-1 - Start completed.
+2026-10-06 11:24:25
+                [main]
+                [trace_id=,span_id=]
+                INFO 
+                o.hibernate.orm.connections.pooling
+                | HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-1)']
+	Database driver: undefined/unknown
+	Database version: 8.0.32
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2026-10-06 11:24:26
+                [main]
+                [trace_id=,span_id=]
+                INFO 
+                o.h.e.t.j.p.i.JtaPlatformInitiator
+                | HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2026-10-06 11:24:26
+                [main]
+                [trace_id=,span_id=]
+                INFO 
+                o.s.o.j.LocalContainerEntityManagerFactoryBean
+                | Initialized JPA EntityManagerFactory for persistence unit 'default'
+2026-10-06 11:24:26
+                [main]
+                [trace_id=,span_id=]
+                INFO 
+                o.s.b.a.e.web.EndpointLinksResolver
+                | Exposing 2 endpoints beneath base path '/actuator'
+2026-10-06 11:24:27
+                [main]
+                [trace_id=,span_id=]
+                INFO 
+                o.a.coyote.http11.Http11NioProtocol
+                | Starting ProtocolHandler ["http-nio-8081"]
+2026-10-06 11:24:27
+                [main]
+                [trace_id=,span_id=]
+                INFO 
+                o.s.b.w.e.tomcat.TomcatWebServer
+                | Tomcat started on port 8081 (http) with context path '/'
+2026-10-06 11:24:27
+                [main]
+                [trace_id=,span_id=]
+                INFO 
+                com.vtc.logging.LoggingApplication
+                | Started LoggingApplication in 5.079 seconds (process running for 6.164)
+2026-10-06 11:24:34
+                [SpringApplicationShutdownHook]
+                [trace_id=,span_id=]
+                INFO 
+                o.s.b.w.e.tomcat.GracefulShutdown
+                | Commencing graceful shutdown. Waiting for active requests to complete
+2026-10-06 11:24:34
+                [tomcat-shutdown]
+                [trace_id=,span_id=]
+                INFO 
+                o.s.b.w.e.tomcat.GracefulShutdown
+                | Graceful shutdown complete
+2026-10-06 11:24:34
+                [SpringApplicationShutdownHook]
+                [trace_id=,span_id=]
+                INFO 
+                o.s.o.j.LocalContainerEntityManagerFactoryBean
+                | Closing JPA EntityManagerFactory for persistence unit 'default'
+2026-10-06 11:24:34
+                [SpringApplicationShutdownHook]
+                [trace_id=,span_id=]
+                INFO 
+                com.zaxxer.hikari.HikariDataSource
+                | HikariPool-1 - Shutdown initiated...
+2026-10-06 11:24:34
+                [SpringApplicationShutdownHook]
+                [trace_id=,span_id=]
+                INFO 
+                com.zaxxer.hikari.HikariDataSource
+                | HikariPool-1 - Shutdown completed.
+2026-10-06 11:24:50
+                [background-preinit]
+                [trace_id=,span_id=]
+                INFO 
+                o.h.validator.internal.util.Version
+                | HV000001: Hibernate Validator 8.0.3.Final
+2026-10-06 11:24:51
+                [main]
+                [trace_id=,span_id=]
+                INFO 
+                com.vtc.logging.LoggingApplication
+                | Starting LoggingApplication using Java 17.0.12 with PID 19788 (C:\Users\Tranaf\Downloads\logging-site\logging-site\logging-be\target\classes started by Tranaf in C:\Users\Tranaf\Downloads\logging-site\logging-site\logging-be)
+2026-10-06 11:24:51
+                [main]
+                [trace_id=,span_id=]
+                INFO 
+                com.vtc.logging.LoggingApplication
+                | No active profile set, falling back to 1 default profile: "default"
+2026-10-06 11:24:52
+                [main]
+                [trace_id=,span_id=]
+                INFO 
+                o.s.d.r.c.RepositoryConfigurationDelegate
+                | Multiple Spring Data modules found, entering strict repository configuration mode
+2026-10-06 11:24:52
+                [main]
+                [trace_id=,span_id=]
+                INFO 
+                o.s.d.r.c.RepositoryConfigurationDelegate
+                | Bootstrapping Spring Data JDBC repositories in DEFAULT mode.
+2026-10-06 11:24:52
+                [main]
+                [trace_id=,span_id=]
+                INFO 
+                o.s.d.r.c.RepositoryConfigurationExtensionSupport
+                | Spring Data JDBC - Could not safely identify store assignment for repository candidate interface com.vtc.logging.repository.GameRepository; If you want this repository to be a JDBC repository, consider annotating your entities with one of these annotations: org.springframework.data.relational.core.mapping.Table.
+2026-10-06 11:24:52
+                [main]
+                [trace_id=,span_id=]
+                INFO 
+                o.s.d.r.c.RepositoryConfigurationDelegate
+                | Finished Spring Data repository scanning in 26 ms. Found 0 JDBC repository interfaces.
+2026-10-06 11:24:52
+                [main]
+                [trace_id=,span_id=]
+                INFO 
+                o.s.d.r.c.RepositoryConfigurationDelegate
+                | Multiple Spring Data modules found, entering strict repository configuration mode
+2026-10-06 11:24:52
+                [main]
+                [trace_id=,span_id=]
+                INFO 
+                o.s.d.r.c.RepositoryConfigurationDelegate
+                | Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2026-10-06 11:24:52
+                [main]
+                [trace_id=,span_id=]
+                INFO 
+                o.s.d.r.c.RepositoryConfigurationDelegate
+                | Finished Spring Data repository scanning in 22 ms. Found 1 JPA repository interface.
+2026-10-06 11:24:52
+                [main]
+                [trace_id=,span_id=]
+                INFO 
+                o.s.b.w.e.tomcat.TomcatWebServer
+                | Tomcat initialized with port 8081 (http)
+2026-10-06 11:24:52
+                [main]
+                [trace_id=,span_id=]
+                INFO 
+                o.a.coyote.http11.Http11NioProtocol
+                | Initializing ProtocolHandler ["http-nio-8081"]
+2026-10-06 11:24:52
+                [main]
+                [trace_id=,span_id=]
+                INFO 
+                o.a.catalina.core.StandardService
+                | Starting service [Tomcat]
+2026-10-06 11:24:52
+                [main]
+                [trace_id=,span_id=]
+                INFO 
+                o.a.catalina.core.StandardEngine
+                | Starting Servlet engine: [Apache Tomcat/10.1.52]
+2026-10-06 11:24:52
+                [main]
+                [trace_id=,span_id=]
+                INFO 
+                o.a.c.c.C.[Tomcat].[localhost].[/]
+                | Initializing Spring embedded WebApplicationContext
+2026-10-06 11:24:52
+                [main]
+                [trace_id=,span_id=]
+                INFO 
+                o.s.b.w.s.c.ServletWebServerApplicationContext
+                | Root WebApplicationContext: initialization completed in 1654 ms
+2026-10-06 11:24:52
+                [main]
+                [trace_id=,span_id=]
+                INFO 
+                o.h.jpa.internal.util.LogHelper
+                | HHH000204: Processing PersistenceUnitInfo [name: default]
+2026-10-06 11:24:53
+                [main]
+                [trace_id=,span_id=]
+                INFO 
+                org.hibernate.Version
+                | HHH000412: Hibernate ORM core version 6.6.42.Final
+2026-10-06 11:24:53
+                [main]
+                [trace_id=,span_id=]
+                INFO 
+                o.h.c.i.RegionFactoryInitiator
+                | HHH000026: Second-level cache disabled
+2026-10-06 11:24:53
+                [main]
+                [trace_id=,span_id=]
+                INFO 
+                o.s.o.j.p.SpringPersistenceUnitInfo
+                | No LoadTimeWeaver setup: ignoring JPA class transformer
+2026-10-06 11:24:53
+                [main]
+                [trace_id=,span_id=]
+                INFO 
+                com.zaxxer.hikari.HikariDataSource
+                | HikariPool-1 - Starting...
+2026-10-06 11:24:53
+                [main]
+                [trace_id=,span_id=]
+                INFO 
+                com.zaxxer.hikari.pool.HikariPool
+                | HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@3991fe6d
+2026-10-06 11:24:53
+                [main]
+                [trace_id=,span_id=]
+                INFO 
+                com.zaxxer.hikari.HikariDataSource
+                | HikariPool-1 - Start completed.
+2026-10-06 11:24:53
+                [main]
+                [trace_id=,span_id=]
+                INFO 
+                o.hibernate.orm.connections.pooling
+                | HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-1)']
+	Database driver: undefined/unknown
+	Database version: 8.0.32
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2026-10-06 11:24:54
+                [main]
+                [trace_id=,span_id=]
+                INFO 
+                o.h.e.t.j.p.i.JtaPlatformInitiator
+                | HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2026-10-06 11:24:54
+                [main]
+                [trace_id=,span_id=]
+                INFO 
+                o.s.o.j.LocalContainerEntityManagerFactoryBean
+                | Initialized JPA EntityManagerFactory for persistence unit 'default'
+2026-10-06 11:24:55
+                [main]
+                [trace_id=,span_id=]
+                INFO 
+                o.s.b.a.e.web.EndpointLinksResolver
+                | Exposing 2 endpoints beneath base path '/actuator'
+2026-10-06 11:24:55
+                [main]
+                [trace_id=,span_id=]
+                INFO 
+                o.a.coyote.http11.Http11NioProtocol
+                | Starting ProtocolHandler ["http-nio-8081"]
+2026-10-06 11:24:55
+                [main]
+                [trace_id=,span_id=]
+                INFO 
+                o.s.b.w.e.tomcat.TomcatWebServer
+                | Tomcat started on port 8081 (http) with context path '/'
+2026-10-06 11:24:55
+                [main]
+                [trace_id=,span_id=]
+                INFO 
+                com.vtc.logging.LoggingApplication
+                | Started LoggingApplication in 5.223 seconds (process running for 6.082)
+2026-10-06 11:26:02
+                [SpringApplicationShutdownHook]
+                [trace_id=,span_id=]
+                INFO 
+                o.s.b.w.e.tomcat.GracefulShutdown
+                | Commencing graceful shutdown. Waiting for active requests to complete
+2026-10-06 11:26:02
+                [tomcat-shutdown]
+                [trace_id=,span_id=]
+                INFO 
+                o.s.b.w.e.tomcat.GracefulShutdown
+                | Graceful shutdown complete
+2026-10-06 11:26:02
+                [SpringApplicationShutdownHook]
+                [trace_id=,span_id=]
+                INFO 
+                o.s.o.j.LocalContainerEntityManagerFactoryBean
+                | Closing JPA EntityManagerFactory for persistence unit 'default'
+2026-10-06 11:26:02
+                [SpringApplicationShutdownHook]
+                [trace_id=,span_id=]
+                INFO 
+                com.zaxxer.hikari.HikariDataSource
+                | HikariPool-1 - Shutdown initiated...
+2026-10-06 11:26:02
+                [SpringApplicationShutdownHook]
+                [trace_id=,span_id=]
+                INFO 
+                com.zaxxer.hikari.HikariDataSource
+                | HikariPool-1 - Shutdown completed.
